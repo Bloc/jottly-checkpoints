@@ -1,16 +1,29 @@
+## Deleting default content
+
+![Deleting default content](http://cl.ly/WEn9/02-deleting.png)
+
+In this checkpoint, we will remove the default content inside the Skeleton template so we can begin adding our HTML to the landing page for Jott.ly.
+
+## Removing unnecessary code
+
+Open up your `Jottly` folder inside a text editor like [Sublime Text 2](http://www.sublimetext.com/2). Then locate the `index.html` file, which we'll be editing.
+
+Next, remove the lines shown below in red, and add in the ones in green. We will be adding our first HTML tag — `<h1>Hello world!</h1>` — which is a header tag. You will also change the title of your page from `Your Page Title Here :)` to `Jott.ly`.
+
 ```html(index.html)
-        <!-- Basic Page Needs
+<!-- Basic Page Needs
    ================================================== -->
         <meta charset="utf-8">
 -       <title>Your Page Title Here :)</title>
 +       <title>Jott.ly</title>
         <meta name="description" content="">
         <meta name="author" content="">
+ </head>
+ <body>
 
++  <h1> Hello World </h1>
 
-
-
-
+-
 -       <!-- Primary Page Layout
 -       ================================================== -->
 -
@@ -49,3 +62,15 @@
  </body>
  </html>
  ```
+ 
+Once you have completed this, you should see a single line of text in your browser that says, 'Hello world!'. 
+
+### Pushing your changes
+
+Again, we will push your changes to your Github repo so that we store the latest code.
+
+```bash(Terminal)
+$ git add .
+$ git commit -m "Removed default content"
+$ git push
+```
