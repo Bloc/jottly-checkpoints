@@ -1,3 +1,5 @@
+![](https://www.dropbox.com/s/j1ift2vmmrqr5d8/07-header-skeleton.png)
+
 ```html(index.html)
  	<!-- Header
   	================================================== -->
