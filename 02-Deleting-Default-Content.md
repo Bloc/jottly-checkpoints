@@ -66,10 +66,18 @@ Once you have completed this, you should see a single line of text in your brows
 
 ### Pushing your changes
 
-Again, we will push your changes to your Github repo so that we store the latest code.
+Again, we will push your changes to your Github repo so that we store the latest code. First, make sure you are on the `gh-pages` branch.
+
+```bash(Terminal)
+$ git status
+```
+
+This should show you the changes that will be applied, in addition to the name of the branch you are on. Next, let's go ahead and add, commit and push our code.
 
 ```bash(Terminal)
 $ git add .
 $ git commit -m "Removed default content"
 $ git push
 ```
+
+Next, we'll begin adding HTML content to our `index.html` file.
