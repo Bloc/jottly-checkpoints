@@ -6,21 +6,16 @@ In this checkpoint, we're going to download a simple HTML and CSS framework call
 	
 ### Setting up
 
-You can easily download the source code by clicking on `Download` in the left-hand navigation of the Skeleton site. It will direct you to a button to `Download Skeleton 1.2 from Github`. The files come in a zipped file. Double-click to extract it, and then you'll want to rename the folder `Jottly` and keep it in an easy-to-find location on your machine. Within that folder, you will see the file structure for Skeleton, which includes the following:
+You can easily download the source code by clicking on `Download` in the left-hand navigation of the Skeleton site. It will direct you to a button to `Download Skeleton 1.2 from Github`. The files come in a zipped file. Double-click to extract it, and then you'll want to rename the folder `Jottly` and keep it in an easy-to-find location on your machine.
 
-**index.html**
+Within that folder, you will see the directory structure for Skeleton, which includes the following:
 
-**stylesheets (folder)**
-
-* base.css
-* skeleton.css
-* layout.css
-
-**images (folder):**
-
-* favicon.ico
-* apple-touch-icon (x3)
-
+* `index.html`: This is the main HTML page we will edit.
+* `/stylesheets`: This directory/folder holds all of our CSS files.
+* `/stylesheets/base.css`: This file contains all of the basic styles for the Skeleton template.
+* `/stylesheets/skeleton.css`: This file is strictly the grid that we'll be using.
+* `/stylesheets/layout.css`: This doesn't contain any specific styles currently, but will be used for media queries which allow the site to be designed responsively.
+* `/images`: This directory/folder holds the images that will be displayed on the site.
 
 ### Github
 

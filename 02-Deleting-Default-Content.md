@@ -20,9 +20,8 @@ Next, remove the lines shown below in red, and add in the ones in green. We will
         <meta name="author" content="">
  </head>
  <body>
-
+ 
 +  <h1> Hello World </h1>
-
 -
 -       <!-- Primary Page Layout
 -       ================================================== -->
