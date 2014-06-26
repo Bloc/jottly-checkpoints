@@ -1,3 +1,7 @@
+![](http://cl.ly/WHKo/13-input.png)
+![](http://cl.ly/WHK4/13-benefits.png)
+
+
 ```CSS(stylesheets/base.css)
 ...
  	input[type="submit"],

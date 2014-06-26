@@ -1,5 +1,9 @@
 ## Adding the grid to the Benefits section
 
+![](http://cl.ly/WHCg/08-benefits-skeleton.png)
+
+In this checkpoint, we're going to structure the Benefits section to fit on the grid from Skeleton. We're going to use another new `class` that offsets columns.
+
 ```html(index.html)
  	<!-- Benefits
   	================================================== -->

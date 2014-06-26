@@ -1,5 +1,7 @@
 ## Integrating Google Fonts
 
+![](http://cl.ly/WHVZ/11-google-fonts.png)
+
 ```html(index.html)
    ================================================== -->
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

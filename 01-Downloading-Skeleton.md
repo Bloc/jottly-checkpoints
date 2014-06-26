@@ -37,13 +37,4 @@ $ git remote add origin https://github.com/<user name>/Jottly.git
 $ git push -u origin master
 ```
 
-Once you've pushed your code to the `master` branch, we're going to create a new branch in Github so we can host your site — for free — using [Github Pages](https://pages.github.com/). In the command line in Terminal, use the following commands to push your code to Github Pages:
-
-```bash(Terminal)
-$ git checkout --orphan gh-pages
-$ git add .
-$ git commit -m "Adding files to gh-pages"
-$ git push origin gh-pages
-```
-
-We will use this repo to host and store your code as you work through the HTML and CSS of the Jott.ly landing page. You will be able to view the live web site being hosted at http://**username**.github.io/**repository-name**. If you have trouble locating the URL, you can click on Settings in the right-hand navigation on the repository page on Github.com, and the URL is listed 
+In the upcoming checkpoint, we're going to deploy your website to Github Pages so you can view the results live online.

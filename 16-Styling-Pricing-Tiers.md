@@ -1,5 +1,7 @@
 ## Styling the Pricing Tiers
 
+![](http://cl.ly/WHKa/14-pricing.png)
+
 ```html(index.html)
  						<h3>Individuals &amp; Family</h3>
   					</header>

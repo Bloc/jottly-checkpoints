@@ -1,5 +1,7 @@
 ## Header and Sections in Pricing Tiers
 
+![](http://cl.ly/WHB1/09-pricing-sections.png)
+
 ```html(index.html)
  	<!-- Pricing
   	================================================== -->

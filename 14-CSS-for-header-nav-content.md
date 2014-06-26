@@ -1,5 +1,7 @@
 ## Styling the header
 
+![](http://cl.ly/WHHY/12-style-header.png)
+
 ```html(index.html)
  				<nav>
   					<ul>

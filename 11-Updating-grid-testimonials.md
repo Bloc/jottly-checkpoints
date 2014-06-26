@@ -1,12 +1,17 @@
 ## Updating grids for Testimonials, Action and Footer
 
+![](http://cl.ly/WHRe/10-testimonials.png)
+
 ```html(index.html)
 <!-- Testimonials
-  	================================================== -->
-  	<div id="testimonials">
- -		<h2>Who's using it?</h2>
- -		<p>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throughout 35 countries. Here’s what a few had to say:</p>
- -
+================================================== -->
+<div id="testimonials">
++	<div class="container">
++		<div class="twelve columns offset-by-two">
+			<h2>Who's using it?</h2>
+			<p>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throughout 35 countries. Here’s what a few had to say:</p>
+ +		</div>
+ +		<div class="one-third column">
  -		<blockquote>
  -			“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
  -		</blockquote>
@@ -14,11 +19,7 @@
  -			<img src="images/avatar1.jpg" />
  -			<p>Danny S.</p>
  -		</div>
- +		<div class="container">
- +			<div class="twelve columns offset-by-two">
- +				<h2>Who's using it?</h2>
- +				<p>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throughout 35 countries. Here’s what a few had to say:</p>
- +			</div>
+ 
   
  -		<blockquote>
  -			“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
