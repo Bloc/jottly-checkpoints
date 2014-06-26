@@ -33,7 +33,7 @@ Next, we're going to add some simple content to provide some additional details 
 </div>
 ```
 
-Because we already used an `h1`, we're going to use the next header size — `h2`. We also include another `p` tag and insert text.
+We've already used the `h1` tag on our page. So, we're going to use the next header size — `h2`. We also include another `p` tag and insert text.
 
 ```html(index.html)
 ...

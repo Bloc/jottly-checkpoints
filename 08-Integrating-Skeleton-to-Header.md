@@ -2,7 +2,7 @@
 
 ![](http://cl.ly/WGOc/07-header-skeleton.png)
 
-In this checkpoint, we're going to begin integrating Skeleton's grid to give our landing page some structure. We'll do this by reading through the documentation and using the `stylesheets/skeleton.css` file.
+In this checkpoint, we're going to begin integrating Skeleton's grid to give our landing page some structure. We'll do this by reading through the [documentation](http://www.getskeleton.com/#grid) (click on 'Code Example' below the grid) and using the `stylesheets/skeleton.css` file.
 
 ### Container class
 
@@ -42,14 +42,14 @@ Next, we're going to focus on our navigation.
                     <a href="#"><img src="images/logo.png" alt="Jottly" /></a>
                </div>
           </div>
-+     <div class="thirteen columns">
-          <nav>
-               <ul>
-                    <li><a href="#">Sign In</a></li>
-                    <li><a href="#">Sign Up Now</a></li>
-               </ul>
-          </nav>
-+     </div>
++         <div class="thirteen columns">
+               <nav>
+                    <ul>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Sign Up Now</a></li>
+                    </ul>
+               </nav>
++         </div>
      </div>
 ...
 ```
@@ -81,7 +81,7 @@ Next, we'll add in the grid structure for the input field and submit button.
 ...
 -     <input type="text" placeholder="Enter your email address"/>
 -     <button type="submit">Sign Up Now</button>
-     <div class="container">
+      <div class="container">
           <div class="nine columns">
                <h1>An easier way to write &amp; collaborate</h1>
                <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>

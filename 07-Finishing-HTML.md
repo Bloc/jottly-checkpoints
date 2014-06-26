@@ -35,7 +35,11 @@ Now, just after the ending `</p>` tag, we can add in the code we used above. Any
 </div>
 ```
 
-Now we have our basic content for the action section. Let's work on fixing up the footer. We're going to add a comment to section it off, and then create a `div` with an `id` of 'footer'.
+Now we have our basic content for the action section. 
+
+### Footer
+
+Let's work on fixing up the footer. We're going to add a comment to section it off, and then create a `div` with an `id` of 'footer'.
 
 ```html(index.html)
 <!-- Call to Action
