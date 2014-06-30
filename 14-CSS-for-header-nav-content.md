@@ -134,6 +134,8 @@ text-shadow { horizontal vertical blur color}
 	
 For this, we're setting the horizontal shadow to 0, vertical to 1 and blur to 2. The color, we're setting in RGBA, which gives you the ability to add some transparency or opacity to the color. `0,0,0` in RGB equals black, and we've drawn it back to be only 20% opaque. 
 
+Next, we're going to update the properties of the paragraph text below the `h1`.
+
 ```css(stylesheets/base.css)
 #header .headertext {
 	margin-top: 10em;
@@ -157,6 +159,12 @@ For this, we're setting the horizontal shadow to 0, vertical to 1 and blur to 2.
 +	color:#fff;
 +}
 ```
+
+Just like before, we updated the color to a light gray. We've updated the font size to increase slightly larger than the normal amount. The `line-height` here we've set to be 1.5 to allow for easier readability between the lines of text in this block. Again, we've added a slight text shadow, and set a margin below this element.
+
+Because we have a `strong` tag inside our `p` tag, we've decided to lighten the text from the rest and make it pure white.
+
+Next, we're going to take a look at the input field, the submit button and the second section of our site.
 
 
 
