@@ -165,10 +165,3 @@ Just like before, we updated the color to a light gray. We've updated the font s
 Because we have a `strong` tag inside our `p` tag, we've decided to lighten the text from the rest and make it pure white.
 
 Next, we're going to take a look at the input field, the submit button and the second section of our site.
-
-
-
-
-
-
-
