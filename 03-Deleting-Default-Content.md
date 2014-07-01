@@ -2,13 +2,13 @@
 
 ![Deleting default content](http://cl.ly/WEn9/02-deleting.png)
 
-In this checkpoint, we will remove the default content inside the Skeleton template so we can begin adding our HTML to the landing page for Jott.ly.
+In this checkpoint we'll replace the default content in the Skeleton template with custom HTML for Jottly's landing page.
 
 ## Removing unnecessary code
 
-Open up your `Jottly` folder inside a text editor like [Sublime Text 2](http://www.sublimetext.com/2). Then locate the `index.html` file, which we'll be editing.
+Open the Jottly folder inside a text editor like [Sublime Text 2](http://www.sublimetext.com/2). Locate `index.html` - this is the file we'll edit.
 
-Next, remove the lines shown below in red, and add in the ones in green. We will be adding our first HTML tag — `<h1>Hello world!</h1>` — which is a header tag. You will also change the title of your page from `Your Page Title Here :)` to `Jott.ly`.
+Remove the lines shown below in red, and add in the lines in green. We will add our first HTML tag — `<h1>Hello world!</h1>` — which is a header tag. You will also change the title of your page from Your Page Title Here :) to Jott.ly.
 
 ```html(index.html)
 <!-- Basic Page Needs
@@ -18,10 +18,32 @@ Next, remove the lines shown below in red, and add in the ones in green. We will
 +       <title>Jott.ly</title>
         <meta name="description" content="">
         <meta name="author" content="">
+
+      	<!-- Mobile Specific Metas
+        ================================================== -->
+      	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+      	<!-- CSS
+        ================================================== -->
+      	<link rel="stylesheet" href="stylesheets/base.css">
+      	<link rel="stylesheet" href="stylesheets/skeleton.css">
+      	<link rel="stylesheet" href="stylesheets/layout.css">
+
+      	<!--[if lt IE 9]>
+      		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      	<![endif]-->
+
+      	<!-- Favicons
+      	================================================== -->
+      	<link rel="shortcut icon" href="images/favicon.ico">
+      	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+          
  </head>
  <body>
- 
-+  <h1> Hello World </h1>
+
++  <h1> Hello World! </h1>
 -
 -       <!-- Primary Page Layout
 -       ================================================== -->
@@ -61,23 +83,23 @@ Next, remove the lines shown below in red, and add in the ones in green. We will
  </body>
  </html>
  ```
- 
-Once you have completed this, you should see a single line of text in your browser that says, 'Hello world!'. 
+
+This code will display a single line of text in your browser that reads, Hello World!.
 
 ### Pushing your changes
 
-Again, we will push your changes to your Github repo so that we store the latest code. First, make sure you are on the `gh-pages` branch.
+Again, we will push these changes to our Jottly repo. First, make sure you are still on the gh-pages branch.
 
 ```bash(Terminal)
 $ git status
 ```
 
-This should show you the changes that will be applied, in addition to the name of the branch you are on. Next, let's go ahead and add, commit and push our code.
+This command should display the changes and the name of the current branch. Let's add commit and push our code.
 
 ```bash(Terminal)
 $ git add .
 $ git commit -m "Removed default content"
-$ git push
+$ git push origin gh-pages
 ```
 
-Next, we'll begin adding HTML content to our `index.html` file.
+Next, we'll add custom headers and images to `index.html`.
