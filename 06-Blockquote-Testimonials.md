@@ -4,7 +4,7 @@
 
 In this checkpoint we'll create a Testimonials section and add three blockquotes. Testimonials should help prospective customers with their decision to buy our product.
 
-Let's start with a comment, and give this `div` and `id` named `testimonials` below the pricing section:
+Let's start with a comment, and give this `div` an `id` named `testimonials` below the pricing section:
 
 ```html(index.html)
 + <!-- Testimonials

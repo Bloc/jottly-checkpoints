@@ -1,6 +1,6 @@
 ## Deploying on Github Pages
 
-![](http://cl.ly/WHfi/02-github-pages.png)
+![Github Pages](http://cl.ly/WHfi/02-github-pages.png)
 
 In this checkpoint we'll deploy Jottly using [Github Pages](https://pages.github.com). Github Pages provides free hosting for static web pages.
 
