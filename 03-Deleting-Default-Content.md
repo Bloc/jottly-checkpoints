@@ -58,20 +58,20 @@ Remove the lines shown below in red, and add in the lines in green. We will add 
 -               </div>
 -               <div class="one-third column">
 -                       <h3>About Skeleton?</h3>
--                       <p>Skeleton is a small collection of well-organized CSS files that can help you rapidly
+-                       <p>Skeleton is a small collection of well-organized CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
 -               </div>
 -               <div class="one-third column">
 -                       <h3>Three Core Principles</h3>
 -                       <p>Skeleton is built on three core principles:</p>
 -                       <ul class="square">
--                               <li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a b
--                               <li><strong>Fast to Start</strong>: It's a tool for rapid development with best
--                               <li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styl
+-                          <li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>
+-				  <li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
+-				  <li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
 -                       </ul>
 -               </div>
 -               <div class="one-third column">
 -                       <h3>Docs &amp; Support</h3>
--                       <p>The easiest way to really get started with Skeleton is to check out the full docs an
+-                       <p>The easiest way to really get started with Skeleton is to check out the full docs and info at <a href="http://www.getskeleton.com">www.getskeleton.com.</a>. Skeleton is also open-source and has a <a href="https://github.com/dhgamache/skeleton">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to email me at <a href="mailto:hi@getskeleton.com">hi@getskeleton.com</a>.</p>
 -               </div>
 -
 -       </div><!-- container -->
@@ -84,7 +84,9 @@ Remove the lines shown below in red, and add in the lines in green. We will add 
  </html>
  ```
 
-This code will display a single line of text in your browser that reads, Hello World!.
+This code will display a single line of text in your browser that reads, Hello World!. Open your `index.html` inside your browser. You can do this by double-clicking the file in your file directory.
+
+> We recommend you keeping `index.html` open in your browser as you update the files. You will need to refresh your browser window to view the changes.
 
 ### Pushing your changes
 

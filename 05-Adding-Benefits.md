@@ -189,6 +189,8 @@ Next, we need to replicate this content for two additional boxes. The easiest wa
 
 Our landing page now has three different headers, displaying price boxes for 'Individuals & Family', 'Small Businesses', and 'Enterprise'.
 
+Refresh your browser window to view all of the changes you've made.
+
 ### Pushing your changes
 
 Push your changes to Github:

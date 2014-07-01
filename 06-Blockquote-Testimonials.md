@@ -73,7 +73,7 @@ Create the other two blockquotes:
     “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
   </blockquote>
   <div class="avatar">
-    <img src="images/avatar1.jpg" />
+    <img src="images/avatar1.jpg" alt="Danny S." />
     <p>Danny S.</p>
   </div>
 +
@@ -81,7 +81,7 @@ Create the other two blockquotes:
 +   “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
 + </blockquote>
 + <div class="avatar">
-+   <img src="images/avatar2.jpg" />
++   <img src="images/avatar2.jpg" alt="Jonathan M."  />
 +   <p>Jonathan M.</p>
 + </div>
 +  
@@ -89,12 +89,14 @@ Create the other two blockquotes:
 +   “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
 + </blockquote>
 + <div class="avatar">
-+   <img src="images/avatar3.jpg" />
++   <img src="images/avatar3.jpg" alt="Chloe P."  />
 +   <p>Chloe P.</p>
 + </div>
 +
 </div>
 ```
+
+Refresh your browser window to view all of the changes you've made.
 
 ### Pushing your changes
 

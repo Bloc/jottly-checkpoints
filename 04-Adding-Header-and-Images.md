@@ -118,6 +118,8 @@ We defined our `input` with a type of `text` so a user can enter their email add
 
 We also added a button to allow the user to sign up. We use the `button` tag, and again, define the type, but this time using `submit`. Wrapped in the tag, we include the text that will appear on the button.
 
+Refresh your browser window to view all of the changes you've made.
+
 ### Pushing your changes
 
 Push your changes to Github:

@@ -110,7 +110,7 @@ The last two items we'll add to the footer is a smaller logo and the copyright t
 </div>
 ```
 
-We've completed the basic HTML structure for our landing page! Now we can integrate a Skeleton grid layout and style our page.
+Refresh to see the changes. We've completed the basic HTML structure for our landing page! Now we can integrate a Skeleton grid layout and style our page. 
 
 ### Pushing your changes
 

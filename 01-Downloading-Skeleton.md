@@ -2,7 +2,7 @@
 
 ![Download Skeleton](http://cl.ly/WEym/01-skeleton.png)
 
-In this checkpoint, we'll download a simple HTML and CSS framework named [Skeleton](http://www.getskeleton.com/) and use it to develop the landing page for Jott.ly.
+In this checkpoint we'll download a simple HTML and CSS framework named [Skeleton](http://www.getskeleton.com/) and use it to develop the landing page for Jott.ly.
 
 ### Up and running
 

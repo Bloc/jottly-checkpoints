@@ -126,6 +126,8 @@ You'll also notice that the next `div` is set to four columns. Because we define
 
 We also used an `omega` class. Like the `alpha` class, it removes padding and margin, but from the right side instead of the left.
 
+You can refresh to view the changes you've made.
+
 ### Pushing your changes
 
 Push your changes to Github:
