@@ -8,7 +8,7 @@ In this checkpoint we'll add the last two sections to our landing page. The firs
 
 Near the bottom of the page, we'll want a "Call to Action". A call to action should provide users with an obvious action for getting more information or buying a product. In our case, we want users to be able to sign up for Jottly.
 
-Like the other sections, we'll add a comment to denote where the Call to Action section begins. We'll give this `div` an `id` named `action`:
+Like the other sections, we'll add a comment to denote where the Call to Action section begins. We'll give this div an id named action:
 
 ```html(index.html)
 + <!-- Call to Action
@@ -54,7 +54,7 @@ Let's create the footer section:
 + </div>
 ```
 
-On the left side of the footer, we'll include navigation links. Be sure to wrap the text inside the `li` tags with anchor tags (`a`). Anchor tags tells the browser that these will be links, even if we're not linking to anything yet.
+On the left side of the footer, we'll include navigation links. Be sure to wrap the text inside the list item tags with anchor tags. Anchor tags tells the browser that these will be links, even if we're not linking to anything yet.
 
 ```html(index.html)
 <!-- Call to Action

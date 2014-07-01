@@ -6,9 +6,9 @@ In this checkpoint, we'll integrate [Skeleton's grid layout]((http://www.getskel
 
 ### Container class
 
-A container class defines the width for displaying content. The `skeleton.css` file in the `stylesheets` directory defines the `.container` class. Open the file and you'll see that the width is defined as 960 pixels. The 960 pixel page width is comprised of 16 columns. This is important to remember as we integrate the grid with our landing page.
+A container class defines the width for displaying content. The skeleton.css file in the stylesheets directory defines the container class. Open the file and you'll see that the width is defined as 960 pixels. The 960 pixel page width is comprised of 16 columns. This is important to remember as we integrate the grid with our landing page.
 
-Columns will be used within the `.container` div.
+Columns will be used within the container div.
 
 First we'll create a container for the logo and header navigation elements:
 
@@ -62,7 +62,7 @@ Let's update our navigation area:
 ...
 ```
 
-We should account for 16 columns to fill the width of our container, so we nested the `nav` tag within a `div` class of thirteen columns. This will stretch the contained content across the remaining width of the page.
+We should account for 16 columns to fill the width of our container, so we nested the nav tag within a div class of thirteen columns. This will stretch the contained content across the remaining width of the page.
 
 Next, we'll update the text that appears on the header image. In this case, we don't want the content to fill the width of the page.
 
@@ -94,7 +94,7 @@ Next, we'll update the text that appears on the header image. In this case, we d
 ...
 ```
 
-We replaced the `h1` and `p` tags with a new container `div`. We nested another `div` within the container and set it to nine columns. This will create some open space on the right side of the page. When we begin styling the page, you'll get a better sense of why we're not filling the full width of the page.
+We replaced the h1 and paragraph tags with a new container div. We nested another div within the container and set it to nine columns. This will create some open space on the right side of the page. When we begin styling the page, you'll get a better sense of why we're not filling the full width of the page.
 
 Next, we'll add the grid structure for the input field and submit button.
 
@@ -120,11 +120,11 @@ Next, we'll add the grid structure for the input field and submit button.
     </div>
 ```
 
-We wrapped the input field in a `div` set to five columns. Notice the additional class of `alpha`. Skeleton allows us to define the first column of a row or container and remove its padding and margin from the left side. This will make the content flush with content directly above it. Read about the [box model](http://www.w3schools.com/css/css_boxmodel.asp) and how it works.
+We wrapped the input field in a div set to five columns. Notice the additional class of alpha. Skeleton allows us to define the first column of a row or container and remove its padding and margin from the left side. This will make the content flush with content directly above it. Read about the [box model](http://www.w3schools.com/css/css_boxmodel.asp) and how it works.
 
-You'll also notice that the next `div` is set to four columns. Because we defined the original container and nested `div` at nine columns, we should account for the full width of the page.
+You'll also notice that the next div is set to four columns. Because we defined the original container and nested div at nine columns, we should account for the full width of the page.
 
-We also used an `omega` class. Like the `alpha` class, it removes padding and margin, but from the right side instead of the left.
+We also used an omega class. Like the alpha class, it removes padding and margin, but from the right side instead of the left.
 
 You can refresh to view the changes you've made.
 

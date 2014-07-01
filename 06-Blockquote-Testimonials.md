@@ -4,7 +4,7 @@
 
 In this checkpoint we'll create a Testimonials section and add three blockquotes. Testimonials should help prospective customers with their decision to buy our product.
 
-Let's start with a comment, and give this `div` an `id` named `testimonials` below the pricing section:
+Let's start with a comment, and give this div an id named testimonials below the pricing section:
 
 ```html(index.html)
 + <!-- Testimonials
@@ -13,7 +13,7 @@ Let's start with a comment, and give this `div` an `id` named `testimonials` bel
 + </div>
 ```
 
-Next, we'll create a header using an `h2` tag and a `p` tag to display the explanation:
+Next, we'll create a header using an h2 tag and a paragraph tag to display the explanation:
 
 ```html(index.html)
 <!-- Testimonials
@@ -24,7 +24,7 @@ Next, we'll create a header using an `h2` tag and a `p` tag to display the expla
 </div>
 ```
 
-Let's create our first `blockquote`. A `blockquote` is an HTML element that contains quoted text.
+Let's create our first blockquote. A blockquote is an HTML element that contains quoted text.
 
 ```html(index.html)
 <!-- Testimonials
@@ -39,7 +39,7 @@ Let's create our first `blockquote`. A `blockquote` is an HTML element that cont
 </div>
 ```
 
-Next, we'll add a new `div` to hold the image of the customer and their name:
+Next, we'll add a new div to hold the image of the customer and their name:
 
 ```html(index.html)
 <!-- Testimonials
@@ -58,7 +58,7 @@ Next, we'll add a new `div` to hold the image of the customer and their name:
 </div>
 ```
 
-Because we'll use a similar structure and styling for all three blockquotes, we created a `div` and gave it a `class` of `avatar`.
+Because we'll use a similar structure and styling for all three blockquotes, we created a div and gave it a class of avatar.
 
 Create the other two blockquotes:
 

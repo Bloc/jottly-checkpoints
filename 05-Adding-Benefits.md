@@ -6,7 +6,7 @@ In this checkpoint we'll be adding two new sections to our landing page: Benefit
 
 ### Benefits
 
-After the closing header `</div>` add a comment to define where the Benefits section begins. We'll define this `div` with an `id` named `benefits`:
+After the closing header `</div>` add a comment to define where the Benefits section begins. We'll define this div with an id named header:
 
 ```html(index.html)
 ...
@@ -31,7 +31,7 @@ Next, we'll add some simple content to provide details and a screenshot of the J
 </div>
 ```
 
-We've already used the `h1` tag on our page, so we used the next header size: `h2`. We also included another `p` tag with content.
+We've already used the h1 tag on our page, so we used the next header size: h2. We also included another paragraph tag with content.
 
 Let's add an image:
 
@@ -47,7 +47,7 @@ Let's add an image:
 </div>
 ```
 
-The last part of this section is the image of the web application, so users can see what the app looks like. Using the `img` tag, we source our image inside the `images` folder and select the `app.png` file.
+The last part of this section is the image of the web application, so users can see what the app looks like. Using the image tag, we source our image inside the images folder and select the app.png file.
 
 Next, we'll explore a more complex HTML structure to produce pricing tiers.
 
@@ -55,7 +55,7 @@ Next, we'll explore a more complex HTML structure to produce pricing tiers.
 
 ![Pricing](http://cl.ly/WFh1/04-pricing.png)
 
-At the end of the closing `</div>` tag for benefits, create a new `div` with an `id` named `pricing`:
+At the end of the closing `</div>` tag for benefits, create a new div with an id named pricing:
 
 ```html(index.html)
 ...
@@ -66,7 +66,7 @@ At the end of the closing `</div>` tag for benefits, create a new `div` with an 
 +	</div>
 ```
 
-We'll use another `h2` for this section header and include a `p` text to explain our pricing tiers.
+We'll use another h2 for this section header and include paragraph text to explain our pricing tiers.
 
 ```html(index.html)
 ...
@@ -92,7 +92,7 @@ Let's add price areas that have a title, price, list of features and a button to
 </div>
 ```
 
-Notice that we opted to use a `class` attribute for the `pricebox` div. Since we have three pricing tiers we'll need to replicate the styling for each. That is, when an element's style is unique, it's appropriate to use an `id`. When we have to reuse the styling for an element, we need to use a `class`.
+Notice that we opted to use a class attribute for the pricebox div. Since we have three pricing tiers we'll need to replicate the styling for each. That is, when an element's style is unique, it's appropriate to use an id. When we have to reuse the styling for an element, we need to use a class.
 
 Next, we'll add a new header, price and some additional text to explain how much Jottly costs per user and per month:
 
@@ -111,7 +111,7 @@ Next, we'll add a new header, price and some additional text to explain how much
 </div>
 ```
 
-When creating HTML structure it's important to be mindful of hierarchy. We've used `h1` and a few `h2`s earlier on our page. For the header on each individual price box, we used an `h3` and `h4` to keep our content in the overall context of the landing page. We also included a paragraph tag with additional content.
+When creating HTML structure it's important to be mindful of hierarchy. We've used h1 and a few h2's earlier on our page. For the header on each individual price box, we used an h3 and h4 to keep our content in the overall context of the landing page. We also included a paragraph tag with additional content.
 
 Let's include our list of features:
 
@@ -201,4 +201,4 @@ $ git commit -m "Added benefits and pricing"
 $ git push origin gh-pages
 ```
 
-Next, we'll create a testimonials section using the `blockquote` tag.
+Next, we'll create a testimonials section using the blockquote tag.
