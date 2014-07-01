@@ -6,6 +6,8 @@ In this checkpoint, we'll download a simple HTML and CSS framework named [Skelet
 
 ### Up and running
 
+![Downloading Skeleton](http://cl.ly/WKiD/download-skeleton.gif)
+
 Download the source code by clicking on the **Download** link in the left-hand navigation of the Skeleton site. Click the button labeled **Download Skeleton 1.2 from Github**. Find the downloaded file named **dhg-Skeleton-7ab6820.tar.gz** and double-click to extract it. Rename the folder to **Jottly** and move it to an easy-to-find location on your machine.
 
 > We suggest creating a "code" or "projects" directory to store projects like Jott.ly
