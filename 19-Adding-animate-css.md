@@ -1,6 +1,6 @@
 ## Adding Animate.css
 
-![](http://cl.ly/WIc5/19-animate.png)
+![Animate CSS](http://cl.ly/WIc5/19-animate.png)
 
 In this checkpoint, we're going to download and add [Animate.css](http://daneden.github.io/animate.css/) to our source code.
 
@@ -16,8 +16,6 @@ The last thing we need to do is link it up in our HTML.
   	<link rel="stylesheet" href="stylesheets/layout.css">
  +	<link rel="stylesheet" href="stylesheets/animate.css">
   ...
-  	<!--[if lt IE 9]>
-  		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 ```
 
 Directly after where your current three CSS files are linked, you can add in the file located at `stylesheets/animate.css`. This will allow you to tag the animations via classes to the HTML elements we want to manipulate in the next two lessons.
