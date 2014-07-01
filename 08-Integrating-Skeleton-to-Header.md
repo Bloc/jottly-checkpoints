@@ -67,7 +67,7 @@ We should account for 16 columns to fill the width of our container, so we neste
 Next, we'll update the text that appears on the header image. In this case, we don't want the content to fill the width of the page.
 
 ```html(index.html)
-		<div class="container">
+    <div class="container">
 		  <div class="three columns">
 		    <div class="logo">
 		      <a href="#"><img src="images/logo.png" alt="Jottly" /></a>
@@ -120,7 +120,7 @@ Next, we'll add the grid structure for the input field and submit button.
     </div>
 ```
 
-We wrapped the input field in a `div` set to five columns. Notice the additional class of `alpha`. Skeleton allows us to define the first column of a row or container and remove its padding and margin from the left side. This will make the content flush with content directly above it. We'll learn more about padding and margins in a subsequent checkpoint.
+We wrapped the input field in a `div` set to five columns. Notice the additional class of `alpha`. Skeleton allows us to define the first column of a row or container and remove its padding and margin from the left side. This will make the content flush with content directly above it. Read about the [box model](http://www.w3schools.com/css/css_boxmodel.asp) and how it works.
 
 You'll also notice that the next `div` is set to four columns. Because we defined the original container and nested `div` at nine columns, we should account for the full width of the page.
 

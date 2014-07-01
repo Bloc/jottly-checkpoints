@@ -30,10 +30,10 @@ We'll add the first section - the header - to our landing page using a `div` tag
 -
 - <h1>Hello world!</h1>
 -
-+     <!-- Header
-+     ================================================== -->
-+     <div id="header">
-+     </div>
++  <!-- Header
++  ================================================== -->
++  <div id="header">
++  </div>
 </body>
 </html>
 ```
@@ -48,7 +48,7 @@ Let's add an image to our header:
 
 ```html(index.html)
 <div id="header">
-+     <img src="images/logo.png" />
++  <img src="images/logo.png" />
 </div>
 ```
 
@@ -60,13 +60,13 @@ Next, we'll add placeholder navigation links. These links won't be connected to 
 
 ```html(index.html)
 <div id="header">
-     <img src="images/logo.png" />
-+    <nav>
-+      <ul>
-+        <li><a href="#">Sign In</a></li>
-+        <li><a href="#">Sign Up Now</a></li>
-+      </ul>
-+     </nav>
+  <img src="images/logo.png" />
++  <nav>
++    <ul>
++      <li><a href="#">Sign In</a></li>
++      <li><a href="#">Sign Up Now</a></li>
++    </ul>
++  </nav>
 </div>
 ```
 
@@ -78,15 +78,15 @@ Now, let's add a headline and some paragraph text to explain what Jottly is all 
 
 ```html(index.html)
 <div id="header">
-     <img src="images/logo.png" />
-     <nav>
-          <ul>
-               <li><a href="#">Sign In</a></li>
-               <li><a href="#">Sign Up Now</a></li>
-          </ul>
-     </nav>
-+    <h1>An easier way to write &amp; collaborate</h1>
-+    <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
+  <img src="images/logo.png" />
+  <nav>
+    <ul>
+      <li><a href="#">Sign In</a></li>
+      <li><a href="#">Sign Up Now</a></li>
+    </ul>
+  </nav>
++  <h1>An easier way to write &amp; collaborate</h1>
++  <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
 </div>
 ```
 
@@ -98,15 +98,15 @@ Next, we'll add a simple text input field along with a submit button. Eventually
 
 ```html(index.html)
 <div id="header">
-     <img src="images/logo.png" />
-     <nav>
-          <ul>
-               <li><a href="#">Sign In</a></li>
-               <li><a href="#">Sign Up Now</a></li>
-          </ul>
-     </nav>
-     <h1>An easier way to write &amp; collaborate</h1>
-     <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
+  <img src="images/logo.png" />
+    <nav>
+      <ul>
+        <li><a href="#">Sign In</a></li>
+        <li><a href="#">Sign Up Now</a></li>
+      </ul>
+    </nav>
+    <h1>An easier way to write &amp; collaborate</h1>
+    <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
 +    <input type="text" placeholder="Enter your email address"/>
 +    <button type="submit">Sign Up Now</button>
 </div>
