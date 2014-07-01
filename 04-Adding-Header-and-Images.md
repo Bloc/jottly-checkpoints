@@ -92,7 +92,7 @@ Now, let's add a headline and some paragraph text to explain what Jottly is all 
 
 Headers come in six default size — `h1`, `h2`, `h3`, etc. The `h1` tag should **always** be used as your primary headline on the page, not only for sizing purposes, but also for better SEO (or Search Engine Optimization).
 
-Using the paragraph (`p`) tag, we can explain what Jott.ly is and does. We've selected a portion of this text to **bold** using the `strong` tag. If you wanted some text to appear as italics, you could wrap that text in the `em` tag.
+Using the paragraph (`p`) tag, we can explain what Jottly is and does. We've selected a portion of this text to **bold** using the `strong` tag. If you wanted some text to appear as italics, you could wrap that text in the `em` tag.
 
 Next, we'll add a simple text input field along with a submit button. Eventually, these elements could be used for gathering email addresses:
 
