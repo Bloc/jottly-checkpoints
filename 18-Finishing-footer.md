@@ -10,8 +10,8 @@ Let's change the background of the footer div and apply some padding to the top 
 ...
 +/* Footer */
 +#footer {
-+	background:#009be8;
-+	padding: 1em 0;
++ background:#009be8;
++ padding: 1em 0;
 +}
 ```
 
@@ -21,12 +21,12 @@ Next, we'll update the navigation on the left side. First, we'll give it a littl
 ...
 /* Footer */
 #footer {
-	background:#009be8;
-	padding:1em 0;
+  background:#009be8;
+  padding:1em 0;
 }
 +
 +#footer nav ul {
-+	margin-top:0.5em;
++ margin-top:0.5em;
 +}
 +
 +#footer nav ul li {
@@ -43,25 +43,25 @@ Next we'll change some text properties:
 ...
 /* Footer */
 #footer {
-	background:#009be8;
-	padding:1em 0;
+  background:#009be8;
+  padding:1em 0;
 }
 
 #footer nav ul {
-	margin-top:0.5em;
+  margin-top:0.5em;
 }
 
 #footer nav ul li {
-	display:inline;
-	margin:0;
+  display:inline;
+  margin:0;
 }
 
 +#footer nav ul li a {
-+	color:#fff;
-+	text-decoration:none;
-+	text-transform: uppercase;
-+	margin:0 1em 0 0;
-+	font-size:1.1em;
++ color:#fff;
++ text-decoration:none;
++ text-transform: uppercase;
++ margin:0 1em 0 0;
++ font-size:1.1em;
 +}
 ```
 
@@ -73,37 +73,37 @@ The last two items we need to style are the small logo and the copyright text:
 ...
 /* Footer */
 #footer {
-	background:#009be8;
-	padding:1em 0;
+  background:#009be8;
+  padding:1em 0;
 }
 
 #footer nav ul {
-	margin-top:0.5em;
+  margin-top:0.5em;
 }
 
 #footer nav ul li {
-	display:inline;
-	margin:0;
+  display:inline;
+  margin:0;
 }
 
 #footer nav ul li a {
-	color:#fff;
-	text-decoration:none;
-	text-transform: uppercase;
-	margin:0 1em 0 0;
-	font-size:1.1em;
+  color:#fff;
+  text-decoration:none;
+  text-transform: uppercase;
+  margin:0 1em 0 0;
+  font-size:1.1em;
 }
 +
 +#footer img {
-+	float:right;
++ float:right;
 +}
 +
 +#footer p {
-+	color:#fff;
-+	line-height: 1;
-+	text-transform: uppercase;
-+	font-size:0.7em;
-+	margin-top:0.5em;
++ color:#fff;
++ line-height: 1;
++ text-transform: uppercase;
++ font-size:0.7em;
++ margin-top:0.5em;
 +}
 ```
 
