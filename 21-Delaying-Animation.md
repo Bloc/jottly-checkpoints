@@ -2,9 +2,9 @@
 
 ![Delaying animation](http://cl.ly/WGkV/jottly-animate2.gif)
 
-In this checkpoint, we're going to add one more animation effect to our header, finishing it up for publishing.
+In this checkpoint we'll add one more animation effect to our header.
 
-Within our `base.css` file, locate the line where your class `headertext` appears. Within this selector, we're going to add two simple classes to delay the animation, so that the text animates after the main header.
+Within the base.css file, locate the headertext class. Within this selector, we'll add two simple classes to delay the text animation, so that the text animates after the main header. This will present a cool-looking effect when the page loads.
 
 ```css(stylesheets/base.css)
 ...
@@ -16,16 +16,16 @@ Within our `base.css` file, locate the line where your class `headertext` appear
  ...
 ```
 
-Using CSS3 animation properties, we add in the `animation-delay` and set it to happen just over a half of a second after. We added in an additional selector to target Safari and Chrome.
+Using CSS3 animation properties, we added an animation-delay and set it to happen just over a half of a second after the header animation. We added in an additional selector for Safari and Chrome consistency.
 
-### Github
+### Pushing your changes
 
-The last step to finishing this project is to push your changes to your Github Pages repo. Open up Terminal, and follow the commands you've used throughout these checkpoints.
+Push your changes to Github:
 
 ```bash(Terminal)
 $ git add .
-$ git commit -m "Removed default content"
-$ git push
+$ git commit -m "Delayed text animation"
+$ git push origin gh-pages
 ```
 
-And there you have it! You have completed your first HTML and CSS landing page. Congratulations!
+Congratulations! You have completed your first landing page and learned a lot about HTML and CSS in the process. Jottly is now ready to accept customers, once you've created the actual product :)
