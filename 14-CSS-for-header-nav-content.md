@@ -36,7 +36,21 @@ To align test, we add the text-align property to our header nav and give it a "r
 
 We have an unordered list and list items nested within our nav. We want list items  to appear inline with each other, so we'll use the display property and set the value to inline-block.
 
-Next, we'll adjust the padding, color and text qualities of the links to meet our final product mockup.
+Let's review how display works with CSS.
+
+### Display
+
+HTML elements are naturally displayed as boxes on within a browser. You can change how these line up with the display property.
+
+![](https://bloc-global-assets.s3.amazonaws.com/images-design/jottly/css/css-display.png)
+
+If you want your elements to display next to one another horizontally, you can apply the inline value. This is something you'll use when creating navigational elements to place in a horizontal pattern. Inline elements also retain no whitespace above or below, whereas block elements do. If using inline, remember that items will not automatically create a new line, but just continue as one stream of elements.
+
+Block adds space above and below, and creates an entirely new line per element, forcing the next one to fall on the next line below.
+
+Inline-block is a hybrid of both inline and block, hence the name. This value provides space above and below each element, while lining them up in one single line.
+
+Let's get back to adjusting the navigation links. Next, we'll adjust the padding, color and text qualities of the links to meet our final product mockup.
 
 ```CSS(stylesheets/base.css)
 #header nav {

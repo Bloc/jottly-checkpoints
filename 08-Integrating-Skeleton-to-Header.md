@@ -120,9 +120,32 @@ Next, we'll add the grid structure for the input field and submit button.
     </div>
 ```
 
-We wrapped the input field in a div set to five columns. Notice the additional class of alpha. Skeleton allows us to define the first column of a row or container and remove its padding and margin from the left side. This will make the content flush with content directly above it. Read about the [box model](http://www.w3schools.com/css/css_boxmodel.asp) and how it works.
+We wrapped the input field in a div set to five columns. Notice the additional class of alpha. Skeleton allows us to define the first column of a row or container and remove its padding and margin from the left side. This will make the content flush with content directly above it. To understand why this happens, let's review the box model.
 
-You'll also notice that the next div is set to four columns. Because we defined the original container and nested div at nine columns, we should account for the full width of the page.
+### Box Model
+The Box Model defines how HTML elements are laid out. Imagine all HTML elements as boxes on a page. These consist of four parts:
+
+![](https://bloc-global-assets.s3.amazonaws.com/images-design/jottly/css/css-boxmodel.png)
+
+1. **Content**: This is the information (text or images) within HTML tags.
+2. **Padding**: This is the area around the content that provides some space. Padding is often part of the background of an element.
+3. **Border**: This defines the edge of the HTML element. It encases the padding and content. It can be a stylized border, as in a color and stroke size, or it can be non-stylized, which means it still exists but doesn't have any visual traits.
+4. **Margin**: This is the transparent space around an element. Margin creates space between objects without having any traits of the content, padding or border.
+
+All of these items will make up the total calculated width of a HTML element. Let's look at an example to see how this applies:
+
+```CSS
+width:300px;
+padding:10px;
+border:5px solid black;
+margin:10px;
+```
+
+![](https://bloc-global-assets.s3.amazonaws.com/images-design/jottly/css/css-boxmodel-math.png)
+
+So, by doing the math, you get 350 pixels. OK, let's get back to it.
+
+You'll notice that the next div is set to four columns. Because we defined the original container and nested div at nine columns, we should account for the full width of the page.
 
 We also used an omega class. Like the alpha class, it removes padding and margin, but from the right side instead of the left.
 
