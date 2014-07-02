@@ -2,13 +2,11 @@
 
 ![](http://cl.ly/WHKa/14-pricing.png)
 
-In this checkpoint, we will style the pricing section. We'll focus on getting the text adjusted just right to display nicely, and get our boxes looking similar to each other, with some minor adjustments to our box in the center.
+In this checkpoint we'll style the pricing section. We'll add some cool text formatting and make the Small Business plan stand out as the recommended tier.
 
 ### Base styles
 
-Before we tackle the price boxes, we need to set up the section itself. We want to change the background to blue, but in order for the content to appear nicely, we also need to add some padding. 
-
-While we're at it, we'll have to adjust the color of the header and paragraph text, since it will be too dark to render on here.
+Before we update the price divs, we need to modify the pricing section. We want to change the background to blue, but in order for the content to appear nicely, we also need to add padding. While we're at it, we'll adjust the color of the header and paragraph text:
 
 ```css(stylesheets/base.css)
 +/* Pricing */
@@ -29,11 +27,11 @@ While we're at it, we'll have to adjust the color of the header and paragraph te
 +}
 ```
 
-We've added a text shadow to the `h2` and `p` tags just to help them pop off the page. 
+Notice that we added a text shadow to the h2 and p tags to help them pop off the page.
 
 ### Price Box
 
-Within our HTML, we have a `pricebox` div. This houses our pricing content, so we are going to change the background color to white so it contrasts nicely with the blue background. 
+We created a pricebox div to frame our pricing content. Let's change the background color to white so it contrasts nicely with the blue background:
 
 ```css(stylesheets/base.css)
 /* Pricing */
@@ -63,17 +61,17 @@ Within our HTML, we have a `pricebox` div. This houses our pricing content, so w
 +}
 ```
 
-We've added a box shadow to give the price boxes a layering effect. Here, we've used browser prefixes to ensure this appears in Mozilla, Chrome, Safari and other modern browsers. Much like the text shadow, the box shadow syntax is broken down as such:
+We added a box shadow to give the price boxes a layering effect. We used browser prefixes to ensure this styling appears consistently in Mozilla, Chrome, Safari and other modern browsers. Much like the text shadow, the box shadow syntax can be broken down into pieces:
 
 ```css
 box-shadow: horizontal vertical blur color;
 ```
 
-We've also set the height of the box, as we'll use this in the next portion of the CSS. Also, we've added a position property and set it to relative. This will come in handy with some positioning for our other elements.
+We also changed the height of the box, which is something we'll use in the next step. The relative position property will come in handy for positioning other elements around the pricing divs.
 
 ### Differentiating Price Boxes
 
-For our second box — Small Busineses — we are going to add in a second class of `deal` to the `pricebox` div inside the HTML file. We're doing this so we can differentiate the middle box from the other two.
+For our second box — Small Businesses — we'll add a second class named "deal" to the pricebox div. This will differentiate the middle box from the other two, and represent our recommended "best deal" for customers.
 
 ```html(index.html)
  ...
@@ -87,7 +85,7 @@ For our second box — Small Busineses — we are going to add in a second class
 ...
 ```
 
-Now, we can add in a new class selector to our `base.css` targeting the pricebox and deal classes. We've minimized the top margin so it stands taller than the others. We've also adjusted the height so it extends down further as well.
+Now we'll add a new class selector to our base.css file which targets the pricebox and deal classes. We've minimized the top margin so it stands taller than the other divs. We also adjusted the height so it extends down further as well.
 
 ```css(stylesheets/base.css)
 ...
@@ -113,7 +111,7 @@ Now, we can add in a new class selector to our `base.css` targeting the pricebox
 
 ### Header
 
-For the header containing our `h3` text, we're going to change up the background, add a small box shadow and adjust the padding.
+Let's update the h3 header to change the background, add a small box shadow and adjust the padding:
 
 ```css(stylesheets/base.css)
 ...
@@ -147,11 +145,11 @@ For the header containing our `h3` text, we're going to change up the background
 +}
 ```
 
-We've also changed up the `h3` text styles so it all uppercase and thicker. We've increased the size to give it some prominence.
+We changed up the h3 text styles to be uppercase and heavier. We increased the size to make the header more prominent.
 
 ### Buttons
 
-With our button, we've changed the color to a shade of green. We've are positioning it to always be at the bottom of the price box, spaced 1em from the bottom edge, no matter what height the box is. This will cleanly align the two outer buttons, and keeps the spacing consistent in the middle box as well.
+Let's change the button color to a shade of green. We want to position it to always be at the bottom of the price box, spaced 1em from the bottom edge, no matter what the height of the box is. This will align the two outer buttons and will keep the spacing consistent in the middle box as well.
 
 ```css(stylesheets/base.css)
 ...
@@ -183,26 +181,16 @@ With our button, we've changed the color to a shade of green. We've are position
 +.pricebox section button:hover {
 +	background:#1fae5c;
 +}
-+.pricebox section h4 {
-+	display:inline-block;
-+	color:#009be8;
-+	font-size: 6em;
-+	font-weight: 900;
-+	vertical-align: bottom;
-+}
 ```
 
-We set the width to 90% of the button so it doesn't hit the outer edges of the box. And adding in a margin of `0 auto`, it centers our element inside the box.
+We set the width to 90% of the button so it doesn't hit the outer edges of the box. And adding a margin of 0 auto which will center the element inside the box.
 
 ### Price Text
 
-For the price of our services in Jott.ly, we want to increase the text size to give it prominence over the rest of the content inside each of the boxes.
+For the pricing of our services, we want to increase the text size to give it prominence over the rest of the content inside each of the boxes:
 
 ```css(stylesheets/base.css)
 ...
-.pricebox section button:hover {
-	background:#1fae5c;
-}
 +.pricebox section h4 {
 +	display:inline-block;
 +	color:#009be8;
@@ -210,11 +198,8 @@ For the price of our services in Jott.ly, we want to increase the text size to g
 +	font-weight: 900;
 +	vertical-align: bottom;
 +}
-```
 
-Here, we've changed the color and size. Before we go further, we want to update some of our HTML so that we can adjust the size and baseline of the `$` within the price. We're going to add a `span` around the dollar symbol, and then provide a break between 'per month' and '/per user' so it appears on two lines.
-
-Go ahead and do this inside your `index.html` for all three boxes.
+We changed the color and size of the pricing font. Before we go further, we need to update our HTML so we can use this style. We'll add a span around the dollar symbol, and then provide a break between "per month" and "per user" so they appear on two lines:
 
 ```html(index.html)
 ...
@@ -256,9 +241,7 @@ Go ahead and do this inside your `index.html` for all three boxes.
 ...
 ```
 
-Now that we've added that to our HTML, we can adjust the styling so it appears just right.
-
-With our primary `h4` size being 6em, we want to adjust the span inside of it to be half of that. If you enter `3em` for the font size, you will see it massively larger than that of the price itself. This is because that number will multiply the number above it, meaning 6em x 3 em = too big. So we want to multiply it by 0.5em, so it minimizes in size.
+With our primary h4 size being 6em, we want to adjust the span inside of it to be half of that. If you enter 3em for the font size, you will see it massively larger than that of the price itself. This is because that number will multiply the number above it, meaning 6em x 3em = too big! We want to multiply it by 0.5em, so it gets smaller.
 
 ```css(stylesheets/base.css)
 ...
@@ -288,15 +271,13 @@ With our primary `h4` size being 6em, we want to adjust the span inside of it to
 +}
 ```
 
-To adjust the baseline, we've added a vertical alignment property, moving it to the top which will align the top edges of the `$` and the numeral. Next, we've updated the look of our 'per month/per user' text. We display this content `inline-block` so it will adjust to the right of the price. We have to remove the text shadow, as we added one earlier to target all things tagged `p` inside this section. After updating the color, we adjust the positioning to give it some spacing at the top, pushing it down to line up in the center vertically with the price.
+Use your knowledge of CSS and explain each new property and value to yourself. You can add and remove properties and check out the results in your local browser to gain a better understand of their effect.
 
-> Using Inspect Element inside Chrome, you are able to adjust the CSS of your files to test out and adjust to get your elements lined up just right. Be sure to edit your files though, as any changes you make in Inspect Element will not save.
+You can also right-click an element in your browser and select "Inspect Element". You can adjust CSS and HTML in real-time within Web Inspector. Any changes you make in Web Inspector will not be saved.
 
 ### List of Features
 
-The last part of our price boxes we want to edit are the lists of features.
-
-For our unordered list, we add in some margin to the top so it's not bumped right up against the price. And then for each list item, we've slightly adjusted the text size and provided some additional spacing in between each one so it's easier to scan and read.
+For our unordered features lists, we will add margin to the top so it doesn't interfere with the price area. For each list item, we'll slightly adjust the text size and provide some additional spacing in between each one so it's easier to read.
 
 ```css(stylesheets/base.css)
 ...
@@ -320,7 +301,17 @@ For our unordered list, we add in some margin to the top so it's not bumped righ
 +.pricebox section ul li {
 +	font-size:1.2em;
 +	margin-bottom: 1.2em;
-}
++}
 ```
 
-Now, your `index.html` file should resemble that of the nearly finished product. Next, we'll work on updating the testimonials and action sections.
+### Pushing your changes
+
+Push your changes to Github:
+
+```bash(Terminal)
+$ git add .
+$ git commit -m "Styled pricing tiers"
+$ git push origin gh-pages
+```
+
+Next we'll update the testimonials and action sections.
