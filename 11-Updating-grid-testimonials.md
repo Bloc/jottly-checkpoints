@@ -1,12 +1,12 @@
-## Updating grids for Testimonials, Action and Footer
+## Improving the testimonial, call-to-action and footer layouts
 
 ![](http://cl.ly/WHRe/10-testimonials.png)
 
-In this checkpoint, we're going to finish integrating the Skeleton grid to the remainder of the page. We'll first tackle our testimonials, moving onto the action section and finally the footer.
+In this checkpoint we'll update the rest of our landing page with a grid layout.
 
 ### Testimonials
 
-Much like the last section, we're going to split our three testimonials into three columns across the page. Before doing so, we can apply the same column widths to the header text and paragraph to introduce this section.
+Much like the last section, we'll split the three testimonials into three columns across the page:
 
 ```html(index.html)
 <!-- Testimonials
@@ -42,9 +42,7 @@ Much like the last section, we're going to split our three testimonials into thr
 </div>
 ```
 
-We've simply add the `container` div to set our content to the center of the page, and then have added our 12-column grid to our introduction text for the section.
-
-Now, we can add in the `one-third column` classes into a new div to segment our testimonials.
+Let's add the one-third column classes into a new div to space our testimonials evenly:
 
 ```html(index.html)
 <!-- Testimonials
@@ -86,15 +84,13 @@ Now, we can add in the `one-third column` classes into a new div to segment our 
 </div>
 ```
 
-Before each `blockquote` opening tag, you can add in a new div with the `one-third column` classes. Be sure to close that div tag too, or it won't appear correctly.
-
-If you have the file opened in a browser, you will see the changes upon refresh. You should have three columns with the quote, avatar image and the name of the person.
+If you have the file opened in a browser, you will see the changes upon refresh. You should have three columns, each with a quote, avatar image and the name of the person.
 
 ### Action Section
 
-Next, we're going to focus on getting the grid aligned for the action section. Again, follow the same steps in centering the header and paragraph introduction text. 
+Next, we'll align the grid for the call-to-action section:
 
-```html(index.html) 
+```html(index.html)
 <!-- Call to Action
 ================================================== -->
   	<div id="action">
@@ -107,11 +103,11 @@ Next, we're going to focus on getting the grid aligned for the action section. A
 +	  	  	</div>
 +  	  	</div>
   	</div>
- ```
- 
-Now, we need to section off our input and submit buttons to get them to fit the size we're going for. To do this, we're going to use the same concept as before, by creating a container within a container. 
+```
 
-```html(index.html) 
+Let's create a separate section for our input and submit buttons:
+
+```html(index.html)
 <!-- Call to Action
 ================================================== -->
   	<div id="action">
@@ -125,7 +121,7 @@ Now, we need to section off our input and submit buttons to get them to fit the 
   	  	  	   	  	  	 	<input type="text" placeholder="Enter your email address"/>
 +  	  	  	  	  	  	</div>
 +  	  	  	  	  	  	<div class="four columns omega">
-  	  	  	  	  	  	  	<button type="submit">Sign Up Now</button> 
+  	  	  	  	  	  	  	<button type="submit">Sign Up Now</button>
 +  	  	  	  	  	  	</div>
 +  	  	  	  	  	</div>
 +  	  	  	  	</div>
@@ -133,18 +129,16 @@ Now, we need to section off our input and submit buttons to get them to fit the 
   	  	</div>
   	</div>
  ```
- 
-Directly below your closing `p` tag, add in a `div class="container"`. Next, we're going to set up our `row` div nested inside that container.
 
-Next, wrap your `input` field in an 8-column div with an `alpha` class so that it will remove the padding and margins from the left side. Once you close that div, you can wrap your `button` in a 4-column div with an `omega` class. This will line up your input field and submit button next to each other.
+We wrapped the input field in an 8-column div with an alpha class so that it removes the padding and margins from the left side.
 
-Be sure to close out all of your newly created divs or it won't appear correctly. The last part of this checkpoing, we're going to set up the footer to fit on our grid.
+We also wrapped the button in a 4-column div with an omega class. This aligns the input field and submit button.
 
 ### Footer
 
-We're going to section our footer into three pieces. The majority of the room will be given to our navigation links on the left side of the page. With that, we need an area for our small logo and the copyright text.
+We'll divide the footer in three divs. The majority of the footer will hold our navigation links on the left side of the page. We'll also create divs for the small logo and copyright text.
 
-```html(index.html)   
+```html(index.html)
 <!-- Footer
 ================================================== -->
 <div id="footer">
@@ -172,12 +166,16 @@ We're going to section our footer into three pieces. The majority of the room wi
 </div>
 ```
 
-Before anything else, wrap your content in a `container` div. Next, let's put a 12-column div around the `nav` tag inside a new div.
+Notice the small change to the logo image. We added an alt attribute with a value of Jottly. This provides text to be displayed by default when the image cannot be displayed.
 
-For the small logo and copyright text, we're going to split the remaining four columns between the two. We've section them off with `two columns` divs. 
+Examine the entire landing page. It should look much more organized than before. Each section should be somewhat distinct, even without much styling. By integrating a grid layout, we've greatly improved our landing page and it is now well-positioned to be styled.
 
-Notice the small change for the logo image too. We've added an `alt` attribute with a value of `Jottly`. This provides some text to be displayed when the image cannot be displayed.
+### Pushing your changes
 
-Now, our landing page has been fixed up to integrate the grid system from Skeleton. We should see a much cleanly aligned page as you begin scrolling down.
+Push your changes to Github:
 
-Next, we're going to start focusing on the styling of each section to make it look refined and finished.
+```bash(Terminal)
+$ git add .
+$ git commit -m "Integrated a grid layout for testimonials, call-to-action and footer"
+$ git push origin gh-pages
+```
