@@ -9,9 +9,9 @@ Within the base.css file, locate the headertext class. Within this selector, we'
 ```css(stylesheets/base.css)
 ...
 #header .headertext {
-	margin-top: 10em;
-+	animation-delay: 0.7s;
-+	-webkit-animation-delay: 0.7s; /* Safari and Chrome */
+  margin-top: 10em;
++ animation-delay: 0.7s;
++ -webkit-animation-delay: 0.7s; /* Safari and Chrome */
  }
  ...
 ```

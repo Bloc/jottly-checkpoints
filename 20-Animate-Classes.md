@@ -8,8 +8,8 @@ Since we've already incorporated the animate.css stylesheet, we can simply add a
 
 ```html(index.html)
 <!-- Header	================================================== -->
--	<div id="header">
-+	<div id="header" class="animated fadeInDown">
+- <div id="header">
++ <div id="header" class="animated fadeInDown">
 ```
 
 The animated class initiates the animation. The fadeInDown class fades the header div downwards when the page loads.
@@ -17,8 +17,8 @@ The animated class initiates the animation. The fadeInDown class fades the heade
 We'll add the same classes to the text within the header, so the div and text fade downward in unison.
 
 ```html(index.html)
--	<div class="nine columns headertext">
-+	<div class="nine columns headertext animated fadeInDown">
+- <div class="nine columns headertext">
++ <div class="nine columns headertext animated fadeInDown">
 ```
 
 ### Pushing your changes
