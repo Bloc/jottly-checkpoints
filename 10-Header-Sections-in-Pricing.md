@@ -181,14 +181,14 @@ Let's section off the rest of the text elements inside the pricebox div. This wi
   	         <h3>Individuals &amp; Family</h3>
   	      </header>
 +  	     <section>
-  	        <h4>$2</h4>
-  	        <p>per month/per user</p>
-  	        <ul>
-  	          <li>Unlimited notes</li>
-  	          <li>Unlimited members</li>
-  	          <li><strong>2GB</strong> of storage</li>
-  	        </ul>
-  	        <button>Select this plan</button>
+  	         <h4>$2</h4>
+  	         <p>per month/per user</p>
+  	         <ul>
+  	           <li>Unlimited notes</li>
+  	           <li>Unlimited members</li>
+  	           <li><strong>2GB</strong> of storage</li>
+  	         </ul>
+  	         <button>Select this plan</button>
 +  	     </section>
          </div>
        </div>
@@ -201,12 +201,12 @@ Let's section off the rest of the text elements inside the pricebox div. This wi
   	         <h4>$5</h4>
   	         <p>per month/per user</p>
   	         <ul>
-  	           <li>Unlimited notes</li>
-  	           <li>Unlimited members</li>
-  	           <li><strong>15GB</strong> of storage</li>
-  	           <li>Real-time collaboration</li>
-  	       </ul>
-  	       <button>Select this plan</button>
+  	            <li>Unlimited notes</li>
+  	            <li>Unlimited members</li>
+  	            <li><strong>15GB</strong> of storage</li>
+  	            <li>Real-time collaboration</li>
+  	         </ul>
+  	         <button>Select this plan</button>
 +  	     </section>
          </div>
        </div>
@@ -216,15 +216,15 @@ Let's section off the rest of the text elements inside the pricebox div. This wi
   	         <h3>Enterprise</h3>
   	      </header>
 +  	     <section>
-  	        <h4>$8</h4>
-  	        <p>per month/per user</p>
-  	        <ul>
-  	          <li>Unlimited notes</li>
-  	          <li>Unlimited members</li>
-  	          <li><strong>Unlimited</strong> storage</li>
-  	          <li>Real-time collaboration</li>
-  	        </ul>
-  	        <button>Select this plan</button>
+  	         <h4>$8</h4>
+  	         <p>per month/per user</p>
+  	         <ul>
+  	           <li>Unlimited notes</li>
+  	           <li>Unlimited members</li>
+  	           <li><strong>Unlimited</strong> storage</li>
+  	           <li>Real-time collaboration</li>
+  	         </ul>
+  	         <button>Select this plan</button>
 +  	     </section>
          </div>
        </div>
