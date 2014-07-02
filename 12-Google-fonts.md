@@ -31,20 +31,20 @@ Open up the base.css file inside your text editor. There are two lines we are go
 
 ```CSS(stylesheets/base.css)
  ================================================== */
-   body {
-  	 background: #fff;
--		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-+		font: 14px/21px "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  	 color: #444;
-  	 -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-  	 -webkit-text-size-adjust: 100%;
- @@ -63,7 +63,7 @@
+body {
+  background: #fff;
+-  font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
++  font: 14px/21px "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+...
   ================================================== */
-   h1, h2, h3, h4, h5, h6 {
-  	 color: #181818;
--		font-family: "Georgia", "Times New Roman", serif;
-+		font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  	 font-weight: normal; }
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+-  font-family: "Georgia", "Times New Roman", serif;
++  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal; }
 ```
 
 Under the body tag, we add "Lato", before Helvetica Neue. The order of typefaces provides the user with backups in case the proper font doesn't load.
