@@ -12,8 +12,8 @@ First we'll give the section some spacing at the top and bottom:
 ...
 +/* Testimonials */
 +#testimonials {
-+	padding:4em 0;
-+	text-align: center;
++ padding:4em 0;
++ text-align: center;
 +}
 ```
 
@@ -22,13 +22,13 @@ Next, we'll style the header and paragraph text. We can use the same styles from
 ```css(stylesheets/base.css)
 /* Testimonials */
 #testimonials {
-	padding:4em 0;
-	text-align: center;
+  padding:4em 0;
+  text-align: center;
 }
 +
 +#testimonials h2 {
-+	color:#009be8;
-+	font-weight: 300;
++ color:#009be8;
++ font-weight: 300;
 +}
 +
 +#testimonials p {
@@ -42,28 +42,28 @@ Skeleton comes with some pre-defined styles for blockquotes, however, we'll over
 ```css(stylesheets/base.css)
 /* Testimonials */
 #testimonials {
-	padding:4em 0;
-	text-align: center;
+  padding:4em 0;
+  text-align: center;
 }
 
 #testimonials h2 {
-	color:#009be8;
-	font-weight: 300;
+  color:#009be8;
+  font-weight: 300;
 }
 
 #testimonials p {
-	color:#9d9d9d;
-	font-size:1.2em;
+  color:#9d9d9d;
+  font-size:1.2em;
 }
 +
 +#testimonials blockquote {
-+	border:none;
-+	text-align: left;
-+	padding:0 1.5em 0 0;
-+	font-size:1em;
-+	color:#4d4d4d;
-+	line-height: 1.4;
-+	margin-top: 1em;
++ border:none;
++ text-align: left;
++ padding:0 1.5em 0 0;
++ font-size:1em;
++ color:#4d4d4d;
++ line-height: 1.4;
++ margin-top: 1em;
 +}
 ```
 
@@ -74,37 +74,36 @@ Let's add a margin on the bottom to properly align our avatar and name:
 ```css(stylesheets/base.css)
 /* Testimonials */
 #testimonials {
-	padding:4em 0;
-	text-align: center;
+  padding:4em 0;
+  text-align: center;
 }
 
 #testimonials h2 {
-	color:#009be8;
-	font-weight: 300;
+  color:#009be8;
+  font-weight: 300;
 }
 
 #testimonials p {
-	color:#9d9d9d;
-	font-size:1.2em;
+  color:#9d9d9d;
+  font-size:1.2em;
 }
 
 #testimonials blockquote {
-	border:none;
-	text-align: left;
-	padding:0 1.5em 0 0;
-	font-size:1em;
-	color:#4d4d4d;
-	line-height: 1.4;
-	margin-top: 1em;
+  border:none;
+  padding:0 1.5em 0 0;
+  font-size:1em;
+  color:#4d4d4d;
+  line-height: 1.4;
+  margin-top: 1em;
 }
 +
 +#testimonials .avatar img {
-+	border-radius: 50%;
-+	float:left;
-+	display:inline;
-+	margin-right:1em;
-+	width:65px;
-+	height:65px;
++ border-radius: 50%;
++ float:left;
++ display:inline;
++ margin-right:1em;
++ width:65px;
++ height:65px;
 +}
 ```
 
@@ -115,44 +114,44 @@ For the name next to the avatar, we'll assign a paragraph tag with a new font co
 ```css(stylesheets/base.css)
 /* Testimonials */
 #testimonials {
-	padding:4em 0;
-	text-align: center;
+  padding:4em 0;
+  text-align: center;
 }
 
 #testimonials h2 {
-	color:#009be8;
-	font-weight: 300;
+  color:#009be8;
+  font-weight: 300;
 }
 
 #testimonials p {
-	color:#9d9d9d;
-	font-size:1.2em;
+  color:#9d9d9d;
+  font-size:1.2em;
 }
 
 #testimonials blockquote {
-	border:none;
-	text-align: left;
-	padding:0 1.5em 0 0;
-	font-size:1em;
-	color:#4d4d4d;
-	line-height: 1.4;
-	margin-top: 1em;
+  border:none;
+  text-align: left;
+  padding:0 1.5em 0 0;
+  font-size:1em;
+  color:#4d4d4d;
+  line-height: 1.4;
+  margin-top: 1em;
 }
 
 #testimonials .avatar img {
-	border-radius: 50%;
-	float:left;
-	display:inline;
-	margin-right:1em;
-	width:65px;
-	height:65px;
+  border-radius: 50%;
+  float:left;
+  display:inline;
+  margin-right:1em;
+  width:65px;
+  height:65px;
 }
 +
 +#testimonials .avatar p {
-+	text-align: left;
-+	padding-top:1.5em;
-+	color:#5d5d5d;
-+	font-weight: 900;
++ text-align: left;
++ padding-top:1.5em;
++ color:#5d5d5d;
++ font-weight: 900;
 +}
 ```
 
@@ -163,12 +162,12 @@ We'll add a new background image to this section and add the background property
 ```css(stylesheets/base.css)
 ...
 +#action {
-+	background:url('../images/action.jpg') top center no-repeat;
-+	background-size: cover;
-+	min-height: 180px;
-+	width:100%;
-+	padding:4em 0;
-+	text-align: center;
++ background:url('../images/action.jpg') top center no-repeat;
++ background-size: cover;
++ min-height: 180px;
++ width:100%;
++ padding:4em 0;
++ text-align: center;
 +}
 ```
 
@@ -179,24 +178,24 @@ Next, we'll reuse our styles from the pricing section for the header and paragra
 ```css(stylesheets/base.css)
 ...
 #action {
-	background:url('../images/action.jpg') top center no-repeat;
-	background-size: cover;
-	min-height: 180px;
-	width:100%;
-	padding:4em 0;
-	text-align: center;
+  background:url('../images/action.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 180px;
+  width:100%;
+  padding:4em 0;
+  text-align: center;
 }
 +
 +#action h2 {
-+	color:#fff;
-+	font-weight:300;
-+	text-shadow: 0 1px 2px rgba(0,0,0,.2);
++ color:#fff;
++ font-weight:300;
++ text-shadow: 0 1px 2px rgba(0,0,0,.2);
 +}
 +
 +#action p {
-+	color:#fff;
-+	text-shadow: 0 1px 2px rgba(0,0,0,.2);
-+	font-size:1.2em;
++ color:#fff;
++ text-shadow: 0 1px 2px rgba(0,0,0,.2);
++ font-size:1.2em;
 +}
 ```
 
@@ -205,28 +204,28 @@ Let's update the row class inside of this section. This is where our inputs resi
 ```css(stylesheets/base.css)
 ...
 #action {
-	background:url('../images/action.jpg') top center no-repeat;
-	background-size: cover;
-	min-height: 180px;
-	width:100%;
-	padding:4em 0;
-	text-align: center;
+  background:url('../images/action.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 180px;
+  width:100%;
+  padding:4em 0;
+  text-align: center;
 }
 
 #action h2 {
-	color:#fff;
-	font-weight:300;
-	text-shadow: 0 1px 2px rgba(0,0,0,.2);
+  color:#fff;
+  font-weight:300;
+  text-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
 
 #action p {
-	color:#fff;
-	text-shadow: 0 1px 2px rgba(0,0,0,.2);
-	font-size:1.2em;
+  color:#fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,.2);
+  font-size:1.2em;
 }
 +
 +#action .row {
-+	margin-top:3em;
++ margin-top:3em;
 +}
 ```
 
