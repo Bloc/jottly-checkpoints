@@ -29,9 +29,10 @@ The last part of this value - "top center no-repeat" - defined the positioning o
 
 ```css
 ...{
-	background-image:url('.../images/header.jpg');
-	background-position: top center;
-	background-repeat:no-repeat;}
+  background-image:url('.../images/header.jpg');
+  background-position: top center;
+  background-repeat:no-repeat;
+}
 ```
 
 We can keep our code cleaner by adding it to the background property. The no-repeat value refers to the image being repeated multiple times to fill the container. In this case, we don't want it to repeat.
@@ -43,10 +44,10 @@ Let's size our image properly. We'll set the background-size to "cover" in order
 ================================================== */
 /* Header */
 #header {
-	background:url('../images/header.jpg') top center no-repeat;
-+	background-size: cover;
-+	min-height: 680px;
-+	width:100%;
+  background:url('../images/header.jpg') top center no-repeat;
++ background-size: cover;
++ min-height: 680px;
++ width:100%;
 }
 ```
 
@@ -59,13 +60,13 @@ Finally, we'll add a touch of margin to space our logo away from the top of the 
 ================================================== */
 /* Header */
 #header {
-	background:url('../images/header.jpg') top center no-repeat;
-	background-size: cover;
-	min-height: 680px;
-	width:100%;
+  background:url('../images/header.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 680px;
+  width:100%;
 }
 +#header .logo {
-+	margin-top: 1em;
++  margin-top: 1em;
 +}
 ```
 
