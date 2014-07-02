@@ -86,7 +86,7 @@ Remove the lines shown below in red, and add in the lines in green. We will add 
 
 This code will display a single line of text in your browser that reads, Hello World!. Open your `index.html` inside your browser. You can do this by double-clicking the file in your file directory.
 
-> We recommend you keeping `index.html` open in your browser as you update the files. You will need to refresh your browser window to view the changes.
+> We recommend you keep `index.html` open in your browser as you update the files. You will need to refresh your browser to view the changes.
 
 ### Pushing your changes
 

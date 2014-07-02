@@ -25,7 +25,13 @@ The first thing we've added is a property for background with a value of url('..
 
 To include an image for your background, we have to define where it resides. In this case, it will be a URL. The path for our image is within the images folder. Because base.css is within a separate folder, we have to include the "../", which will move us up a level before looking for the images folder.
 
-The last part of this value - "top center no-repeat" - defined the positioning of the image. This is considered shorthand CSS. This could also be written as:
+The last part of this value - "top center no-repeat" - defined the positioning of the image. This is considered shorthand CSS, by combining the following properties:
+
+* background-image
+* background-position: values such as top, center, bottom, left and right. You can combine a horizontal and a vertical position as shown above.
+* background-repeat: there are four different values you can apply here: repeat -- tiles the image; repeat-y -- repeats vertically; repeat-x -- repeats horizontally; no-repeat -- only shows once.
+
+This could also be written as:
 
 ```css
 ...{
@@ -35,7 +41,7 @@ The last part of this value - "top center no-repeat" - defined the positioning o
 }
 ```
 
-We can keep our code cleaner by adding it to the background property. The no-repeat value refers to the image being repeated multiple times to fill the container. In this case, we don't want it to repeat.
+We can keep our code cleaner by adding it to the background property.
 
 Let's size our image properly. We'll set the background-size to "cover" in order to fill the space. The cover value will scale the image to cover the background area. Portions of the image may be cut off in order to achieve this, but it gives us a full width effect nonetheless:
 
