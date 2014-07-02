@@ -2,9 +2,9 @@
 
 ![Animation](http://cl.ly/WGmd/jottly-animate1.gif)
 
-In this checkpoint, we're going to add a subtle animation using Animate.css to our header.
+In this checkpoint we'll add a subtle animation to our header to give it a nice effect when the page loads.
 
-Since we've already added in the stylesheet, we can simply tag our HTML with the various classes so that the animation shown above works.
+Since we've already incorporated the animate.css stylesheet, we can simply add a class to our header div:
 
 ```html(index.html)
 <!-- Header	================================================== -->
@@ -12,15 +12,21 @@ Since we've already added in the stylesheet, we can simply tag our HTML with the
 +	<div id="header" class="animated fadeInDown">
 ```
 
-For our `header` div, we're going to add a new attribute of `class` and tag it with `animated`. This will initiate the animation to occur. Next we add a space and then `fadeInDown` to the class. This will finish out the animation for the entire header element.
+The animated class initiates the animation. The fadeInDown class fades the header div downwards when the page loads.
 
-Next, we're going to add the same classes to the text within the header. Our next lesson will show you why we've opted to add the classes again.
+We'll add the same classes to the text within the header, so the div and text fade downward in unison.
 
 ```html(index.html)
 -	<div class="nine columns headertext">
 +	<div class="nine columns headertext animated fadeInDown">
 ```
 
-So where our 9-column `headertext` appears in our HTML, we add the same classes of `animated fadeInDown` to it. 
+### Pushing your changes
 
-And that's it! We're ready to take the last step.
+Push your changes to Github:
+
+```bash(Terminal)
+$ git add .
+$ git commit -m "Animated the header"
+$ git push origin gh-pages
+```
