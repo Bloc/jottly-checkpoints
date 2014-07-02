@@ -2,11 +2,11 @@
 
 ![Input and Button](http://cl.ly/WHKo/13-input.png)
 
-In this checkpoint, we're going to create some new styles for our input field, buttons as well as the Benefits section of the Jott.ly landing page.
+In this checkpoint, we'll create new styles for our input forms and the Benefits section.
 
 ### Input fields and buttons
 
-Skeleton comes with pre-defined styles for inputs and buttons. We need to remove these so we can style ours appropriately. So locate the submit input styles in your `base.css` file, and remove all of the properties and values within them.
+Skeleton provides styles for inputs and buttons. We need to remove these so we can style ours the way we want. We'll need to locate the submit input styles in the base.css file, and remove the default properties and values:
 
 ```CSS(stylesheets/base.css)
 ...
@@ -41,7 +41,7 @@ input[type="button"] {
 ...
 ```
 
-Now, we're ready to add our own. We're going to round off the corners of our submit buttons first. The properties with `background-clip` will ensure the color stops at the border, preventing it from bleeding past that point. We've adjusted the background color to our blue and our font color to white.
+Now, we can add our own. We'll round off the corners of our submit buttons first. The properties with background-clip will ensure the color stops at the border, preventing it from bleeding past that point. We'll change the background color to blue and the font color to white:
 
 ```CSS(stylesheets/base.css)
 ...
@@ -67,9 +67,9 @@ input[type="button"] {
 ...
 ```
 
-After a bit of trial and error, we've adjusted the padding within our buttons to give it the proper spacing. Because it's an input, it will come with pre-existing styles defaulted from the browser you're using. One of these include a nasty looking border. So we can adjust and fix this by giving `border` a value of `0`.
+We adjusted the padding within our buttons to give them the sufficient spacing. Buttons have a default style provided by the browser. One of these styles is a nasty-looking border. We adjusted the border by giving it a value of 0.
 
-Next, we are going to update how our button looks when the user hovers over it. Before, Skeleton provided a simple gradient button with a gradient color change on hover. Since we're going fairly flat with this design, we're going to remove all the unnecessary styles, and just add a varying shade of our blue as the background color.
+Next, we'll update how our button looks when a user hovers over it. By default, Skeleton provides a simple gradient button with a gradient color change on hover. Since we're implementing a flat design, we'll remove all the unnecessary styles, and just add a varied shade of blue as our button color:
 
 ```CSS(stylesheets/base.css)
 ...
@@ -108,11 +108,11 @@ input[type="button"]:hover {
 -	border: 1px solid #888;
 -	border-top: 1px solid #aaa;
 -	border-left: 1px solid #aaa;
-+	background:#0483c3; 
++	background:#0483c3;
 }
 ```
 
-For this particular case, we're going to eliminate all the styles under the active state of our button. You could add in the same background color as the hover if you like, but for now, let's just remove all below our active state.
+We'll eliminate all the styles for the active state of our button. We could add the same background color as the hover, but first let's just remove all styling for the active state:
 
 ```CSS(stylesheets/base.css)
 ...
@@ -140,7 +140,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-	background:#0483c3; 
+	background:#0483c3;
 }
 .button:active,
 button:active,
@@ -158,7 +158,7 @@ input[type="button"]:active {
 }
 ```
 
-For the last part of the inputs and buttons, we are going to update a few things to our text field. To match our button, we're going to round the corners a bit more, changing it from two pixels to 8 pixels. We also need to add in our new font choice, 'Lato', that we've used throughout the page.
+To match our button style, we'll round the corners of our text input. We'll also add our new font choice - Lato.
 
 ```css(stylesheet/base.css)
 ...
@@ -186,7 +186,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-	background:#0483c3; 
+	background:#0483c3;
 }
 .button:active,
 button:active,
@@ -222,17 +222,17 @@ select {
 ...
 ```
 
-Before, Skeleton had a set width to their input fields. We've removed the set pixel width, and applied a percentage width. We've opted for 90% for it to fit the width of the columns its residing in. We've also updated the padding so that it will be similar in height to that of the button.
+Skeleton provides a default width to their input fields. We removed the default width and applied a custom percentage width. We opted for 90% to fill most of column it's residing in. We also updated the padding so that it will be similar in height to that of the button.
 
-Now that our header is finally complete, we can move onto the next section of our page: Benefits.
-  
+Now that our header is complete, we can move onto the Benefits section.
+
 ### Benefits
 
 ![](http://cl.ly/WHK4/13-benefits.png)
 
-Now, navigate to the bottom of your `base.css` file after the `header` section styles. Begin a new comment for our Benefits section of the page.
+Navigate to the bottom of the base.css file after the header section styles.
 
-The first task is to update the padding at the top of this section, to provide some additional spacing between the bottom of the header image. Whitespace provides the eye with some relief as the user moves down the page, and also gives each element to breathe.
+The first task is to update the padding at the top of this section to provide additional spacing at the bottom of the header image. Whitespace gives the eye with some relief as the user reads down the page, and also gives each element room to breathe.
 
 ```css(stylesheets/base.css)
 ...
@@ -243,9 +243,9 @@ The first task is to update the padding at the top of this section, to provide s
 +}
 ```
 
-We've also set the alignment of the text to be centered. This will allow our header, paragraph text and image to move to the center horizontally on the page.
+We set the alignment of the text to be centered. This will allow our header, paragraph text and image to be centered horizontally.
 
-Next, we're going to change the color and font weight of our header.
+Next, we'll change the color and font weight of our header:
 
 ```css(stylesheets/base.css)
 ...
@@ -260,7 +260,7 @@ Next, we're going to change the color and font weight of our header.
 +}
 ```
 
-We're reusing the blue for this header color and made the font slightly thinner. Now we can style the paragraph text. We'll reuse these styles later on for another section.
+We reused the blue for this header color and made the font slightly thinner. Now we can style the paragraph text. We'll reuse these styles later for another section.
 
 ```css(stylesheets/base.css)
 ...
@@ -279,6 +279,16 @@ We're reusing the blue for this header color and made the font slightly thinner.
 }
 ```
 
-We've increased the text size to `1.2em` and changed the color. This will help make it more readable and play well with the rest of the page.
+We increased the text size to 1.2em and changed the color. This will improve readability and look nice with the rest of the page.
 
-Next, we're going to style the pricing section, which is the more complex of the sections on our page.
+### Pushing your changes
+
+Push your changes to Github:
+
+```bash(Terminal)
+$ git add .
+$ git commit -m "Styled input forms and the benefits section"
+$ git push origin gh-pages
+```
+
+Next, we'll style the pricing section, which is the most complex section on our landing page.
