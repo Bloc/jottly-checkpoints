@@ -11,11 +11,11 @@ First, we'll add a simple class to the second list item link in our navigation a
 ```html(index.html)
 ...
 <nav>
-     <ul>
-          <li><a href="#">Sign In</a></li>
--         <li><a href="#">Sign Up Now!</a></li>
-+         <li><a class="btn" href="#">Sign Up Now!</a></li>
-     </ul>
+  <ul>
+    <li><a href="#">Sign In</a></li>
+-   <li><a href="#">Sign Up Now!</a></li>
++   <li><a class="btn" href="#">Sign Up Now!</a></li>
+  </ul>
 </nav>
 ...  
 ```
@@ -26,11 +26,11 @@ To align test, we add the text-align property to our header nav and give it a "r
 
 ```CSS(stylesheets/base.css)
 +#header nav {
-+	text-align:right;
-+	margin-top:2em;
++ text-align:right;
++ margin-top:2em;
 +}
 +#header nav ul li {
-+	display:inline-block;
++ display:inline-block;
 +}
 ```
 
@@ -40,17 +40,17 @@ Next, we'll adjust the padding, color and text qualities of the links to meet ou
 
 ```CSS(stylesheets/base.css)
 #header nav {
-	text-align:right;
-	margin-top:2em;
+  text-align:right;
+  margin-top:2em;
 }
 #header nav ul li {
-	display:inline-block;
+  display:inline-block;
 }
 +#header nav ul li a {
-+	color:#fff;
-+	text-transform:uppercase;
-+	text-decoration:none;
-+	padding:0.75em 2em;
++ color:#fff;
++ text-transform:uppercase;
++ text-decoration:none;
++ padding:0.75em 2em;
 +}
 ```
 
@@ -60,27 +60,27 @@ Let's style our button:
 
 ```CSS(stylesheets/base.css)
 #header nav {
-	text-align:right;
-	margin-top:2em;
+  text-align:right;
+  margin-top:2em;
 }
 #header nav ul li {
-	display:inline-block;
+  display:inline-block;
 }
 #header nav ul li a {
-	color:#fff;
-	text-transform:uppercase;
-	text-decoration:none;
-	padding:0.75em 2em;
+  color:#fff;
+  text-transform:uppercase;
+  text-decoration:none;
+  padding:0.75em 2em;
 }
 +#header nav ul li a.btn {
-+	-moz-border-radius: 8px;
-+	-webkit-border-radius: 8px;
-+	border-radius: 8px; /* border radius */
-+	border:2px solid #fff;
++ -moz-border-radius: 8px;
++ -webkit-border-radius: 8px;
++  border-radius: 8px; /* border radius */
++  border:2px solid #fff;
 +}
 +#header nav ul li a.btn:hover {
-+	background:#fff;
-+	color:#009be8;
++  background:#fff;
++  color:#009be8;
 +}
 ```
 
@@ -95,10 +95,10 @@ Let's fix the text on top of the header image. Before we style this, let's add a
 ```html(index.html)
 ...
 <div class="container">
--    <div class="nine columns">
-+    <div class="nine columns headertext">
-          <h1>An easier way to write &amp; collaborate</h1>
-          <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
+-  <div class="nine columns">
++  <div class="nine columns headertext">
+     <h1>An easier way to write &amp; collaborate</h1>
+     <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
 ...
 ```
 
@@ -106,7 +106,7 @@ Within the base.css file, we will add the selectors to target each element and b
 
 ```css(stylesheets/base.css)
 +#header .headertext {
-+	margin-top: 10em;
++ margin-top: 10em;
 +}
 ```
 
@@ -114,15 +114,15 @@ Next, we'll change the color, font weight, sizing and other properties of h1 ele
 
 ```css(stylesheets/base.css)
 #header .headertext {
-	margin-top: 10em;
+  margin-top: 10em;
 }
 +#header h1 {
-+	color:#fff;
-+	font-weight:300;
-+	font-size:4.5em;
-+	line-height: 1;
-+	text-shadow: 0 1px 2px rgba(0,0,0,.2);
-+	margin-bottom: 0.3em;
++ color:#fff;
++ font-weight:300;
++ font-size:4.5em;
++ line-height: 1;
++ text-shadow: 0 1px 2px rgba(0,0,0,.2);
++ margin-bottom: 0.3em;
 +}
 ```
 
@@ -140,25 +140,25 @@ Next, we'll update the properties of the paragraph text below the h1:
 
 ```css(stylesheets/base.css)
 #header .headertext {
-	margin-top: 10em;
+  margin-top: 10em;
 }
 #header h1 {
-	color:#fff;
-	font-weight:300;
-	font-size:4.5em;
-	line-height: 1;
-	text-shadow: 0 1px 2px rgba(0,0,0,.2);
-	margin-bottom: 0.3em;
+  color:#fff;
+  font-weight:300;
+  font-size:4.5em;
+  line-height: 1;
+  text-shadow: 0 1px 2px rgba(0,0,0,.2);
+  margin-bottom: 0.3em;
 }
 +#header p {
-+	color:#d5d5d5;
-+	font-size:1.33em;
-+	line-height: 1.5;
-+	text-shadow: 0 1px 2px rgba(0,0,0,.2);
-+	margin-bottom: 1.2em;
++ color:#d5d5d5;
++ font-size:1.33em;
++ line-height: 1.5;
++ text-shadow: 0 1px 2px rgba(0,0,0,.2);
++ margin-bottom: 1.2em;
 +}
 +#header p strong {
-+	color:#fff;
++ color:#fff;
 +}
 ```
 
