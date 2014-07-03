@@ -10,11 +10,11 @@ In this checkpoint we'll apply a grid layout to the Benefits section. In the pro
   <div id="benefits">
 +   <div class="container">
 +     <div class="twelve columns offset-by-two">
-  	    <h2>What is Jott.ly exactly?</h2>
-  	  	<p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
+        <h2>What is Jott.ly exactly?</h2>
+        <p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
 +     </div>
-		  <img src="images/app.png" alt="Jottly's Web Application" />
-+	 </div>
+      <img src="images/app.png" alt="Jottly's Web Application" />
++   </div>
   </div>
 ```
 
@@ -25,15 +25,15 @@ The offset on the 12 column div centers its contained content by two columns on 
   ================================================== -->
   <div id="benefits">
     <div class="container">
-  	  <div class="twelve columns offset-by-two">
-  	    <h2>What is Jott.ly exactly?</h2>
-  	  	<p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
-  	  </div>
+      <div class="twelve columns offset-by-two">
+        <h2>What is Jott.ly exactly?</h2>
+        <p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
+      </div>
 -     <img src="images/app.png" alt="Jottly's Web Application" />
 +     <div class="fourteen columns offset-by-one">
-+	     <img class="scale-with-grid" src="images/app.png" alt="Jottly's Web Application" />
-+	   </div>
-	  </div>
++     <img class="scale-with-grid" src="images/app.png" alt="Jottly's Web Application" />
++    </div>
+    </div>
   </div>
 ```
 

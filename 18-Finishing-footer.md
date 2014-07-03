@@ -30,8 +30,8 @@ Next, we'll update the navigation on the left side. First, we'll give it a littl
 +}
 +
 +#footer nav ul li {
-+	display:inline;
-+	margin:0;
++ display:inline;
++ margin:0;
 +}
 ```
 

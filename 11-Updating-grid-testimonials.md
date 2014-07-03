@@ -1,4 +1,4 @@
-## Improving the testimonial, call-to-action and footer layouts
+## Adding the grid to the testimonial, call-to-action and footer sections
 
 ![](http://cl.ly/WHRe/10-testimonials.png)
 

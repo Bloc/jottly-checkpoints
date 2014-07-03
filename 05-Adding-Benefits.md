@@ -11,10 +11,10 @@ After the closing header `</div>` add a comment to define where the Benefits sec
 ```html(index.html)
 ...
 </div>
-+	<!-- Benefits
-+	================================================== -->
-+	<div id="benefits">
-+	</div>
++ <!-- Benefits
++ ================================================== -->
++ <div id="benefits">
++ </div>
 ```
 
 > You can make a comment in HTML by including an exclamation point and two dashes after the first bracket: `<!-- Text goes here -->`. Be sure to close it by including two dashes before the last bracket. Commenting can make locating content and sections much easier.
@@ -62,8 +62,8 @@ At the end of the closing `</div>` tag for benefits, create a new div with an id
 </div>
 +	<!-- Pricing
 +	================================================== -->
-+	<div id="pricing">
-+	</div>
++ <div id="pricing">
++ </div>
 ```
 
 We'll use another h2 for this section header and include paragraph text to explain our pricing tiers.

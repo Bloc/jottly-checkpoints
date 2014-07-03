@@ -1,4 +1,4 @@
-## Updating the testimonials and call-to-action sections
+## Styling the testimonials and call-to-action sections
 
 ![Testimonials](http://cl.ly/WLuF/15-testimonials.png)
 
@@ -32,8 +32,8 @@ Next, we'll style the header and paragraph text. We can use the same styles from
 +}
 +
 +#testimonials p {
-+	color:#9d9d9d;
-+	font-size:1.2em;
++ color:#9d9d9d;
++ font-size:1.2em;
 +}
 ```
 
@@ -155,7 +155,7 @@ For the name next to the avatar, we'll assign a paragraph tag with a new font co
 +}
 ```
 
-### Action
+### Call-to-Action
 
 We'll add a new background image to this section and add the background property, aligning the image to the top of the container and center it horizontally:
 

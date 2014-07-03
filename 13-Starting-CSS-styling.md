@@ -27,9 +27,9 @@ To include an image for your background, we have to define where it resides. In 
 
 The last part of this value - "top center no-repeat" - defined the positioning of the image. This is considered shorthand CSS, by combining the following properties:
 
-* background-image
-* background-position: values such as top, center, bottom, left and right. You can combine a horizontal and a vertical position as shown above.
-* background-repeat: there are four different values you can apply here: repeat -- tiles the image; repeat-y -- repeats vertically; repeat-x -- repeats horizontally; no-repeat -- only shows once.
+* `background-image`
+* `background-position`: values such as top, center, bottom, left and right. You can combine a horizontal and a vertical position as shown above.
+* `background-repeat`: there are four different values you can apply here: repeat -- tiles the image; repeat-y -- repeats vertically; repeat-x -- repeats horizontally; no-repeat -- only shows once.
 
 This could also be written as:
 

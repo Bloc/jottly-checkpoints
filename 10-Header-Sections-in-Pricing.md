@@ -1,3 +1,5 @@
+## Adding the grid to the Pricing Section
+
 ![](http://cl.ly/WHB1/09-pricing-sections.png)
 
 In this checkpoint we'll apply a grid layout to the pricing section.
@@ -12,43 +14,43 @@ Like the other sections, we'll add a container div to center our content on the 
   <div id="pricing">
 +   <div class="container">
 +     <div class="twelve columns offset-by-two">
-  	    <h2>How much will it cost me?</h2>
-  	    <p>It’s rather inexpensive to use Jott.ly’s suite of tools compared to several other services out there. We have several options to fit your budget and needs:</p>
+        <h2>How much will it cost me?</h2>
+        <p>It’s rather inexpensive to use Jott.ly’s suite of tools compared to several other services out there. We have several options to fit your budget and needs:</p>
 +     </div>
       <div class="pricebox">
-  	    <h3>Individuals &amp; Family</h3>
-  	    <h4>$2</h4>
-  	    <p>per month/per user</p>
-  	    <ul>
-  	      <li>Unlimited notes</li>
-  	      <li>Unlimited members</li>
-  	      <li><strong>2GB</strong> of storage</li>
-  	    </ul>
-  	    <button>Select this plan</button>
+        <h3>Individuals &amp; Family</h3>
+        <h4>$2</h4>
+        <p>per month/per user</p>
+        <ul>
+          <li>Unlimited notes</li>
+          <li>Unlimited members</li>
+          <li><strong>2GB</strong> of storage</li>
+        </ul>
+        <button>Select this plan</button>
       </div>
       <div class="pricebox">
-          <h3>Small Businesses</h3>
-          <h4>$5</h4>
-          <p>per month/per user</p>
-          <ul>
-            <li>Unlimited notes</li>
-            <li>Unlimited members</li>
-            <li><strong>15GB</strong> of storage</li>
-            <li>Real-time collaboration</li>
-          </ul>
-          <button>Select this plan</button>
+        <h3>Small Businesses</h3>
+        <h4>$5</h4>
+        <p>per month/per user</p>
+        <ul>
+          <li>Unlimited notes</li>
+          <li>Unlimited members</li>
+          <li><strong>15GB</strong> of storage</li>
+          <li>Real-time collaboration</li>
+        </ul>
+        <button>Select this plan</button>
       </div>
       <div class="pricebox">
-          <h3>Enterprise</h3>
-          <h4>$8</h4>
-          <p>per month/per user</p>
-          <ul>
-            <li>Unlimited notes</li>
-            <li>Unlimited members</li>
-            <li><strong>Unlimited</strong> of storage</li>
-            <li>Real-time collaboration</li>
-          </ul>
-          <button>Select this plan</button>
+        <h3>Enterprise</h3>
+        <h4>$8</h4>
+        <p>per month/per user</p>
+        <ul>
+          <li>Unlimited notes</li>
+          <li>Unlimited members</li>
+          <li><strong>Unlimited</strong> of storage</li>
+          <li>Real-time collaboration</li>
+        </ul>
+        <button>Select this plan</button>
       </div>
 +   </div>
   </div>
@@ -66,49 +68,49 @@ Next, we'll place the price boxes across the page in three equal columns. Becaus
   <div id="pricing">
     <div class="container">
       <div class="twelve columns offset-by-two">
-  	  <h2>How much will it cost me?</h2>
-  	  <p>It’s rather inexpensive to use Jott.ly’s suite of tools compared to several other services out there. We have several options to fit your budget and needs:</p>
+        <h2>How much will it cost me?</h2>
+        <p>It’s rather inexpensive to use Jott.ly’s suite of tools compared to several other services out there. We have several options to fit your budget and needs:</p>
       </div>
 +     <div class="one-third column">
-  	  <div class="pricebox">
-  	    <h3>Individuals &amp; Family</h3>
-  	    <h4>$2</h4>
-  	    <p>per month/per user</p>
-  	    <ul>
-  	      <li>Unlimited notes</li>
-  	      <li>Unlimited members</li>
-  	      <li><strong>2GB</strong> of storage</li>
-  	    </ul>
-  	    <button>Select this plan</button>
-  	  </div>
+        <div class="pricebox">
+          <h3>Individuals &amp; Family</h3>
+          <h4>$2</h4>
+          <p>per month/per user</p>
+          <ul>
+            <li>Unlimited notes</li>
+            <li>Unlimited members</li>
+            <li><strong>2GB</strong> of storage</li>
+          </ul>
+          <button>Select this plan</button>
+        </div>
 +     </div>
 +     <div class="one-third column">
-  	  <div class="pricebox">
-  	    <h3>Small Businesses</h3>
-  	    <h4>$5</h4>
-  	    <p>per month/per user</p>
-  	    <ul>
-  	      <li>Unlimited notes</li>
-  	      <li>Unlimited members</li>
-  	      <li><strong>15GB</strong> of storage</li>
-  	      <li>Real-time collaboration</li>
-  	    </ul>
-  	    <button>Select this plan</button>
-  	  </div>
+        <div class="pricebox">
+          <h3>Small Businesses</h3>
+          <h4>$5</h4>
+          <p>per month/per user</p>
+          <ul>
+            <li>Unlimited notes</li>
+            <li>Unlimited members</li>
+            <li><strong>15GB</strong> of storage</li>
+            <li>Real-time collaboration</li>
+          </ul>
+          <button>Select this plan</button>
+        </div>
 +     </div>
 +     <div class="one-third column">
-  	  <div class="pricebox">
-  	    <h3>Enterprise</h3>
-  	    <h4>$8</h4>
-  	    <p>per month/per user</p>
-  	    <ul>
-  	      <li>Unlimited notes</li>
-  	      <li>Unlimited members</li>
-  	      <li><strong>Unlimited</strong> of storage</li>
-  	      <li>Real-time collaboration</li>
-  	    </ul>
-  	    <button>Select this plan</button>
-  	  </div>
+        <div class="pricebox">
+          <h3>Enterprise</h3>
+          <h4>$8</h4>
+          <p>per month/per user</p>
+          <ul>
+            <li>Unlimited notes</li>
+            <li>Unlimited members</li>
+            <li><strong>Unlimited</strong> of storage</li>
+            <li>Real-time collaboration</li>
+          </ul>
+          <button>Select this plan</button>
+        </div>
 +     </div>
     </div>
   </div>
@@ -124,49 +126,49 @@ Next, we'll create header for each box. The headers will allow us to change the 
        <div class="one-third column">
          <div class="pricebox">
 +           <header>
-  	         <h3>Individuals &amp; Family</h3>
+              <h3>Individuals &amp; Family</h3>
 +           </header>
-  	      <h4>$2</h4>
-  	      <p>per month/per user</p>
-  	      <ul>
-  	         <li>Unlimited notes</li>
-  	  	   <li>Unlimited members</li>
-  	  	   <li><strong>2GB</strong> of storage</li>
-  	      </ul>
-  	      <button>Select this plan</button>
+            <h4>$2</h4>
+            <p>per month/per user</p>
+            <ul>
+              <li>Unlimited notes</li>
+              <li>Unlimited members</li>
+              <li><strong>2GB</strong> of storage</li>
+            </ul>
+            <button>Select this plan</button>
          </div>
        </div>
        <div class="one-third column">
          <div class="pricebox">
 +           <header>
-  	         <h3>Small Businesses</h3>
+              <h3>Small Businesses</h3>
 +           </header>
-  	      <h4>$5</h4>
-  	      <p>per month/per user</p>
-  	      <ul>
-  	         <li>Unlimited notes</li>
-  	         <li>Unlimited members</li>
-  	         <li><strong>15GB</strong> of storage</li>
-  	         <li>Real-time collaboration</li>
-  	      </ul>
-  	      <button>Select this plan</button>
+            <h4>$5</h4>
+            <p>per month/per user</p>
+            <ul>
+              <li>Unlimited notes</li>
+              <li>Unlimited members</li>
+              <li><strong>15GB</strong> of storage</li>
+              <li>Real-time collaboration</li>
+            </ul>
+            <button>Select this plan</button>
          </div>
        </div>
        <div class="one-third column">
          <div class="pricebox">
-+  	     <header>
-  	         <h3>Enterprise</h3>
-+  	     </header>
-  	      <h4>$8</h4>
-  	      <p>per month/per user</p>
-  	      <ul>
-  	         <li>Unlimited notes</li>
-  	         <li>Unlimited members</li>
-  	         <li><strong>Unlimited</strong> storage</li>
-  	         <li>Real-time collaboration</li>
-  	      </ul>
-  	      <button>Select this plan</button>
-         </div>
++           <header>
+              <h3>Enterprise</h3>
++           </header>
+            <h4>$8</h4>
+            <p>per month/per user</p>
+            <ul>
+              <li>Unlimited notes</li>
+              <li>Unlimited members</li>
+              <li><strong>Unlimited</strong> storage</li>
+              <li>Real-time collaboration</li>
+            </ul>
+            <button>Select this plan</button>
+          </div>
        </div>  
 ```
 
@@ -177,55 +179,55 @@ Let's section off the rest of the text elements inside the pricebox div. This wi
 ```html(index.html)
        <div class="one-third column">
          <div class="pricebox">
-  	      <header>
-  	         <h3>Individuals &amp; Family</h3>
-  	      </header>
-+  	     <section>
-  	         <h4>$2</h4>
-  	         <p>per month/per user</p>
-  	         <ul>
-  	           <li>Unlimited notes</li>
-  	           <li>Unlimited members</li>
-  	           <li><strong>2GB</strong> of storage</li>
-  	         </ul>
-  	         <button>Select this plan</button>
-+  	     </section>
+           <header>
+             <h3>Individuals &amp; Family</h3>
+           </header>
++          <section>
+             <h4>$2</h4>
+             <p>per month/per user</p>
+             <ul>
+               <li>Unlimited notes</li>
+               <li>Unlimited members</li>
+               <li><strong>2GB</strong> of storage</li>
+             </ul>
+             <button>Select this plan</button>
++          </section>
          </div>
        </div>
        <div class="one-third column">
          <div class="pricebox">
   	      <header>
-  	         <h3>Small Businesses</h3>
+             <h3>Small Businesses</h3>
   	      </header>
-+  	     <section>
-  	         <h4>$5</h4>
-  	         <p>per month/per user</p>
-  	         <ul>
-  	            <li>Unlimited notes</li>
-  	            <li>Unlimited members</li>
-  	            <li><strong>15GB</strong> of storage</li>
-  	            <li>Real-time collaboration</li>
-  	         </ul>
-  	         <button>Select this plan</button>
-+  	     </section>
++          <section>
+             <h4>$5</h4>
+             <p>per month/per user</p>
+             <ul>
+               <li>Unlimited notes</li>
+               <li>Unlimited members</li>
+               <li><strong>15GB</strong> of storage</li>
+               <li>Real-time collaboration</li>
+             </ul>
+             <button>Select this plan</button>
++          </section>
          </div>
        </div>
        <div class="one-third column">
          <div class="pricebox">
-  	      <header>
-  	         <h3>Enterprise</h3>
-  	      </header>
-+  	     <section>
-  	         <h4>$8</h4>
-  	         <p>per month/per user</p>
-  	         <ul>
-  	           <li>Unlimited notes</li>
-  	           <li>Unlimited members</li>
-  	           <li><strong>Unlimited</strong> storage</li>
-  	           <li>Real-time collaboration</li>
-  	         </ul>
-  	         <button>Select this plan</button>
-+  	     </section>
+          <header>
+             <h3>Enterprise</h3>
+          </header>
++          <section>
+             <h4>$8</h4>
+             <p>per month/per user</p>
+             <ul>
+               <li>Unlimited notes</li>
+               <li>Unlimited members</li>
+               <li><strong>Unlimited</strong> storage</li>
+               <li>Real-time collaboration</li>
+             </ul>
+             <button>Select this plan</button>
++          </section>
          </div>
        </div>
 ```

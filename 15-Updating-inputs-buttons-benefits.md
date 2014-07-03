@@ -2,7 +2,7 @@
 
 ![Input and Button](http://cl.ly/WHKo/13-input.png)
 
-In this checkpoint, we'll create new styles for our input forms and the Benefits section.
+In this checkpoint we'll create new styles for our input forms and the Benefits section.
 
 ### Input fields and buttons
 

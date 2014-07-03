@@ -12,15 +12,15 @@ Let's add the link to Google Fonts and specify the font we'd like to use:
 
 ```html(index.html)
 ...
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 +
-+	<!-- Google Fonts
-+	================================================== -->
-+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
++<!-- Google Fonts
++================================================== -->
++<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 +
-  	<!-- CSS
-    ================================================== -->
-  	<link rel="stylesheet" href="stylesheets/base.css">
+ <!-- CSS
+ ================================================== -->
+ <link rel="stylesheet" href="stylesheets/base.css">
 ```
 
 Make sure this code is placed in the <head> section of the landing page, and before the CSS section. It will need to be loaded before the CSS so we can reference it in our stylesheets.

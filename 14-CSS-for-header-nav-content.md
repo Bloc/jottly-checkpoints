@@ -2,7 +2,7 @@
 
 ![](http://cl.ly/WHHY/12-style-header.png)
 
-In this checkpoint, we'll update the navigation style, the header text and the email input form.
+In this checkpoint we'll update the navigation style, the header text and the email input form.
 
 ### Navigation
 
