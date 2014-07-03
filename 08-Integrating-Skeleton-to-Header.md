@@ -2,7 +2,7 @@
 
 ![](http://cl.ly/WGOc/07-header-skeleton.png)
 
-In this checkpoint, we'll integrate [Skeleton's grid layout]((http://www.getskeleton.com/#grid)) to improve the presentation of our landing page.
+In this checkpoint we'll integrate [Skeleton's grid layout]((http://www.getskeleton.com/#grid)) to improve the presentation of our landing page.
 
 ### Container class
 
@@ -23,18 +23,18 @@ First we'll create a container for the logo and header navigation elements:
 +       <a href="#"><img src="images/logo.png" alt="Jottly" /></a>
 +     </div>
 +   </div>
-		<nav>
+    <nav>
       <ul>
         <li><a href="#">Sign In</a></li>
         <li><a href="#">Sign Up Now</a></li>
       </ul>
-      </nav>
-      <h1>An easier way to write &amp; collaborate</h1>
-      <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
-      <input type="text" placeholder="Enter your email address"/>
-      <button type="submit">Sign Up Now!</button>
-    </div>
-+ </div>
+    </nav>
+    <h1>An easier way to write &amp; collaborate</h1>
+    <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
+    <input type="text" placeholder="Enter your email address"/>
+    <button type="submit">Sign Up Now!</button>
++  </div>
+</div>
 ```
 
 The first new div defines the container. We used a nested div to define the number of columns for the logo div, which will be three. We also wrapped the image tag in an anchor tag, so it will be rendered as a link.
@@ -68,20 +68,20 @@ Next, we'll update the text that appears on the header image. In this case, we d
 
 ```html(index.html)
     <div class="container">
-		  <div class="three columns">
-		    <div class="logo">
-		      <a href="#"><img src="images/logo.png" alt="Jottly" /></a>
-		    </div>
-		  </div>
-			<div class="thirteen columns">
-				<nav>
-		      <ul>
-		        <li><a href="#">Sign In</a></li>
-		        <li><a href="#">Sign Up Now</a></li>
-		      </ul>
-		    </nav>
-			</div>
-		</div>
+      <div class="three columns">
+        <div class="logo">
+          <a href="#"><img src="images/logo.png" alt="Jottly" /></a>
+        </div>
+      </div>
+      <div class="thirteen columns">
+        <nav>
+          <ul>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Sign Up Now</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
 -   <h1>An easier way to write &amp; collaborate</h1>
 -   <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
@@ -103,8 +103,8 @@ Next, we'll add the grid structure for the input field and submit button.
       <div class="nine columns">
         <h1>An easier way to write &amp; collaborate</h1>
         <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
--   <input type="text" placeholder="Enter your email address"/>
--   <button type="submit">Sign Up Now</button>
+-       <input type="text" placeholder="Enter your email address"/>
+-       <button type="submit">Sign Up Now</button>
 +
 +       <div class="container">
 +         <div class="row">
