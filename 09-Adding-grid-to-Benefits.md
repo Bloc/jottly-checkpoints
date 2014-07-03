@@ -31,8 +31,8 @@ The offset on the 12 column div centers its contained content by two columns on 
       </div>
 -     <img src="images/app.png" alt="Jottly's Web Application" />
 +     <div class="fourteen columns offset-by-one">
-+     <img class="scale-with-grid" src="images/app.png" alt="Jottly's Web Application" />
-+    </div>
++       <img class="scale-with-grid" src="images/app.png" alt="Jottly's Web Application" />
++     </div>
     </div>
   </div>
 ```
