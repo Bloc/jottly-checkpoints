@@ -12,7 +12,7 @@ A comment in CSS is defined with /* */ characters.
 
 > Just like in HTML, comments can help keep your code organized.
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 +/* Sections
 +================================================== */
 +/* Header */
@@ -45,7 +45,7 @@ We can keep our code cleaner by adding it to the background property.
 
 Let's size our image properly. We'll set the background-size to "cover" in order to fill the space. The cover value will scale the image to cover the background area. Portions of the image may be cut off in order to achieve this, but it gives us a full width effect nonetheless:
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 /* Sections
 ================================================== */
 /* Header */
@@ -61,7 +61,7 @@ We added our width and set it to 100%. This will ensure the full page width is c
 
 Finally, we'll add a touch of margin to space our logo away from the top of the browser window:
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 /* Sections
 ================================================== */
 /* Header */

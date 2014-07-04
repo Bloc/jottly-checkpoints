@@ -30,13 +30,13 @@ CSS (Cascading Style Sheets) provides a presentation layer for HTML. CSS defines
 
 CSS syntax is comprised of selectors, properties and values. For example:
 
-```CSS
+```css
 selector {property: value; property: value;}
 ```
 
 The `property:value;` within curly brackets is the declaration and ends with a semicolon before the next declaration begins. Well-written CSS should state each declaration on a new line with a double-spaced indentation:
 
-```CSS
+```css
 selector {
 	property: value;
 	property: value;

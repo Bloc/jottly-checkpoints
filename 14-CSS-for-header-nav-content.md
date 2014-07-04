@@ -24,7 +24,7 @@ We'll add a style for the btn class in our CSS file, but before we do we'll move
 
 To align test, we add the text-align property to our header nav and give it a "right" value. We'll also add a small margin to the top of the navigation area to push it down the page so it's not being cut off by the browser window. Remember that these new code should be added at the bottom of the base.css file.
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 +#header nav {
 + text-align:right;
 + margin-top:2em;
@@ -52,7 +52,7 @@ Inline-block is a hybrid of both inline and block, hence the name. This value pr
 
 Let's get back to adjusting the navigation links. Next, we'll adjust the padding, color and text qualities of the links to meet our final product mockup.
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 #header nav {
   text-align:right;
   margin-top:2em;
@@ -72,7 +72,7 @@ To change the color of the text, we targeted the anchor tag within the list item
 
 Let's style our button:
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 #header nav {
   text-align:right;
   margin-top:2em;
@@ -89,12 +89,12 @@ Let's style our button:
 +#header nav ul li a.btn {
 + -moz-border-radius: 8px;
 + -webkit-border-radius: 8px;
-+  border-radius: 8px; /* border radius */
-+  border:2px solid #fff;
++ border-radius: 8px; /* border radius */
++ border:2px solid #fff;
 +}
 +#header nav ul li a.btn:hover {
-+  background:#fff;
-+  color:#009be8;
++ background:#fff;
++ color:#009be8;
 +}
 ```
 

@@ -134,7 +134,7 @@ The Box Model defines how HTML elements are laid out. Imagine all HTML elements 
 
 All of these items will make up the total calculated width of a HTML element. Let's look at an example to see how this applies:
 
-```CSS
+```css
 width:300px;
 padding:10px;
 border:5px solid black;

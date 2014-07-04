@@ -29,7 +29,7 @@ Make sure this code is placed in the <head> section of the landing page, and bef
 
 Open up the base.css file inside your text editor. There are two lines we are going to change to include Lato as our main typeface within the site:
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
  ================================================== */
 body {
   background: #fff;

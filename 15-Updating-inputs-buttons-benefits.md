@@ -8,7 +8,7 @@ In this checkpoint we'll create new styles for our input forms and the Benefits 
 
 Skeleton provides styles for inputs and buttons. We need to remove these so we can style ours the way we want. We'll need to locate the submit input styles in the base.css file, and remove the default properties and values:
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 ...
 input[type="submit"],
 input[type="reset"],
@@ -43,7 +43,7 @@ input[type="button"] {
 
 Now, we can add our own. We'll round off the corners of our submit buttons first. The properties with background-clip will ensure the color stops at the border, preventing it from bleeding past that point. We'll change the background color to blue and the font color to white:
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 ...
 input[type="submit"],
 input[type="reset"],
@@ -71,7 +71,7 @@ We adjusted the padding within our buttons to give them the sufficient spacing. 
 
 Next, we'll update how our button looks when a user hovers over it. By default, Skeleton provides a simple gradient button with a gradient color change on hover. Since we're implementing a flat design, we'll remove all the unnecessary styles, and just add a varied shade of blue as our button color:
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 ...
 input[type="submit"],
 input[type="reset"],
@@ -114,7 +114,7 @@ input[type="button"]:hover {
 
 We'll eliminate all the styles for the active state of our button. We could add the same background color as the hover, but first let's just remove all styling for the active state:
 
-```CSS(stylesheets/base.css)
+```css(stylesheets/base.css)
 ...
 input[type="submit"],
 input[type="reset"],
