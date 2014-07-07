@@ -2,27 +2,24 @@
 
 ![Benefits](http://cl.ly/WEu8/04-benefits.png)
 
-In this checkpoint we'll be adding two new sections to our landing page: Benefits and Pricing. The Benefits section will be relatively simple, though the Pricing section will require a more complex HTML structure. We'll breakdown the new concepts thoroughly.
+In this checkpoint we'll add two new sections to our landing page: Benefits and Pricing. The Benefits section will be relatively simple, though the Pricing section will require a more complex HTML structure. We'll breakdown the new concepts thoroughly.
 
 ### Benefits
 
-After the closing header `</div>` add a comment to define where the Benefits section begins. We'll define this div with an id named header:
+Add a comment to define where the Benefits section begins. We'll define this div with an id named "benefits":
 
 ```html(index.html)
-...
-</div>
 + <!-- Benefits
 + ================================================== -->
 + <div id="benefits">
 + </div>
 ```
 
-> You can make a comment in HTML by including an exclamation point and two dashes after the first bracket: `<!-- Text goes here -->`. Be sure to close it by including two dashes before the last bracket. Commenting can make locating content and sections much easier.
+> You can make a comment in HTML by including an exclamation point and two dashes after the first bracket: <!-- Text goes here -->. Comments are helpful for locating content and sections.
 
 Next, we'll add some simple content to provide details and a screenshot of the Jottly application:
 
 ```html(index.html)
-...
 <!-- Benefits
 ================================================== -->
 <div id="benefits">
@@ -31,12 +28,9 @@ Next, we'll add some simple content to provide details and a screenshot of the J
 </div>
 ```
 
-We've already used the h1 tag on our page, so we used the next header size: h2. We also included another paragraph tag with content.
-
-Let's add an image:
+We've already used the h1 tag on our page, so we used the next header size - h2. We also included another paragraph tag with content. Let's add an image:
 
 ```html(index.html)
-...
 <!-- Benefits
 ================================================== -->
 <div id="benefits">
@@ -47,19 +41,17 @@ Let's add an image:
 </div>
 ```
 
-The last part of this section is the image of the web application, so users can see what the app looks like. Using the image tag, we source our image inside the images folder and select the app.png file.
+The last part of this section is the image of the web application, so users can see what the app looks like. Using the image tag, we source our image inside the images folder and select app.png.
 
-Next, we'll explore a more complex HTML structure to produce pricing tiers.
+Next, we'll explore a more complex HTML structure to create pricing tiers.
 
-### Pricing Tiers
+### Pricing
 
 ![Pricing](http://cl.ly/WFh1/04-pricing.png)
 
-At the end of the closing `</div>` tag for benefits, create a new div with an id named pricing:
+At the end of the closing </div> tag for benefits, create a new div with an id named pricing:
 
 ```html(index.html)
-...
-</div>
 +	<!-- Pricing
 +	================================================== -->
 + <div id="pricing">
@@ -69,7 +61,6 @@ At the end of the closing `</div>` tag for benefits, create a new div with an id
 We'll use another h2 for this section header and include paragraph text to explain our pricing tiers.
 
 ```html(index.html)
-...
 <!-- Pricing
 ================================================== -->
 <div id="pricing">
@@ -92,9 +83,9 @@ Let's add price areas that have a title, price, list of features and a button to
 </div>
 ```
 
-Notice that we opted to use a class attribute for the pricebox div. Since we have three pricing tiers we'll need to replicate the styling for each. That is, when an element's style is unique, it's appropriate to use an id. When we have to reuse the styling for an element, we need to use a class.
+Notice that we opted to use a class attribute for the "pricebox" div. Since we have three pricing tiers we'll need to replicate the styling for each. That is, when an element's style is unique, it's appropriate to use an id. When we have to reuse the styling for an element, we use classes.
 
-Next, we'll add a new header, price and some additional text to explain how much Jottly costs per user and per month:
+Next we'll add a new header, price and some additional text to explain how much Jottly costs per user and per month:
 
 ```html(index.html)
 <!-- Pricing
@@ -111,7 +102,7 @@ Next, we'll add a new header, price and some additional text to explain how much
 </div>
 ```
 
-When creating HTML structure it's important to be mindful of hierarchy. We've used h1 and a few h2's earlier on our page. For the header on each individual price box, we used an h3 and h4 to keep our content in the overall context of the landing page. We also included a paragraph tag with additional content.
+When creating HTML structure it's important to be mindful of hierarchy. We've used h1 and a few h2's earlier on our page. For the header on each price box, we used an h3 and h4 to maintain context. We also included a paragraph tag with additional content.
 
 Let's include our list of features:
 
@@ -136,9 +127,9 @@ Let's include our list of features:
 </div>
 ```
 
-Using an unordered list, we created three list items to represent features. We also included a button so users can select the plan.
+Using an unordered list, we created three list items to represent features. We included a button so users can select a plan.
 
-Next, we need to replicate this content for two additional boxes. The easiest way to accomplish this is to copy the code from `<div class="pricebox">` to its closing `</div>`, and paste it twice below. Replace the headers and features as stated:
+Next we need to replicate this content for two additional boxes. The easiest way to accomplish this is to copy the code from <div class="pricebox"> to its closing </div>, and paste it twice. Replace the headers and features as stated below:
 
 ```html(index.html)
 <!-- Pricing
@@ -187,11 +178,11 @@ Next, we need to replicate this content for two additional boxes. The easiest wa
 </div>
 ```
 
-Our landing page now has three different headers, displaying price boxes for 'Individuals & Family', 'Small Businesses', and 'Enterprise'.
+Our landing page now has three different headers with price boxes for "Individuals & Family", "Small Businesses" and "Enterprise".
 
-Refresh your browser window to view all of the changes you've made.
+Refresh your browser to view the changes.
 
-### Pushing your changes
+### Github
 
 Push your changes to Github:
 
