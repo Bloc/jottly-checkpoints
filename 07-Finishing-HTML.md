@@ -1,14 +1,14 @@
-## Finishing the HTML for email input and footer
+## Adding an Email Input and Footer
 
 ![Finishing HTML](http://cl.ly/WH7j/06-html-finishes.png)
 
-In this checkpoint we'll add the last two sections to our landing page. The first section will have an email input field and a submit button. The second section  will contain the footer, where we'll provide additional links and content, such as copyright text.
+In this checkpoint we'll add the last two sections to our landing page. The first section will have an email input field and a submit button. The second section  will contain the footer where we'll provide additional links and content, such as copyright text.
 
 ### Call to action
 
-Near the bottom of the page, we'll want a "Call to Action". A call to action should provide users with an obvious action for getting more information or buying a product. In our case, we want users to be able to sign up for Jottly.
+Near the bottom of the page, we'll add a "call-to-action". A call-to-action should provide users with an obvious action for getting more information or buying a product. In our case, we want users to be able to sign up for Jottly.
 
-Like the other sections, we'll add a comment to denote where the Call to Action section begins. We'll give this div an id named action:
+Like the other sections, we'll add a comment to denote where the call-to-action section begins. We'll give this div an id named "action":
 
 ```html(index.html)
 + <!-- Call to Action
@@ -19,7 +19,7 @@ Like the other sections, we'll add a comment to denote where the Call to Action 
 + </div>
 ```
 
-Add an input field and button to complete the call to action:
+Add an input field and button:
 
 ```html(index.html)
 <!-- Call to Action
@@ -81,7 +81,7 @@ On the left side of the footer, we'll include navigation links. Be sure to wrap 
 </div>
 ```
 
-The last two items we'll add to the footer is a smaller logo and the copyright text. This will help reinforce our brand and provide the basic copyright information to all visitors.
+The last two items we'll add to the footer are a smaller logo and the copyright text. This will help reinforce our brand and provide the basic copyright information to all visitors.
 
 ```html(index.html)
 <!-- Call to Action
@@ -110,9 +110,9 @@ The last two items we'll add to the footer is a smaller logo and the copyright t
 </div>
 ```
 
-Refresh to see the changes. We've completed the basic HTML structure for our landing page! Now we can integrate a Skeleton grid layout and style our page. 
+Refresh your browser to see the changes. We've completed the basic HTML structure for our landing page! Now we can focus on formatting our page with Skeleton's grid layout.
 
-### Pushing your changes
+### Github
 
 Push your changes to Github:
 
