@@ -192,9 +192,9 @@ Let's use a section for the rest of the text elements inside the pricebox div. S
        </div>
        <div class="one-third column">
          <div class="pricebox">
-  	      <header>
+           <header>
              <h3>Small Businesses</h3>
-  	      </header>
+           </header>
 +          <section>
              <h4>$5</h4>
              <p>per month/per user</p>
@@ -210,9 +210,9 @@ Let's use a section for the rest of the text elements inside the pricebox div. S
        </div>
        <div class="one-third column">
          <div class="pricebox">
-          <header>
+           <header>
              <h3>Enterprise</h3>
-          </header>
+           </header>
 +          <section>
              <h4>$8</h4>
              <p>per month/per user</p>
