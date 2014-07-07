@@ -23,8 +23,8 @@ Next, we'll add some simple content to provide details and a screenshot of the J
 <!-- Benefits
 ================================================== -->
 <div id="benefits">
-+  <h2>What is Jott.ly exactly?</h2>
-+  <p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
++ <h2>What is Jott.ly exactly?</h2>
++ <p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
 </div>
 ```
 
