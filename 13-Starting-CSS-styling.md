@@ -1,4 +1,4 @@
-## Styling the Page
+## Introduction to Styling
 
 ![](http://cl.ly/WHEI/12-header.png)
 
