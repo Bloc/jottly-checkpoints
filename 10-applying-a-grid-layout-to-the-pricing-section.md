@@ -1,4 +1,4 @@
-## Applying a Grid to the Pricing Section
+## Applying a Grid Layout to the Pricing Section
 
 ![](http://cl.ly/WHB1/09-pricing-sections.png)
 
