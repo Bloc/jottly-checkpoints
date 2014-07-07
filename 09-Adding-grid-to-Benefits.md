@@ -1,4 +1,4 @@
-## Adding the grid to the Benefits section
+## Applying a Grid Layout to the Benefits Section
 
 ![](http://cl.ly/WHCg/08-benefits-skeleton.png)
 
@@ -37,11 +37,9 @@ The offset on the 12 column div centers its contained content by two columns on 
   </div>
 ```
 
-We've wrapped the img tag inside a 14 column div. We've once again used an offset to center the contained content.
+We wrapped the img tag inside a 14 column div and used an offset to center the contained content. We added the scale-with-grid class to our img tag which allows images to fit to the grid on mobile devices, laptops and large-screen monitors.
 
-We added the scale-with-grid class to our img tag. This class allows images to fit to the grid on mobile devices, laptops and large-screen monitors.
-
-### Pushing your changes
+### Github
 
 Push your changes to Github:
 
