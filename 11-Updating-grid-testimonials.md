@@ -1,4 +1,4 @@
-## Adding the grid to the testimonial, call-to-action and footer sections
+## Improving the Testimonial, Call-to-Action and Footer Layouts
 
 ![](http://cl.ly/WHRe/10-testimonials.png)
 
@@ -84,11 +84,11 @@ Let's add the one-third column classes into a new div to space our testimonials 
 </div>
 ```
 
-If you have the file opened in a browser, you will see the changes upon refresh. You should have three columns, each with a quote, avatar image and the name of the person.
+Refresh your browser to view your changes. You should have three columns, each with a quote, avatar image and the name of the person.
 
-### Action Section
+### Call-to-action
 
-Next, we'll align the grid for the call-to-action section:
+Let's apply the grid:
 
 ```html(index.html)
 <!-- Call to Action
@@ -130,9 +130,9 @@ Let's create a separate section for our input and submit buttons:
     </div>
  ```
 
-We wrapped the input field in an 8-column div with an alpha class so that it removes the padding and margins from the left side.
+We wrapped the input field in an eight column div with an alpha class so that it removes the padding and margins from the left side.
 
-We also wrapped the button in a 4-column div with an omega class. This aligns the input field and submit button.
+We also wrapped the button in a four column div with an omega class. This aligns the input field with the submit button.
 
 ### Footer
 
@@ -168,9 +168,9 @@ We'll divide the footer in three divs. The majority of the footer will hold our 
 
 Notice the small change to the logo image. We added an alt attribute with a value of Jottly. This provides text to be displayed by default when the image cannot be displayed.
 
-Examine the entire landing page. It should look much more organized than before. Each section should be somewhat distinct, even without much styling. By integrating a grid layout, we've greatly improved our landing page and it is now well-positioned to be styled.
+Examine the entire landing page. It should look much more organized than before. Each section should be somewhat distinct, even without much styling. By integrating a grid layout, we've greatly improved our landing page and it is now ready to be styled.
 
-### Pushing your changes
+### Github
 
 Push your changes to Github:
 
