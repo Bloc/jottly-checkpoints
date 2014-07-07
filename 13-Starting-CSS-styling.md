@@ -78,7 +78,7 @@ Finally, we'll add a touch of margin to space our logo away from the top of the 
 +}
 ```
 
-CSS allows us to use pixels, ems, percentages and even points as a means of measurement. You'll notice that we use em as our default for Jottly.
+CSS allows us to use pixels, ems, percentages and even points as a means of measurement. You'll notice that we use em as our default for Jottly. Ems are better for scalability of the page, as the measurement is dependent upon the current font size of the page.
 
 ### Github
 
