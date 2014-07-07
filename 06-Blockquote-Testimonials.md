@@ -2,9 +2,9 @@
 
 ![Testimonials](http://cl.ly/WGoP/05-testimonials.png)
 
-In this checkpoint we'll create a Testimonials section and add three blockquotes. Testimonials should help prospective customers with their decision to buy our product.
+In this checkpoint we'll create a Testimonials section and add three blockquotes to it. Testimonials should help prospective customers with their decision to buy a product.
 
-Let's start with a comment, and give this div an id named testimonials below the pricing section:
+Let's give this div an id named testimonials and place it below the pricing section:
 
 ```html(index.html)
 + <!-- Testimonials
@@ -96,9 +96,9 @@ Create the other two blockquotes:
 </div>
 ```
 
-Refresh your browser window to view all of the changes you've made.
+Refresh your browser to view the changes.
 
-### Pushing your changes
+### Github
 
 Push your changes to Github:
 
