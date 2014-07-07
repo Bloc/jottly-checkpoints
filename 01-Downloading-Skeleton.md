@@ -23,13 +23,7 @@ Within the **Jottly** folder, you will see the directory structure for Skeleton,
 
 ### Github
 
-[Github](http://github.com) is a service that allows you to host and store your
-code on the web. It also includes social features for sharing
-and collaborating on projects. For most developers, Github profiles
-showcase much of the development work they've done. Companies often place
-more importance on a prospective employee's Github profile than their resume.
-Github offers [freemium pricing](https://github.com/plans), so register for a
-free account now.
+[Github](http://github.com) is a service that allows you to host and store your code on the web. It also includes social features for sharing and collaborating on projects. For most developers, Github profiles showcase much of the development work they've done. Companies often place more importance on a prospective employee's Github profile than their resume. Github offers [freemium pricing](https://github.com/plans), so register for a free account now.
 
 Once you have a Github account, [create a Github repository](https://help.github.com/articles/create-a-repo) named **Jottly**. After creating a new repo you will see instructions for "pushing" code from your computer to Github.
 
