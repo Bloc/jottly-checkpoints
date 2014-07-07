@@ -15,7 +15,7 @@ Within the base.css file, scroll to the bottom and insert a new comment. -- A co
 +================================================== */
 +/* Header */
 +#header {
-+	background:url('../images/header.jpg') top center no-repeat;
++ background:url('../images/header.jpg') top center no-repeat;
 +}
 ```
 
@@ -28,10 +28,10 @@ The last part of this value - "top center no-repeat" - defines the position of t
 * background-image
 * background-position: values such as top, center, bottom, left and right. You can combine a horizontal and a vertical position as shown above.
 * background-repeat: there are four different values you can apply here:
-    * repeat: tiles the image
-    * repeat-y: repeats vertically
-    * repeat-x: repeats horizontally
-    * no-repeat: only shows once
+  * repeat: tiles the image
+  * repeat-y: repeats vertically
+  * repeat-x: repeats horizontally
+  * no-repeat: only shows once
 
 This could also be written as:
 
