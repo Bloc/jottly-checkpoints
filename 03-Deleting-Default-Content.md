@@ -4,11 +4,11 @@
 
 In this checkpoint we'll replace the default content in the Skeleton template with custom HTML for Jottly's landing page.
 
-## Removing unnecessary code
+### Cleanup
 
 Open the Jottly folder inside a text editor like [Sublime Text 2](http://www.sublimetext.com/2). Locate `index.html` - this is the file we'll edit.
 
-Remove the lines shown below in red, and add in the lines in green. We will add our first HTML tag — `<h1>Hello world!</h1>` — which is a header tag. You will also change the title of your page from Your Page Title Here :) to Jott.ly.
+Remove the lines shown below in red, and add in the lines in green. We will add our first HTML tag — `<h1>Hello world!</h1>` — which is a header tag. You will also change the title of the page from "Your Page Title Here :)" to "Jott.ly".
 
 ```html(index.html)
 <!-- Basic Page Needs
@@ -39,7 +39,7 @@ Remove the lines shown below in red, and add in the lines in green. We will add 
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-          
+
  </head>
  <body>
 
@@ -84,19 +84,19 @@ Remove the lines shown below in red, and add in the lines in green. We will add 
  </html>
  ```
 
-This code will display a single line of text in your browser that reads, Hello World!. Open your `index.html` inside your browser. You can do this by double-clicking the file in your file directory.
+This code will display a single line of text in your browser: "Hello World!"". Open index.html inside your browser - you can do this by double-clicking the file in your file directory.
 
-> We recommend you keep `index.html` open in your browser as you update the files. You will need to refresh your browser to view the changes.
+> We recommend keeping index.html open in your browser as you update the files. You will need to refresh your browser to view changes.
 
-### Pushing your changes
+### Github
 
-Again, we will push these changes to our Jottly repo. First, make sure you are still on the gh-pages branch.
+Let's push these changes to our Jottly repo. First, make sure you are still on the gh-pages branch.
 
 ```bash(Terminal)
 $ git status
 ```
 
-This command should display the changes and the name of the current branch. Let's add commit and push our code.
+Git's status command should display the changes and the name of the current branch. Let's add, commit and push our code.
 
 ```bash(Terminal)
 $ git add .
@@ -104,4 +104,4 @@ $ git commit -m "Removed default content"
 $ git push origin gh-pages
 ```
 
-Next, we'll add custom headers and images to `index.html`.
+Next, we'll add custom headers and images to index.html.
