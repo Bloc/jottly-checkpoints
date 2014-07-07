@@ -1,14 +1,12 @@
-## Integrating a grid layout
+## Integrating a Grid Layout
 
 ![](http://cl.ly/WGOc/07-header-skeleton.png)
 
-In this checkpoint we'll integrate [Skeleton's grid layout]((http://www.getskeleton.com/#grid)) to improve the presentation of our landing page.
+In this checkpoint we'll integrate [Skeleton's grid layout](http://www.getskeleton.com/#grid) to improve the presentation of our landing page.
 
-### Container class
+### Containers
 
-A container class defines the width for displaying content. The skeleton.css file in the stylesheets directory defines the container class. Open the file and you'll see that the width is defined as 960 pixels. The 960 pixel page width is comprised of 16 columns. This is important to remember as we integrate the grid with our landing page.
-
-Columns will be used within the container div.
+A container class defines the width for displaying content. The skeleton.css file in the stylesheets directory defines the container class. Open the file, search for the container class, and you'll see that the width is defined as 960 pixels. The 960 pixel page width is comprised of 16 columns. This is important to remember as we integrate the grid with our landing page.
 
 First we'll create a container for the logo and header navigation elements:
 
@@ -62,7 +60,7 @@ Let's update our navigation area:
 ...
 ```
 
-We should account for 16 columns to fill the width of our container, so we nested the nav tag within a div class of thirteen columns. This will stretch the contained content across the remaining width of the page.
+We should account for 16 columns to fill the width of our container, so we nested the nav tag within a div class of 13 columns. This will stretch the contained content across the remaining width of the page.
 
 Next, we'll update the text that appears on the header image. In this case, we don't want the content to fill the width of the page.
 
@@ -123,16 +121,16 @@ Next, we'll add the grid structure for the input field and submit button.
 We wrapped the input field in a div set to five columns. Notice the additional class of alpha. Skeleton allows us to define the first column of a row or container and remove its padding and margin from the left side. This will make the content flush with content directly above it. To understand why this happens, let's review the box model.
 
 ### Box Model
-The Box Model defines how HTML elements are laid out. Imagine all HTML elements as boxes on a page. These consist of four parts:
+The Box Model explains how HTML elements are positioned. Imagine HTML elements as boxes on a page. The boxes consist of four parts:
 
 ![](https://bloc-global-assets.s3.amazonaws.com/images-design/jottly/css/css-boxmodel.png)
 
-1. **Content**: This is the information (text or images) within HTML tags.
-2. **Padding**: This is the area around the content that provides some space. Padding is often part of the background of an element.
-3. **Border**: This defines the edge of the HTML element. It encases the padding and content. It can be a stylized border, as in a color and stroke size, or it can be non-stylized, which means it still exists but doesn't have any visual traits.
-4. **Margin**: This is the transparent space around an element. Margin creates space between objects without having any traits of the content, padding or border.
+1. **Content**: the information (text or images) within HTML tags.
+2. **Padding**: the area around the content that provides space. Padding is often part of the background of an element.
+3. **Border**: defines the edge of the HTML element. It encases the padding and content.
+4. **Margin**: the transparent space around an element. Margins create space between objects without having any traits of the content, padding or border.
 
-All of these items will make up the total calculated width of a HTML element. Let's look at an example to see how this applies:
+All of these items comprise the total calculated dimensions of an HTML element. Let's look at an example:
 
 ```css
 width:300px;
@@ -143,15 +141,21 @@ margin:10px;
 
 ![](https://bloc-global-assets.s3.amazonaws.com/images-design/jottly/css/css-boxmodel-math.png)
 
-So, by doing the math, you get 350 pixels. OK, let's get back to it.
+The width of this box equals 350 pixels, because we add each component of the box together.
 
-You'll notice that the next div is set to four columns. Because we defined the original container and nested div at nine columns, we should account for the full width of the page.
+Let's get back to our container:
 
-We also used an omega class. Like the alpha class, it removes padding and margin, but from the right side instead of the left.
+```html(index.html)
+<div class="four columns omega">
+  <button type="submit">Sign Up Now</button>
+</div>
+```
 
-You can refresh to view the changes you've made.
+You'll notice that the div is set to four columns. Because we defined the original container and nested div at nine columns, we should account for the full width of the page. We also used an omega class. Like the alpha class, it removes padding and margin, but from the right side instead of the left.
 
-### Pushing your changes
+You can refresh your browser to view the changes.
+
+### Github
 
 Push your changes to Github:
 
@@ -161,4 +165,4 @@ $ git commit -m "Integrated grid system to header and nav sections"
 $ git push origin gh-pages
 ```
 
-Next, we'll add the grid structure to the Benefits section.
+Next, we'll apply a grid layout to the Benefits section.
