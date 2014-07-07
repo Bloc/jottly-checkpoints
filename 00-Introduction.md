@@ -1,22 +1,22 @@
 ## Introduction to Jott.ly
 
-![Final Jott.ly](http://cl.ly/WFMS/jottly.gif)
+![Final Jottly](http://cl.ly/WFMS/jottly.gif)
 
-Jott.ly is a fictitious SaaS (Software as a Service) web application focused on simplifying content collaboration. You will write the HTML and CSS to complete the design shown above.
+Jottly is a fictitious SaaS (Software as a Service) web application focused on simplifying content collaboration. In this book you'll learn how to build the web page shown above, using HTML and CSS.
 
-Before we get started, we'll briefly review HTML and CSS. Understanding how to breakdown HTML and CSS will help you design apps like Jott.ly with ease.
+Before we get started, we'll briefly review HTML and CSS. Understanding how to breakdown HTML and CSS will help you design apps like Jottly with ease.
 
 ### HTML
 
 HTML (HyperText Markup Language) is the markup language browsers use to render web sites. Regardless of the programming language used to build the application, its information is ultimately translated to HTML before appearing in a browser.
 
-HTML is written using tags encased in angled brackets (`<>`), which define content. Typically, a tag is opened (`<>`) and closed (`</>`) around content. Content is written between these tags like this:
+HTML is written using tags encased in angled brackets (`<>`), which define content. A tag is usually opened (`<>`) and closed (`</>`) around content. Content is written between tags like this:
 
 ```html
 <tag>Content</tag>
 ```
 
-Attributes are applied to tags to provide additional information. These fall in line after the name of the tag:
+Attributes are applied to tags to provide additional information. Attributes are added after the name of the tag:
 
 ```html
 <tag attribute="value">Content</tag>
