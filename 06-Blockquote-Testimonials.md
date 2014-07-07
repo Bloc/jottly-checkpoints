@@ -96,7 +96,7 @@ Create the other two blockquotes:
 </div>
 ```
 
-Refresh your browser to viewthe changes.
+Refresh your browser to view the changes.
 
 ### Github
 
