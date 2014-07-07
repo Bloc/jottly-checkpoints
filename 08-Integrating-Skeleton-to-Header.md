@@ -31,7 +31,7 @@ First we'll create a container for the logo and header navigation elements:
     <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
     <input type="text" placeholder="Enter your email address"/>
     <button type="submit">Sign Up Now!</button>
-+  </div>
++ </div>
 </div>
 ```
 
@@ -85,10 +85,10 @@ Next, we'll update the text that appears on the header image. In this case, we d
 -   <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
 +   <div class="container">
 +     <div class="nine columns">
-+     <h1>An easier way to write &amp; collaborate</h1>
-+     <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
-+    </div>
-+  </div>
++       <h1>An easier way to write &amp; collaborate</h1>
++       <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
++     </div>
++   </div>
 ...
 ```
 
