@@ -21,28 +21,12 @@ Within the **Jottly** folder, you will see the directory structure for Skeleton,
 * `/stylesheets/layout.css`: This doesn't contain any specific styles yet, but will be used for media queries which allow the site to be designed responsively.
 * `/images`: This directory holds the images that will be displayed on the site.
 
-### Github
+### Viewing Locally
 
-[Github](http://github.com) is a service that allows you to host and store your code on the web. It also includes social features for sharing and collaborating on projects. For most developers, Github profiles showcase much of the development work they've done. Companies often place more importance on a prospective employee's Github profile than their resume. Github offers [freemium pricing](https://github.com/plans), so register for a free account now.
+![](http://cl.ly/WROz/open-html2.gif)
 
-Once you have a Github account, [create a Github repository](https://help.github.com/articles/create-a-repo) named **Jottly**. After creating a new repo you will see instructions for "pushing" code from your computer to Github.
+As you go through each checkpoint of this book, you will want to view your work as you update it. First, open up your browser — we suggest Google [Chrome](https://www.google.com/intl/en-US/chrome/browser/). Next, open up the index.html file from your folder. You can do this by right-clicking and selecting open, or by double-clicking on the file.
 
-> You'll need to [download and install Git](http://git-scm.com/downloads) to work with Github. Install Git before moving on.
+> We recommend keeping index.html open in your browser as you update the files. You will need to refresh your browser to view changes.
 
-Before pushing your code to Github, change the path of your working directory using the Command Line. For example, if you moved your **Jottly** folder to a directory named **projects**, you would enter:
-
-```bash(Terminal)
-$ cd projects/Jottly
-```
-
-Follow the instructions in Github to initialize your repo:
-
-```bash(Terminal)
-$ git init
-$ git add .
-$ git commit -m "First commit"
-$ git remote add origin https://github.com/<user name>/Jottly.git
-$ git push -u origin master
-```
-
-In the next checkpoint, we'll deploy Jottly using Github Pages so you can view the results online with a public URL.
+In the next checkpoint, we'll delete the default content.
