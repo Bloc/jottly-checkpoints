@@ -1,12 +1,8 @@
-## Adding the grid to the Pricing Section
+## Applying a Grid to the Pricing Section
 
 ![](http://cl.ly/WHB1/09-pricing-sections.png)
 
-In this checkpoint we'll apply a grid layout to the pricing section.
-
-### Container
-
-Like the other sections, we'll add a container div to center our content on the page. We'll also add header and section tags to each price div so we can edit the style with ease.
+In this checkpoint we'll apply a grid layout to the pricing section. Like the other sections, we'll add a container div to center our content on the page. We'll also add header and section tags to each pricebox div so we can edit styles with ease.
 
 ```html(index.html)
   <!-- Pricing
@@ -56,11 +52,11 @@ Like the other sections, we'll add a container div to center our content on the 
   </div>
 ```
 
-We wrapped the h2 and p tags inside a 12 column div and offset it. The offset will keep the width smaller than the container width. With paragraphs of text, it's easier for the user to read if each line doesn't stretch across the full width of the page.
+We wrapped the h2 and paragraph tags inside an offset 12 column div. The offset will keep the width smaller than the container width. With paragraphs of text, it's easier for the user to read if each line doesn't stretch across the full width of the page.
 
-### One-Third column
+### Equally-spaced columns
 
-Next, we'll place the price boxes across the page in three equal columns. Because we're using a 16-column grid, we can't do this using whole number column specifications. However, Skeleton provides a class named "one-third column" which will divide the page up evenly.
+Let's place the price boxes across the page in three equal columns. Because we're using a 16-column grid, we can't do this using whole number column specifications. However, Skeleton provides a class named "one-third column" which will divide the page evenly.
 
 ```html(index.html)
   <!-- Pricing
@@ -116,11 +112,11 @@ Next, we'll place the price boxes across the page in three equal columns. Becaus
   </div>
 ```
 
-> As you are writing this code, it's important for you to open the index.html file inside a web browser, preferably Google Chrome. You can check the results of your changes locally before pushing to Github.
+> As you are writing this code, it's important to keep index.html open inside a web browser, preferably Google Chrome. You can check the results of your changes locally before pushing to Github.
 
-### Header and Sections
+### Pricebox headers
 
-Next, we'll create header for each box. The headers will allow us to change the styling of the name of each price plan.
+Next, we'll create header for each box. The headers will allow us to change the style of the name of each price plan.
 
 ```html(index.html)
        <div class="one-third column">
@@ -172,9 +168,9 @@ Next, we'll create header for each box. The headers will allow us to change the 
        </div>  
 ```
 
-We wrapped the h3 tags in a new HTML element named header. This is different from the div id="header" that we used earlier. With the header element, we're able to reuse the same style for multiple sections.
+We wrapped the h3 tags in a new HTML element named "header". This is different from the div id="header" that we used earlier. With the header element, we're able to reuse the same style for multiple sections.
 
-Let's section off the rest of the text elements inside the pricebox div. This will allow us to style the pricing plans using the same element. Notice the use of the HTML section element.
+Let's use a section for the rest of the text elements inside the pricebox div. Sections will allow us to style the pricing plans using the same element.
 
 ```html(index.html)
        <div class="one-third column">
@@ -232,9 +228,9 @@ Let's section off the rest of the text elements inside the pricebox div. This wi
        </div>
 ```
 
-There should be three equal columns across the width of the page - one for each price box.
+There should now be three equal columns across the width of the page - one for each price box.
 
-### Pushing your changes
+### Github
 
 Push your changes to Github:
 
