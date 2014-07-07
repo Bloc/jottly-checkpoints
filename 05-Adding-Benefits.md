@@ -52,8 +52,8 @@ Next, we'll explore a more complex HTML structure to create pricing tiers.
 At the end of the closing </div> tag for benefits, create a new div with an id named pricing:
 
 ```html(index.html)
-+	<!-- Pricing
-+	================================================== -->
++ <!-- Pricing
++ ================================================== -->
 + <div id="pricing">
 + </div>
 ```
