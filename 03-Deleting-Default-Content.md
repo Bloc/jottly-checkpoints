@@ -8,7 +8,7 @@ In this checkpoint we'll replace the default content in the Skeleton template wi
 
 Open the Jottly folder inside a text editor like [Sublime Text 2](http://www.sublimetext.com/2). Locate `index.html` - this is the file we'll edit.
 
-Remove the lines shown below in red, and add in the lines in green. We will add our first HTML tag — `<h1>Hello world!</h1>` — which is a header tag. You will also change the title of the page from "Your Page Title Here :)"" to "Jott.ly".
+Remove the lines shown below in red, and add in the lines in green. We will add our first HTML tag — `<h1>Hello world!</h1>` — which is a header tag. You will also change the title of the page from "Your Page Title Here :)" to "Jott.ly".
 
 ```html(index.html)
 <!-- Basic Page Needs
