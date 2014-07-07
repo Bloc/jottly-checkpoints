@@ -38,8 +38,8 @@ The `property:value;` within curly brackets is the declaration and ends with a s
 
 ```css
 selector {
-	property: value;
-	property: value;
+  property: value;
+  property: value;
 }
 ```
 
