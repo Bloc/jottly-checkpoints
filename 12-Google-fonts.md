@@ -2,11 +2,7 @@
 
 ![](http://cl.ly/WHVZ/11-google-fonts.png)
 
-In this checkpoint we'll implement [Google Fonts](http://www.google.com/fonts), which contains hundreds of open-sourced fonts.
-
-### Making your selection
-
-We'll use [Lato](https://www.google.com/fonts/specimen/Lato) as our primary typeface for Jottly. Upon selecting a typeface, we'll specify the font weight and type as well.
+In this checkpoint we'll implement [Google Fonts](http://www.google.com/fonts), which contains hundreds of open-sourced fonts. We'll use [Lato](https://www.google.com/fonts/specimen/Lato) as our primary typeface for Jottly. Upon selecting a typeface, we'll specify the font weight and type as well.
 
 Let's add the link to Google Fonts and specify the font we'd like to use:
 
@@ -24,8 +20,6 @@ Let's add the link to Google Fonts and specify the font we'd like to use:
 ```
 
 Make sure this code is placed in the <head> section of the landing page, and before the CSS section. It will need to be loaded before the CSS so we can reference it in our stylesheets.
-
-### Updating in CSS
 
 Open up the base.css file inside your text editor. There are two lines we are going to change to include Lato as our main typeface within the site:
 
@@ -55,7 +49,7 @@ The second line we changed addresses the styling of the headers. Instead of the 
 
 Our landing page should now have a nice-looking sans serif typeface.
 
-### Pushing your changes
+### Github
 
 Push your changes to Github:
 
