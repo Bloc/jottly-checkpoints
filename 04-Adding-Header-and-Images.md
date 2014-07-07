@@ -55,12 +55,12 @@ Next, we'll add placeholder navigation links. These links won't be connected to 
 ```html(index.html)
 <div id="header">
   <img src="images/logo.png" />
-+  <nav>
-+    <ul>
-+      <li><a href="#">Sign In</a></li>
-+      <li><a href="#">Sign Up Now</a></li>
-+    </ul>
-+  </nav>
++ <nav>
++   <ul>
++     <li><a href="#">Sign In</a></li>
++     <li><a href="#">Sign Up Now</a></li>
++   </ul>
++ </nav>
 </div>
 ```
 
@@ -93,16 +93,16 @@ Next, we'll add a simple text input field along with a submit button. Eventually
 ```html(index.html)
 <div id="header">
   <img src="images/logo.png" />
-    <nav>
-      <ul>
-        <li><a href="#">Sign In</a></li>
-        <li><a href="#">Sign Up Now</a></li>
-      </ul>
-    </nav>
-    <h1>An easier way to write &amp; collaborate</h1>
-    <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
-+   <input type="text" placeholder="Enter your email address"/>
-+   <button type="submit">Sign Up Now</button>
+  <nav>
+    <ul>
+      <li><a href="#">Sign In</a></li>
+      <li><a href="#">Sign Up Now</a></li>
+    </ul>
+  </nav>
+  <h1>An easier way to write &amp; collaborate</h1>
+  <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
++ <input type="text" placeholder="Enter your email address"/>
++ <button type="submit">Sign Up Now</button>
 </div>
 ```
 
