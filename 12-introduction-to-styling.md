@@ -1,6 +1,6 @@
 ## Introduction to Styling
 
-![](http://cl.ly/WHEI/12-header.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/12-header.png)
 
 In this checkpoint we'll add custom CSS styles. We'll give the header a background image and adjust the spacing for our logo.
 

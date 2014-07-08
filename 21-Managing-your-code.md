@@ -1,6 +1,6 @@
 ## Managing your code
 
-![](http://cl.ly/WQhz/github.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/github.png)
 
 [Github](http://github.com) is a service that allows you to host and store your code on the web. It also includes social features for sharing and collaborating on projects. For most developers, Github profiles showcase much of the development work they've done. Companies often place more importance on a prospective employee's Github profile than their resume. Github offers [freemium pricing](https://github.com/plans), so register for a free account now.
 

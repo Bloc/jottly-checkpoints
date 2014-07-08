@@ -1,6 +1,6 @@
 ## Finishing the footer
 
-![Footer](http://cl.ly/WJPp/16-footer.png)
+![Footer](https://bloc-books.s3.amazonaws.com/jottly/16-footer.png)
 
 In this checkpoint, we'll style the last section of our landing page - the footer.
 

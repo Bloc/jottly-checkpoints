@@ -1,6 +1,6 @@
 ## Integrating a Grid Layout
 
-![](http://cl.ly/WGOc/07-header-skeleton.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/07-header-skeleton.png)
 
 In this checkpoint we'll integrate [Skeleton's grid layout](http://www.getskeleton.com/#grid) to improve the presentation of our landing page.
 

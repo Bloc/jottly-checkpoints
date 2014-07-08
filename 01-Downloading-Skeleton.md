@@ -1,12 +1,12 @@
 ## Downloading Skeleton
 
-![Download Skeleton](http://cl.ly/WEym/01-skeleton.png)
+![Download Skeleton](https://bloc-books.s3.amazonaws.com/jottly/01-skeleton.png)
 
 In this checkpoint we'll download a simple HTML and CSS framework named [Skeleton](http://www.getskeleton.com/) and use it to develop the landing page for Jottly.
 
 ### Install Skeleton
 
-![Downloading Skeleton](http://cl.ly/WKiD/download-skeleton.gif)
+![Downloading Skeleton](https://bloc-books.s3.amazonaws.com/jottly/download-skeleton.gif)
 
 Download the source code by clicking on the **Download** link in the left-hand navigation of the Skeleton site. Click the button labeled **Download Skeleton 1.2 from Github**. Find the downloaded file named **dhg-Skeleton-7ab6820.tar.gz** and double-click to extract it. Rename the folder to **Jottly** and move it to an easy-to-find location on your machine.
 
@@ -23,7 +23,7 @@ Within the **Jottly** folder, you will see the directory structure for Skeleton,
 
 ### Viewing Locally
 
-![](http://cl.ly/WROz/open-html2.gif)
+![](https://bloc-books.s3.amazonaws.com/jottly/open-html2.gif)
 
 As you go through each checkpoint of this book, you will want to view your work as you update it. First, open up your browser — we suggest Google [Chrome](https://www.google.com/intl/en-US/chrome/browser/). Next, open up the index.html file from your folder. You can do this by right-clicking and selecting open, or by double-clicking on the file.
 

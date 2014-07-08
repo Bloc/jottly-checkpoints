@@ -1,6 +1,6 @@
 ## Adding Benefits and Pricing
 
-![Benefits](http://cl.ly/WEu8/04-benefits.png)
+![Benefits](https://bloc-books.s3.amazonaws.com/jottly/04-benefits.png)
 
 In this checkpoint we'll add two new sections to our landing page: Benefits and Pricing. The Benefits section will be relatively simple, though the Pricing section will require a more complex HTML structure. We'll breakdown the new concepts thoroughly.
 
@@ -47,7 +47,7 @@ Next, we'll explore a more complex HTML structure to create pricing tiers.
 
 ### Pricing
 
-![Pricing](http://cl.ly/WFh1/04-pricing.png)
+![Pricing](https://bloc-books.s3.amazonaws.com/jottly/04-pricing.png)
 
 At the end of the closing </div> tag for benefits, create a new div with an id named pricing:
 

@@ -1,6 +1,6 @@
 ## Integrating Google Fonts
 
-![](http://cl.ly/WHVZ/11-google-fonts.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/11-google-fonts.png)
 
 In this checkpoint we'll implement [Google Fonts](http://www.google.com/fonts), which contains hundreds of open-sourced fonts. We'll use [Lato](https://www.google.com/fonts/specimen/Lato) as our primary typeface for Jottly. Upon selecting a typeface, we'll specify the font weight and type as well.
 

@@ -1,6 +1,6 @@
 ## Delaying Animation on text
 
-![Delaying animation](http://cl.ly/WGkV/jottly-animate2.gif)
+![Delaying animation](https://bloc-books.s3.amazonaws.com/jottly/jottly-animate2.gif)
 
 In this checkpoint we'll add one more animation effect to our header.
 

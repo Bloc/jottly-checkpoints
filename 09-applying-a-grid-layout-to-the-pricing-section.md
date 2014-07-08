@@ -1,6 +1,6 @@
 ## Applying a Grid Layout to the Pricing Section
 
-![](http://cl.ly/WHB1/09-pricing-sections.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/09-pricing-sections.png)
 
 In this checkpoint we'll apply a grid layout to the pricing section. Like the other sections, we'll add a container div to center our content on the page. We'll also add header and section tags to each pricebox div so we can edit styles with ease.
 

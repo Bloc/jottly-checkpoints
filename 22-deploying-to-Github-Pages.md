@@ -1,6 +1,6 @@
 ## Deploying on Github Pages
 
-![Github Pages](http://cl.ly/WHfi/02-github-pages.png)
+![Github Pages](https://bloc-books.s3.amazonaws.com/jottly/02-github-pages.png)
 
 In this checkpoint we'll deploy Jottly using [Github Pages](https://pages.github.com). Github Pages provides free hosting for static web pages.
 
@@ -21,7 +21,7 @@ The first line creates a new branch named gh-pages. Github reads this new branch
 
 You'll be able to view Jottly at: "http://<username>.github.io/<repository-name>". If you have trouble locating the URL, you can click on **Settings** in the right-hand navigation on the repository page - the URL is listed under the section titled **GitHub Pages**.
 
-![Github Pages](http://cl.ly/WLni/jottly-github.gif)
+![Github Pages](https://bloc-books.s3.amazonaws.com/jottly/jottly-github.gif)
 
 > It might take up to 10 minutes for your page to display after the initial deploy.
 

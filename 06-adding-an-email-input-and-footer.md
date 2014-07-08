@@ -1,6 +1,6 @@
 ## Adding an Email Input and Footer
 
-![Finishing HTML](http://cl.ly/WH7j/06-html-finishes.png)
+![Finishing HTML](https://bloc-books.s3.amazonaws.com/jottly/06-html-finishes.png)
 
 In this checkpoint we'll add the last two sections to our landing page. The first section will have an email input field and a submit button. The second section  will contain the footer where we'll provide additional links and content, such as copyright text.
 
