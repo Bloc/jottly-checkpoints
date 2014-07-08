@@ -17,4 +17,4 @@ Now we'll reference the new animate.css file in index.html. This will allow us t
 + <link rel="stylesheet" href="stylesheets/animate.css">
 ```
 
-Let's move onto experiment with some animations.
+Let's move on to experiment with some animations.
