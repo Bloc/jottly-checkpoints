@@ -74,11 +74,11 @@ For our second box — Small Businesses — we'll add a second class named "deal
 ```html(index.html)
     <div class="one-third column">
 -     <div class="pricebox">
-+       <div class="pricebox deal">
-         <header>
-           <h3>Small Businesses</h3>
-         </header>
-         <section>
++     <div class="pricebox deal">
+        <header>
+          <h3>Small Businesses</h3>
+        </header>
+        <section>
 ```
 
 Now we'll add a new class selector to base.css which targets the pricebox and deal classes. We've minimized the top margin so it stands taller than the other divs. We also adjusted the height so it extends down further as well.
