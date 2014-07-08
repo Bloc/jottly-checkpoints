@@ -2,7 +2,7 @@
 
 ![Final Jottly](https://bloc-books.s3.amazonaws.com/jottly/jottly.gif)
 
-Jottly is a fictitious SaaS (Software as a Service) web application focused on simplifying content collaboration. In this book you'll learn how to build the web page shown above, using HTML and CSS.
+[Jottly](http://jott.ly) is a fictitious SaaS (Software as a Service) web application focused on simplifying content collaboration. In this book you'll learn how to build the web page shown above, using HTML and CSS. You can view the live example at [jott.ly](http://jott.ly).
 
 Before we get started, we'll briefly review HTML and CSS. Understanding how to breakdown HTML and CSS will help you design apps like Jottly with ease.
 
