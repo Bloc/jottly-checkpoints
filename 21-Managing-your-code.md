@@ -8,7 +8,9 @@ Once you have a Github account, [create a Github repository](https://help.github
 
 > You'll need to [download and install Git](http://git-scm.com/downloads) to work with Github. Install Git before moving on.
 
-Before pushing your code to Github, change the path of your working directory using the Command Line. For example, if you moved your **Jottly** folder to a directory named **projects**, you would enter:
+Before pushing your code to Github, change the path of your working directory using the Command Line. For example, if you moved your **Jottly** folder to a directory named **projects**, you would enter the following on your command line:
+
+> The command line can be accessed using the "Terminal" app on Mac OS X, or the "CMD" app on Windows. On a Mac, you can type "Terminal" into Spotlight. On a Windows computer, type "CMD" into the Run prompt from the Start menu.
 
 ```bash(Terminal)
 $ cd projects/Jottly
