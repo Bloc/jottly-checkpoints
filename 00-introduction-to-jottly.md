@@ -28,7 +28,7 @@ Attributes are applied to tags to provide additional information. Attributes are
 
 CSS (Cascading Style Sheets) provides a presentation layer for HTML. CSS defines how HTML elements are styled and positioned.
 
-[CSS Zen Garden](http://www.csszengarden.com/) showcases how powerful CSS can be in defining the look and feel of web site of content. Take some time to look at a few examples, like [Dan Mall's Garments](http://www.csszengarden.com/220/), [Trent Walton's Apothecary](http://www.csszengarden.com/218/) and [Elliot Jay Stocks' Screen Filler](http://www.csszengarden.com/217/).
+[CSS Zen Garden](http://www.csszengarden.com/) showcases how powerful CSS can be in defining the look and feel of web site of content. Take some time to look at a few examples, like [Dan Mall's Garments](http://www.csszengarden.com/220/), [Trent Walton's Apothecary](http://www.csszengarden.com/218/) and [Elliot Jay Stocks' Screen Filler](http://www.csszengarden.com/217/). You can create drastically different pages by simply applying different CSS to the same HTML.
 
 CSS syntax is comprised of selectors, properties and values. For example:
 
