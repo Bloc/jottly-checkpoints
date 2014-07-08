@@ -1,4 +1,4 @@
-## Updating HTML to include Animate classes
+## HTML with Animated CSS Classes
 
 ![Animation](https://bloc-books.s3.amazonaws.com/jottly/jottly-animate1.gif)
 
@@ -12,7 +12,7 @@ Since we've already incorporated the animate.css stylesheet, we can simply add a
 + <div id="header" class="animated fadeInDown">
 ```
 
-The animated class initiates the animation. The fadeInDown class fades the header div downwards when the page loads.
+The animated class initiates the animation. The "fadeInDown" class fades the header div downwards when the page loads.
 
 We'll add the same classes to the text within the header, so the div and text fade downward in unison.
 
@@ -20,3 +20,5 @@ We'll add the same classes to the text within the header, so the div and text fa
 - <div class="nine columns headertext">
 + <div class="nine columns headertext animated fadeInDown">
 ```
+
+We'll experiment with one more animation before deploying Jottly.
