@@ -1,8 +1,8 @@
-## Downloading Skeleton
+## Installing Skeleton
 
-![Download Skeleton](https://bloc-books.s3.amazonaws.com/jottly/01-skeleton.png)
+![Install Skeleton](https://bloc-books.s3.amazonaws.com/jottly/01-skeleton.png)
 
-In this checkpoint we'll download a simple HTML and CSS framework named [Skeleton](http://www.getskeleton.com/) and use it to develop the landing page for Jottly. CSS frameworks solve many common problems that occur in most web pages. For example, rather than coding your own CSS grid layout - which nearly every web site needs - a framework like Skeleton takes care of this for you, and allows you to use its code to customize further or use as-is. We'll some default Skeleton code for Jottly, but we'll also update some of it, to make Jottly even more unique.
+In this checkpoint we'll install a simple HTML and CSS framework named [Skeleton](http://www.getskeleton.com/) and use it to develop the landing page for Jottly. CSS frameworks solve many common problems that occur in most web pages. For example, rather than coding your own CSS grid layout - which nearly every web site needs - a framework like Skeleton takes care of this for you, and allows you to use its code to customize further or use as-is. We'll some default Skeleton code for Jottly, but we'll also update some of it, to make Jottly even more unique.
 
 > Think of a framework like a [Chipotle](http://www.chipotle.com/) restaurant. Chipotle provides a framework for standard burritos with things that most people want - like rice, beans and meat. But you can customize your burrito to add things that only you may want - like hot salsa and guacamole.
 
