@@ -17,12 +17,18 @@ $ git commit -m "Adding files to gh-pages"
 $ git push origin gh-pages
 ```
 
-The first line creates a new branch named gh-pages. Github reads this new branch and creates a new URL for the repo.
+The first line creates a new branch named gh-pages. Github will read this new branch and create a new URL for the repo.
 
-You'll be able to view Jottly at: "http://<username>.github.io/<repository-name>". If you have trouble locating the URL, you can click on **Settings** in the right-hand navigation on the repository page - the URL is listed under the section titled **GitHub Pages**.
+You'll be able to view Jottly at:
+
+```
+http://<username>.github.io/<repository-name>
+```
+
+If you have trouble locating the URL, you can click on **Settings** in the right-hand navigation on the repository page - the URL is listed under the section titled **GitHub Pages**.
 
 ![Github Pages](https://bloc-books.s3.amazonaws.com/jottly/jottly-github.gif)
 
 > It might take up to 10 minutes for your page to display after the initial deploy.
 
-Congratulations! You have completed your first landing page and learned a lot about HTML, CSS and how to deploy your site in the process. Jottly is now ready to accept customers, once you've created the actual product :)
+Congratulations! You've completed your first landing page and learned a lot about HTML, CSS and how to deploy your site in the process. Jottly is now ready to accept customers, once you've created the actual product :)
