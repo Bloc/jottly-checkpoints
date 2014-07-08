@@ -1,6 +1,6 @@
 ## Styling the Pricing Section
 
-![](http://cl.ly/WHKa/14-pricing.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/14-pricing.png)
 
 In this checkpoint we'll style the pricing section. We'll add some cool text formatting and make the Small Business plan stand out as the recommended tier.
 

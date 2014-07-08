@@ -1,6 +1,6 @@
 ## Styling the Header
 
-![](http://cl.ly/WHHY/12-style-header.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/12-style-header.png)
 
 In this checkpoint we'll update the navigation style, the header text and the email input form.
 

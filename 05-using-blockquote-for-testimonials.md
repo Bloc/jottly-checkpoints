@@ -1,6 +1,6 @@
 ## Using Blockquotes for Testimonials
 
-![Testimonials](http://cl.ly/WGoP/05-testimonials.png)
+![Testimonials](https://bloc-books.s3.amazonaws.com/jottly/05-testimonials.png)
 
 In this checkpoint we'll create a Testimonials section and add three blockquotes to it. Testimonials should help prospective customers with their decision to buy a product.
 

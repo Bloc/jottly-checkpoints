@@ -1,6 +1,6 @@
 ## Styling Components and the Benefits Section
 
-![Input and Button](http://cl.ly/WHKo/13-input.png)
+![Input and Button](https://bloc-books.s3.amazonaws.com/jottly/13-input.png)
 
 In this checkpoint we'll style our input and button components, as well as the Benefits section.
 
@@ -220,7 +220,7 @@ Now that our header is complete, we can move onto the Benefits section.
 
 ### Benefits
 
-![](http://cl.ly/WHK4/13-benefits.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/13-benefits.png)
 
 Navigate to the bottom of base.css after the header section styles. The first task is to update the padding at the top of this section to provide additional spacing at the bottom of the header image. Whitespace gives the eye with some relief as the user reads down the page, and also gives each element room to breathe.
 

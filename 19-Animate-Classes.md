@@ -1,6 +1,6 @@
 ## Updating HTML to include Animate classes
 
-![Animation](http://cl.ly/WGmd/jottly-animate1.gif)
+![Animation](https://bloc-books.s3.amazonaws.com/jottly/jottly-animate1.gif)
 
 In this checkpoint we'll add a subtle animation to our header to give it a nice effect when the page loads.
 

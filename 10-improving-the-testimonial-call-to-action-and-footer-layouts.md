@@ -1,6 +1,6 @@
 ## Improving the Testimonial, Call-to-Action and Footer Layouts
 
-![](http://cl.ly/WHRe/10-testimonials.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/10-testimonials.png)
 
 In this checkpoint we'll update the rest of our landing page with a grid layout.
 
@@ -80,7 +80,7 @@ Let's add the one-third column classes into a new div to space our testimonials 
         <p>Chloe P.</p>
       </div>
 +   </div>
-	</div>
+  </div>
 </div>
 ```
 

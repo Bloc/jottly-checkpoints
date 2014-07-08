@@ -1,6 +1,6 @@
 ## Adding Animate.css
 
-![Animate CSS](http://cl.ly/WIc5/19-animate.png)
+![Animate CSS](https://bloc-books.s3.amazonaws.com/jottly/19-animate.png)
 
 In this checkpoint, we'll download and add [Animate.css](http://daneden.github.io/animate.css/) to our source code.
 

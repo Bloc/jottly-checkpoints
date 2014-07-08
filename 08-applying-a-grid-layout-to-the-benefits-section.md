@@ -1,6 +1,6 @@
 ## Applying a Grid Layout to the Benefits Section
 
-![](http://cl.ly/WHCg/08-benefits-skeleton.png)
+![](https://bloc-books.s3.amazonaws.com/jottly/08-benefits-skeleton.png)
 
 In this checkpoint we'll apply a grid layout to the Benefits section. In the process we'll use a new class that offsets columns. Let's start by creating a new container and nesting the offset div:
 

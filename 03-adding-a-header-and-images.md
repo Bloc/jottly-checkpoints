@@ -1,6 +1,6 @@
 ## Adding a Header and Images
 
-![Adding header](http://cl.ly/WFBz/03-header.png)
+![Adding header](https://bloc-books.s3.amazonaws.com/jottly/03-header.png)
 
 In this checkpoint we'll add images to the Jottly landing page and create a new HTML header.
 
@@ -86,7 +86,7 @@ Let's add a headline and some paragraph text to explain what Jottly is all about
 
 Headers come in six default sizes — h1, h2, h3, etc. The h1 tag should **always** be used as the primary headline on the page, not only for sizing purposes, but also for better search engine optimization (SEO).
 
-Using the paragraph (p) tag, we explain what Jottly is and does. We've selected a portion of this text to **bold** using the strong tag. If you wanted some text to be italicized, you would wrap that text in the <em> tag.
+Using the paragraph (p) tag, we explain what Jottly is and does. We've selected a portion of this text to **bold** using the strong tag. If you wanted some text to be *italicized*, you would wrap that text in the em tag.
 
 Next, we'll add a simple text input field along with a submit button. Eventually, these elements could be used for gathering email addresses:
 

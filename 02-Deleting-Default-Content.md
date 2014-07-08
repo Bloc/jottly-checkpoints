@@ -1,6 +1,6 @@
 ## Deleting default content
 
-![Deleting default content](http://cl.ly/WEn9/02-deleting.png)
+![Deleting default content](https://bloc-books.s3.amazonaws.com/jottly/02-deleting.png)
 
 In this checkpoint we'll replace the default content in the Skeleton template with custom HTML for Jottly's landing page.
 
@@ -14,8 +14,8 @@ Remove the lines shown below in red, and add in the lines in green. We will add 
 <!-- Basic Page Needs
 ================================================== -->
   <meta charset="utf-8">
--  <title>Your Page Title Here :)</title>
-+  <title>Jott.ly</title>
+- <title>Your Page Title Here :)</title>
++ <title>Jott.ly</title>
   <meta name="description" content="">
   <meta name="author" content="">
 

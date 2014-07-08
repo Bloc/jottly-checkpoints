@@ -1,6 +1,6 @@
 ## Introduction to Jott.ly
 
-![Final Jottly](http://cl.ly/WFMS/jottly.gif)
+![Final Jottly](https://bloc-books.s3.amazonaws.com/jottly/jottly.gif)
 
 Jottly is a fictitious SaaS (Software as a Service) web application focused on simplifying content collaboration. In this book you'll learn how to build the web page shown above, using HTML and CSS.
 
