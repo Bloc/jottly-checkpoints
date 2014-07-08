@@ -1,4 +1,4 @@
-## Styling the testimonials and call-to-action sections
+## Styling the Testimonials and Call-to-Action Sections
 
 ![Testimonials](http://cl.ly/WLuF/15-testimonials.png)
 
@@ -9,7 +9,6 @@ In this checkpoint we'll style the testimonial and call-to-action sections of ou
 First we'll give the section some spacing at the top and bottom:
 
 ```css(stylesheets/base.css)
-...
 +/* Testimonials */
 +#testimonials {
 + padding:4em 0;
@@ -37,7 +36,7 @@ Next, we'll style the header and paragraph text. We can use the same styles from
 +}
 ```
 
-Skeleton comes with some pre-defined styles for blockquotes, however, we'll override those styles by updating the blockquotes within this section.
+Skeleton comes with some default styles for blockquotes, however, we'll override those styles within this section:
 
 ```css(stylesheets/base.css)
 /* Testimonials */
@@ -67,7 +66,7 @@ Skeleton comes with some pre-defined styles for blockquotes, however, we'll over
 +}
 ```
 
-The default blockquote has a border, which we removed. Because we center-aligned of the text in this section with our original #testimonials selector, we overrided that to be left-aligned. We added some padding to the right side of the blockquotes for additional spacing as well.
+The default blockquote has a border, which we removed. Because we center-aligned of the text in this section with our original testimonials selector, we replaced that with a left-aligned value. We added some padding to the right side of the blockquotes for additional spacing as well.
 
 Let's add a margin on the bottom to properly align our avatar and name:
 
@@ -107,7 +106,7 @@ Let's add a margin on the bottom to properly align our avatar and name:
 +}
 ```
 
-Rounded images for avatars are all the rage, so to do this, we used a little CSS magic. Within our avatar class, we targeted the image and provided a border radius of 50%. In order to line up the text next to the avatar, we displayed these images inline and floated them to the left.
+Rounded images for avatars are all the rage, so to do this we used a little CSS magic. Within our avatar class, we targeted the image and provided a border radius of 50%. To align the text with the avatar, we displayed these images inline and floated them to the left.
 
 For the name next to the avatar, we'll assign a paragraph tag with a new font color and weight. This will center the text vertically with the avatar. We'll also provide some padding to the top of the text to push it down a bit:
 
@@ -157,10 +156,9 @@ For the name next to the avatar, we'll assign a paragraph tag with a new font co
 
 ### Call-to-Action
 
-We'll add a new background image to this section and add the background property, aligning the image to the top of the container and center it horizontally:
+We'll add a new background image to this section with the background property. We'll align the image to the top of the container and center it horizontally:
 
 ```css(stylesheets/base.css)
-...
 +#action {
 + background:url('../images/action.jpg') top center no-repeat;
 + background-size: cover;
@@ -176,7 +174,6 @@ We set the width to fill 100%, and set the background size to "cover" so it scal
 Next, we'll reuse our styles from the pricing section for the header and paragraph text:
 
 ```css(stylesheets/base.css)
-...
 #action {
   background:url('../images/action.jpg') top center no-repeat;
   background-size: cover;
@@ -202,7 +199,6 @@ Next, we'll reuse our styles from the pricing section for the header and paragra
 Let's update the row class inside of this section. This is where our inputs reside, and we need to provide some spacing at the top:
 
 ```css(stylesheets/base.css)
-...
 #action {
   background:url('../images/action.jpg') top center no-repeat;
   background-size: cover;
@@ -229,4 +225,4 @@ Let's update the row class inside of this section. This is where our inputs resi
 +}
 ```
 
-Next, we'll finish our style updates by styling the footer.
+Next, we'll style the footer.
