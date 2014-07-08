@@ -45,4 +45,6 @@ selector {
 }
 ```
 
+> When building a house, two key pieces are the structure and the finishes. In this case, HTML is the frame while the paint, the decor and exterior finishes are the CSS.
+
 Now that you understand the basics, let's get to coding!
