@@ -2,7 +2,9 @@
 
 ![Final Jottly](https://bloc-books.s3.amazonaws.com/jottly/jottly.gif)
 
-[Jottly](http://jott.ly) is a fictitious SaaS (Software as a Service) web application focused on simplifying content collaboration. In this book you'll learn how to build the web page shown above, using HTML and CSS. You can view the live example at [jott.ly](http://jott.ly).
+[Jottly](http://jott.ly) is a fictitious SaaS (Software as a Service) web application focused on simplifying content collaboration. Jottly's purpose is to make writing documents more collaborative and social. In this book you'll learn how to build the landing page shown above, using HTML and CSS. You can view the live example at [jott.ly](http://jott.ly).
+
+> You won't be programming the actual Jottly application in this book, but you will build a complete landing page as you learn HTML and CSS. We may cover the programming of Jottly functionality in another book, so stay tuned!
 
 Before we get started, we'll briefly review HTML and CSS. Understanding how to breakdown HTML and CSS will help you design apps like Jottly with ease.
 
@@ -26,7 +28,7 @@ Attributes are applied to tags to provide additional information. Attributes are
 
 CSS (Cascading Style Sheets) provides a presentation layer for HTML. CSS defines how HTML elements are styled and positioned.
 
-[CSS Zen Garden](http://www.csszengarden.com/) showcases how powerful CSS can be in defining the look and feel of web site of content. Take some time to look at a few examples, like [Dan Mall's Garments](http://www.csszengarden.com/220/), [Trent Walton's Apothecary](http://www.csszengarden.com/218/) and [Elliot Jay Stocks' Screen Filler](http://www.csszengarden.com/217/).
+[CSS Zen Garden](http://www.csszengarden.com/) showcases how powerful CSS can be in defining the look and feel of web site of content. Take some time to look at a few examples, like [Dan Mall's Garments](http://www.csszengarden.com/220/), [Trent Walton's Apothecary](http://www.csszengarden.com/218/) and [Elliot Jay Stocks' Screen Filler](http://www.csszengarden.com/217/). You can create drastically different pages by simply applying different CSS to the same HTML.
 
 CSS syntax is comprised of selectors, properties and values. For example:
 
@@ -42,5 +44,7 @@ selector {
   property: value;
 }
 ```
+
+> When building a house, two key pieces are the structure and the finishes. In this case, HTML is the frame while the paint, the decor and exterior finishes are the CSS.
 
 Now that you understand the basics, let's get to coding!
