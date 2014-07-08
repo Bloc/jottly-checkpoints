@@ -1,13 +1,12 @@
-## Finishing the footer
+## Styling the Footer
 
 ![Footer](https://bloc-books.s3.amazonaws.com/jottly/16-footer.png)
 
-In this checkpoint, we'll style the last section of our landing page - the footer.
+In this checkpoint we'll style the last section of our landing page - the footer.
 
 Let's change the background of the footer div and apply some padding to the top and bottom:
 
 ```css(stylesheets/base.css)
-...
 +/* Footer */
 +#footer {
 + background:#009be8;
@@ -15,10 +14,9 @@ Let's change the background of the footer div and apply some padding to the top 
 +}
 ```
 
-Next, we'll update the navigation on the left side. First, we'll give it a little spacing on the top:
+Next we'll update the navigation on the left side. Let's give it a little spacing on the top:
 
 ```css(stylesheets/base.css)
-...
 /* Footer */
 #footer {
   background:#009be8;
@@ -40,7 +38,6 @@ We changed the list items inside the unordered list to display inline. This will
 Next we'll change some text properties:
 
 ```css(stylesheets/base.css)
-...
 /* Footer */
 #footer {
   background:#009be8;
@@ -70,7 +67,6 @@ We've updated the text color to white, removed the underline and made the links 
 The last two items we need to style are the small logo and the copyright text:
 
 ```css(stylesheets/base.css)
-...
 /* Footer */
 #footer {
   background:#009be8;
@@ -111,4 +107,4 @@ We shifted the logo to the right using a float. The float will align the image t
 
 Now our landing page is complete and beautiful! The sections are distinct, the page flows well and we've made sure that the most important information is highlighted.
 
-In the final checkpoints we'll implement some subtle animation to make Jottly sizzle!
+In the final checkpoints we'll implement some subtle animation to make Jottly sizzle, and deploy it so we can share it with the world.
