@@ -31,4 +31,10 @@ If you have trouble locating the URL, you can click on **Settings** in the right
 
 > It might take up to 10 minutes for your page to display after the initial deploy.
 
+### That's all folks!
+
 Congratulations! You've completed your first landing page and learned a lot about HTML, CSS and how to deploy your site in the process. Jottly is now ready to accept customers, once you've created the actual product :)
+
+### But wait, there's more
+
+Want to learn more? [Build a Tetris app for iOS](https://www.bloc.io/books/swiftris), using the all new Swift programming language. We'll show you how to build a killer game from scratch! If you enjoyed this book, please share it with your friends and followers.
