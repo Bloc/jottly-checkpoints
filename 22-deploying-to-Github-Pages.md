@@ -37,4 +37,8 @@ Congratulations! You've completed your first landing page and learned a lot abou
 
 ### But wait, there's more
 
-Want to learn more? [Build a Tetris app for iOS](https://www.bloc.io/tutorials/swiftris-build-your-first-ios-game-with-swift), using the new **Swift programming language** from Apple. We'll show you how to build a killer game from scratch! If you enjoyed this book, please share it with your friends and followers.
+Want to learn more? [Build a Tetris app for iOS](https://www.bloc.io/tutorials/swiftris-build-your-first-ios-game-with-swift), using the new **Swift programming language** from Apple. We'll show you how to build a killer game from scratch! 
+
+Or perhaps you'd like to design a [cool music app website](http://bloc-jams.webflow.com/)... with NO code! How is this possible? Check out our [Webflow tutorial](https://www.bloc.io/tutorials/webflow-tutorial-design-responsive-sites-with-webflow) to find out.
+
+If you enjoyed this book, please share it with your friends and followers.
