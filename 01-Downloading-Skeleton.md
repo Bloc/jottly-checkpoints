@@ -1,5 +1,7 @@
 ## Installing Skeleton
 
+> Skeleton 2.0 was recently published, and this tutorial is being updated based on those changes.
+
 ![Install Skeleton](https://bloc-books.s3.amazonaws.com/jottly/01-skeleton.png)
 
 In this checkpoint we'll install a simple HTML and CSS framework named [Skeleton](http://www.getskeleton.com/) and use it to develop the landing page for Jottly. CSS frameworks solve many common problems that occur in most web pages. For example, rather than coding your own CSS grid layout - which nearly every web site needs - a framework like Skeleton takes care of this for you, and allows you to use its code to customize further or use as-is. We'll use some default Skeleton code for Jottly, but we'll also update some of it, to make Jottly even more unique.
