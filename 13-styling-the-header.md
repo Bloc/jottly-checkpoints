@@ -1,6 +1,6 @@
 ## Styling the Header
 
-![](https://bloc-books.s3.amazonaws.com/jottly/12-style-header.png)
+<center>![Jottly Header CSS](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlyheadercss2.png)</center>
 
 In this checkpoint we'll update the navigation style, the header text and the email input form.
 
@@ -12,20 +12,20 @@ First, we'll add a simple class to the second list item link in our navigation a
 <nav>
   <ul>
     <li><a href="#">Sign In</a></li>
--   <li><a href="#">Sign Up Now!</a></li>
-+   <li><a class="btn" href="#">Sign Up Now!</a></li>
+-   <li><a href="#">Sign Up Now</a></li>
++   <li><a class="btn" href="#">Sign Up Now</a></li>
   </ul>
 </nav>
 ```
 
 We'll add a style for the btn class in our CSS file, but before we do we'll move the nav area to the right side of the page. We'll add the text-align property to our header nav and give it a value of "right". We'll also add a small margin to the top of the navigation area to push it down a bit so it's not being cut off by the browser window. Remember that this new code should be added at the bottom of the base.css file.
 
-```css(stylesheets/base.css)
-+#header nav {
+```css(css/skeleton.css)
++header nav {
 + text-align:right;
 + margin-top:2em;
 +}
-+#header nav ul li {
++header nav ul li {
 + display:inline-block;
 +}
 ```
@@ -34,7 +34,7 @@ We'll add a style for the btn class in our CSS file, but before we do we'll move
 
 HTML elements are naturally displayed as boxes on within a browser. You can change how these line up with the display property.
 
-![](https://bloc-global-assets.s3.amazonaws.com/images-design/jottly/css/css-display.png)
+<center>![](https://bloc-global-assets.s3.amazonaws.com/images-design/jottly/css/css-display.png)</center>
 
 If you want your elements to display next to each other horizontally, you can apply the inline value. This is something you'll use when creating navigational elements to place in a horizontal pattern. Inline elements also retain no whitespace above or below, whereas block elements do. If using inline, remember that items will not automatically create a new line, but just continue as one stream of elements.
 
@@ -44,15 +44,15 @@ If you want your elements to display next to each other horizontally, you can ap
 
 Let's get back to adjusting the navigation links. We'll adjust the padding, color and text qualities of the links to match our product mockup.
 
-```css(stylesheets/base.css)
-#header nav {
+```css(css/skeleton.css)
+header nav {
   text-align:right;
   margin-top:2em;
 }
-#header nav ul li {
+header nav ul li {
   display:inline-block;
 }
-+#header nav ul li a {
++header nav ul li a {
 + color:#fff;
 + text-transform:uppercase;
 + text-decoration:none;
@@ -64,27 +64,21 @@ To change the color of the text, we targeted the anchor tag within the list item
 
 Let's style our button:
 
-```css(stylesheets/base.css)
-#header nav {
-  text-align:right;
-  margin-top:2em;
-}
-#header nav ul li {
-  display:inline-block;
-}
-#header nav ul li a {
+```css(css/skeleton.css)
+...
+header nav ul li a {
   color:#fff;
   text-transform:uppercase;
   text-decoration:none;
   padding:0.75em 2em;
 }
-+#header nav ul li a.btn {
-+ -moz-border-radius: 8px;
-+ -webkit-border-radius: 8px;
-+ border-radius: 8px; /* border radius */
++header nav ul li a.btn {
++ -moz-border-radius: 4px;
++ -webkit-border-radius: 4px;
++ border-radius: 4px; /* border radius */
 + border:2px solid #fff;
 +}
-+#header nav ul li a.btn:hover {
++header nav ul li a.btn:hover {
 + background:#fff;
 + color:#009be8;
 +}
@@ -96,31 +90,32 @@ border-radius vendor prefixes are used for multiple types of browser support. Fo
 
 ### Text
 
-Let's fix the text on top of the header image. Before we style it, let's add a new class to the nine column element in index.html:
+Let's fix the text on top of the header image. Before we style it, let's add a new class to the seven-column element in index.html:
 
 ```html(index.html)
 <div class="container">
--  <div class="nine columns">
-+  <div class="nine columns headertext">
+-  <div class="seven columns">
++  <div class="seven columns headertext">
      <h1>An easier way to write &amp; collaborate</h1>
      <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
 ```
 
-Within base.css, we will add the selectors to target each element and begin styling the text. We'll start by moving the entire box down the page a bit, so it has some breathing room:
+Within `skeleton.css`, we will add the selectors to target each element and begin styling the text. We'll start by moving the entire box down the page a bit, so it has some breathing room:
 
-```css(stylesheets/base.css)
-+#header .headertext {
+```css(css/skeleton.css)
++header .headertext {
 + margin-top: 10em;
 +}
 ```
 
 Next, we'll change the color, font weight, size and other properties of h1 elements:
 
-```css(stylesheets/base.css)
-#header .headertext {
+```css(css/skeleton.css)
+...
+header .headertext {
   margin-top: 10em;
 }
-+#header h1 {
++header h1 {
 + color:#fff;
 + font-weight:300;
 + font-size:4.5em;
@@ -142,11 +137,9 @@ The values above set the horizontal shadow to 0, vertical to 1 and blur to 2. We
 
 Next, we'll update the properties of the paragraph text below the h1:
 
-```css(stylesheets/base.css)
-#header .headertext {
-  margin-top: 10em;
-}
-#header h1 {
+```css(css/skeleton.css)
+...
+header h1 {
   color:#fff;
   font-weight:300;
   font-size:4.5em;
@@ -154,14 +147,14 @@ Next, we'll update the properties of the paragraph text below the h1:
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   margin-bottom: 0.3em;
 }
-+#header p {
++header p {
 + color:#d5d5d5;
 + font-size:1.33em;
 + line-height: 1.5;
 + text-shadow: 0 1px 2px rgba(0,0,0,.2);
 + margin-bottom: 1.2em;
 +}
-+#header p strong {
++header p strong {
 + color:#fff;
 +}
 ```

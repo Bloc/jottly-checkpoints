@@ -1,19 +1,19 @@
 ## Integrating a Grid Layout
 
-![](https://bloc-books.s3.amazonaws.com/jottly/07-header-skeleton.png)
+<center>![Grid](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlyheadergrid.png)</center>
 
 In this checkpoint we'll integrate [Skeleton's grid layout](http://www.getskeleton.com/#grid) to improve the presentation of our landing page.
 
 ### Containers
 
-A container class defines the width for displaying content. The skeleton.css file in the stylesheets directory defines the container class. Open the file, search for the container class, and you'll see that the width is defined as 960 pixels. The 960 pixel page width is comprised of 16 columns. This is important to remember as we integrate the grid with our landing page.
+A container class defines the width for displaying content. The skeleton.css file in the stylesheets directory defines the container class. Open the file, search for the container class, and you'll see that the width is defined as 960 pixels. The 960 pixel page width is comprised of 12 columns. This is important to remember as we integrate the grid with our landing page.
 
 First we'll create a container for the logo and header navigation elements:
 
 ```html(index.html)
 <!-- Header
 ================================================== -->
-<div id="header">
+<header>
 - <img src="images/logo.png" />
 + <div class="container">
 +   <div class="three columns">
@@ -21,18 +21,18 @@ First we'll create a container for the logo and header navigation elements:
 +       <a href="#"><img src="images/logo.png" alt="Jottly" /></a>
 +     </div>
 +   </div>
-    <nav>
-      <ul>
-        <li><a href="#">Sign In</a></li>
-        <li><a href="#">Sign Up Now</a></li>
-      </ul>
-    </nav>
-    <h1>An easier way to write &amp; collaborate</h1>
-    <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
-    <input type="text" placeholder="Enter your email address"/>
-    <button type="submit">Sign Up Now!</button>
+  <nav>
+    <ul>
+      <li><a href="#">Sign In</a></li>
+      <li><a href="#">Sign Up Now</a></li>
+    </ul>
+  </nav>
 + </div>
-</div>
+  <h1>An easier way to write &amp; collaborate</h1>
+  <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
+  <input type="email" placeholder="Enter your e-mail address"/>
+  <button type="submit">Sign Up Now!</button>
+</header>
 ```
 
 The first new div defines the container. We used a nested div to define the number of columns for the logo div, which will be three. We also wrapped the image tag in an anchor tag, so it will be rendered as a link.
@@ -42,14 +42,14 @@ Let's update our navigation area:
 ```html(index.html)
 <!-- Header
 ================================================== -->
-<div id="header">
+<header>
   <div class="container">
     <div class="three columns">
       <div class="logo">
         <a href="#"><img src="images/logo.png" alt="Jottly" /></a>
       </div>
     </div>
-+   <div class="thirteen columns">
++   <div class="nine columns">
       <nav>
         <ul>
           <li><a href="#">Sign In</a></li>
@@ -60,35 +60,24 @@ Let's update our navigation area:
 ...
 ```
 
-We should account for 16 columns to fill the width of our container, so we nested the nav tag within a div class of 13 columns. This will stretch the contained content across the remaining width of the page.
+We should account for 12 columns to fill the width of our container, so we nested the nav tag within a div class of 9 columns. This will stretch the contained content across the remaining width of the page.
 
 Next, we'll update the text that appears on the header image. In this case, we don't want the content to fill the width of the page.
 
 ```html(index.html)
-    <div class="container">
-      <div class="three columns">
-        <div class="logo">
-          <a href="#"><img src="images/logo.png" alt="Jottly" /></a>
-        </div>
-      </div>
-      <div class="thirteen columns">
-        <nav>
-          <ul>
-            <li><a href="#">Sign In</a></li>
-            <li><a href="#">Sign Up Now</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
--   <h1>An easier way to write &amp; collaborate</h1>
--   <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
-+   <div class="container">
-+     <div class="nine columns">
-+       <h1>An easier way to write &amp; collaborate</h1>
-+       <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
-+     </div>
-+   </div>
+...
+- <h1>An easier way to write &amp; collaborate</h1>
+- <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
+- <input type="email" placeholder="Enter your e-mail address"/>
+- <button type="submit">Sign Up Now</button>
++ <div class="container">
++  <div class="seven columns">
++    <h1>An easier way to to write &amp; collaborate</h1>
++    <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
++    <input type="email" placeholder="Enter your e-mail address"/>
++    <button type="submit">Sign Up Now</button>
++  </div>
++ </div>
 ...
 ```
 
@@ -97,25 +86,22 @@ We replaced the h1 and paragraph tags with a new container div. We nested anothe
 Next, we'll add the grid structure for the input field and submit button.
 
 ```html(index.html)
-    <div class="container">
-      <div class="nine columns">
-        <h1>An easier way to write &amp; collaborate</h1>
-        <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
--       <input type="text" placeholder="Enter your email address"/>
--       <button type="submit">Sign Up Now</button>
-+
-+       <div class="container">
-+         <div class="row">
-+           <div class="five columns alpha">
-+             <input type="text" placeholder="Enter your email address"/>
-+           </div>
-+           <div class="four columns omega">
-+             <button type="submit">Sign Up Now</button>
-+           </div>
-+         </div>
-+       </div>
-      </div>
-    </div>
+<div class="container">
+  <div class="seven columns">
+    <h1>An easier way to to write &amp; collaborate</h1>
+    <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
+-   <input type="text" placeholder="Enter your email address"/>
+-   <button type="submit">Sign Up Now</button>
++   <div class="row">
++     <div class="eight columns alpha">
++       <input type="email" placeholder="Enter your e-mail address"/>
++     </div>
++     <div class="four columns omega">
++       <button type="submit">Sign Up Now</button>
++     </div>
++   </div>
+  </div>
+</div>
 ```
 
 We wrapped the input field in a div set to five columns. Notice the additional class of alpha. Skeleton allows us to define the first column of a row or container and remove its padding and margin from the left side. This will make the content flush with content directly above it. To understand why this happens, let's review the box model.
@@ -139,7 +125,7 @@ border:5px solid black;
 margin:10px;
 ```
 
-![](https://bloc-global-assets.s3.amazonaws.com/images-design/jottly/css/css-boxmodel-math.png)
+<center>![](https://bloc-global-assets.s3.amazonaws.com/images-design/jottly/css/css-boxmodel-math.png)</center>
 
 The width of this box equals 350 pixels, because we add each component of the box together.
 

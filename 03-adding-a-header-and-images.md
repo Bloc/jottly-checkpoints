@@ -1,12 +1,12 @@
 ## Adding a Header and Images
 
-![Adding header](https://bloc-books.s3.amazonaws.com/jottly/03-header.png)
+<center>![Adding header](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlyheader.png)</center>
 
 In this checkpoint we'll add images to the Jottly landing page and create a new HTML header.
 
 ### Download Jottly images
 
-Download [this set of images](http://cl.ly/WFEA/Jottly-Images.zip). Extract the ZIP file and move the images inside the downloaded folder into the Jottly images folder.
+Download [this set of images](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/Jottly-Images.zip). Extract the ZIP file and move the images inside the downloaded folder into the Jottly images folder.
 
 You should have the following files in Jottly/images:
 
@@ -30,8 +30,8 @@ We'll add the first section - the header - to our landing page using a div tag. 
 -
 + <!-- Header
 + ================================================== -->
-+ <div id="header">
-+ </div>
++ <header>
++ </header>
 </body>
 </html>
 ```
@@ -41,9 +41,9 @@ Within this div tag, we've added an attribute id, which identifies a single elem
 We've given our div an id named header, which we'll use for styling the header content. Let's add an image to our header:
 
 ```html(index.html)
-<div id="header">
+<header>
 + <img src="images/logo.png" />
-</div>
+</header>
 ```
 
 We use an img tag to include the logo.png file we downloaded earlier. The img must be sourced (src) to where it resides in our directory structure. In this case, the logo is named logo.png, and is inside the images folder. Since our index.html file is on the top level of our directory, we must point to the folder where the content is located, and then the file name. If an image fails to render, it's often because the source path isn't properly defined.
@@ -53,7 +53,7 @@ We use an img tag to include the logo.png file we downloaded earlier. The img mu
 Next, we'll add placeholder navigation links. These links won't be connected to additional pages at this point. In this case, we'll add two: "Sign In" and "Sign Up Now":
 
 ```html(index.html)
-<div id="header">
+<header>
   <img src="images/logo.png" />
 + <nav>
 +   <ul>
@@ -61,7 +61,7 @@ Next, we'll add placeholder navigation links. These links won't be connected to 
 +     <li><a href="#">Sign Up Now</a></li>
 +   </ul>
 + </nav>
-</div>
+</header>
 ```
 
 We started with a nav tag, which defines a group of navigation links. Inside the nav tag, we include an unordered list (ul). These elements are used for building simple lists, and are often used to define navigation links. Nested inside the unordered list, we have two li tags, or list items. Within these elements, the text is wrapped with an anchor tag (a), which defines a link to a different location. The destination of the link is determined by the href.
@@ -71,7 +71,7 @@ We started with a nav tag, which defines a group of navigation links. Inside the
 Let's add a headline and some paragraph text to explain what Jottly is all about:
 
 ```html(index.html)
-<div id="header">
+<header>
   <img src="images/logo.png" />
   <nav>
     <ul>
@@ -81,7 +81,7 @@ Let's add a headline and some paragraph text to explain what Jottly is all about
   </nav>
 + <h1>An easier way to write &amp; collaborate</h1>
 + <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
-</div>
+</header>
 ```
 
 Headers come in six default sizes — h1, h2, h3, etc. The h1 tag should **always** be used as the primary headline on the page, not only for sizing purposes, but also for better search engine optimization (SEO).
@@ -91,7 +91,7 @@ Using the paragraph (p) tag, we explain what Jottly is and does. We've selected 
 Next, we'll add a simple text input field along with a submit button. Eventually, these elements could be used for gathering email addresses:
 
 ```html(index.html)
-<div id="header">
+<header>
   <img src="images/logo.png" />
   <nav>
     <ul>
@@ -101,9 +101,9 @@ Next, we'll add a simple text input field along with a submit button. Eventually
   </nav>
   <h1>An easier way to write &amp; collaborate</h1>
   <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
-+ <input type="text" placeholder="Enter your email address"/>
++ <input type="email" placeholder="Enter your e-mail address"/>
 + <button type="submit">Sign Up Now</button>
-</div>
+</header>
 ```
 
 We defined our input with a type of text so a user can enter their email address. There are a number of [input types](http://www.w3schools.com/tags/att_input_type.asp). We could also change this field type to "email". The attribute placeholder allows us to define the text that appears inside the field before a user enters their information. This provides helpful context for the user.
