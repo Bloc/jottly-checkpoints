@@ -135,6 +135,14 @@ We reused the blue for this header color and made the font slightly thinner. Now
 }
 ```
 
-We changed the text size and color to improve readability and look nice with the rest of the page.
+We changed the text size and color to improve readability and look nice with the rest of the page. We need to ensure our image fits within the container, so we'll add a few properties to make it responsive:
+
+```css(css/skeleton.css)
+...
++img {
++ max-width:100%;
++ height:auto;
++}
+```
 
 Next, we'll style the pricing section, which is the most complex section on our landing page.

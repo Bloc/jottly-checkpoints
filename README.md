@@ -9,7 +9,7 @@ This is an educational resource meant for all, feel free to share it with those 
 
 Bloc is a programming bootcamp whose students attend from the comfort of their homes and at less than half the price of Bloc's conventional competitors. Bloc pairs its students with professional mentors. Our mentors are active developers who pair-program with, and instruct our apprentices in the nuances of software development.
 
-Bloc is the perfect combination of top quality resources and one-to-one mentorship. Bloc instructs in [Full stack](https://www.bloc.io/web-development), [Front end](https://www.bloc.io/frontend-development), [iOS](https://www.bloc.io/iOS) and [Android](https://www.bloc.io/android) development. Bloc also offers a [UX design course](https://www.bloc.io/design).
+Bloc is the perfect combination of top quality resources and one-to-one mentorship. Bloc instructs in [Web Development in Rails](https://www.bloc.io/web-development), [Frontend](https://www.bloc.io/frontend-development), [iOS](https://www.bloc.io/iOS) and [Android](https://www.bloc.io/android) development. Bloc also offers a [UX and UI design course](https://www.bloc.io/design).
 
 ## Checkpoint Breakdown
 
@@ -30,5 +30,5 @@ Bloc is the perfect combination of top quality resources and one-to-one mentorsh
 ## Other Bloc Books
 
 If you've enjoyed Bloc Jams and hunger for more, check out our other Bloc Books:
-* [**Jottly**](https://www.bloc.io/tutorials/jottly-a-beginner-s-guide-to-html-css-skeleton-and-animate-css)<br>*Jottly* is a guide in building your first website using the Skeleton framework
+* [**BlocJams with Webflow**]()<br>*BlocJams with Webflow* is a free tutorial that teaches how to build an interactive and responsive web site using Webflow, a free online site builder tool
 * [**Swiftris**](https://www.bloc.io/swiftris-build-your-first-ios-game-with-swift)<br>*Swiftris* is a free tutorial that teaches the basics of Swift as you build a 2D puzzle game

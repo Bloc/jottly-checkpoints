@@ -1,6 +1,6 @@
 ## Managing your code
 
-![](https://bloc-books.s3.amazonaws.com/jottly/github.png)
+<center>![GitHub](https://bloc-books.s3.amazonaws.com/jottly/github.png)</center>
 
 ### Git
 
@@ -14,19 +14,19 @@ Here's an excerpt from the [Pro Git book](http://git-scm.com/book) that explains
 
 <center>![Git Basics](http://bloc-global-assets.s3.amazonaws.com/screencaps/git_basics.png)</center>
 
-Git is popular because of its distributed and collaborative nature. This means that you don't need to be online to use Git, but it's still easy to collaborate with large teams on the same project. When you need to collaborate with other people or services, you can push your code to a Git server, like [Github](https://github.com/).
+Git is popular because of its distributed and collaborative nature. This means that you don't need to be online to use Git, but it's still easy to collaborate with large teams on the same project. When you need to collaborate with other people or services, you can push your code to a Git server, like [GitHub](https://github.com/).
 
-> You'll need to [download and install Git](http://git-scm.com/downloads) to work with Github and deploy Jottly, so install Git before moving on. If you are using a Mac, you may get blocked by Mac's security settings. Not to worry, Git is a safe and trusted resource, and used by most developers and designers today. Just update your security settings as prescribed to complete the installation.
+> You'll need to [download and install Git](http://git-scm.com/downloads) to work with GitHub and deploy Jottly, so install Git before moving on. If you are using a Mac, you may get blocked by Mac's security settings. Not to worry, Git is a safe and trusted resource, and used by most developers and designers today. Just update your security settings as prescribed to complete the installation.
 
 You do not need to explicitly launch Git as an application. Once it's installed, you'll be able to access its functionality on the command line, as we'll detail below.
 
-### Github
+### GitHub
 
-[Github](http://github.com) is a service that allows you to host and store your code on the web. It also includes social features for sharing and collaborating on projects. For most developers, Github profiles showcase much of the development work they've done. Companies often place more importance on a prospective employee's Github profile than their resume. Github offers [freemium pricing](https://github.com/plans), so register for a free account now.
+[GitHub](http://github.com) is a service that allows you to host and store your code on the web. It also includes social features for sharing and collaborating on projects. For most developers, GitHub profiles showcase much of the development work they've done. Companies often place more importance on a prospective employee's GitHub profile than their resume. GitHub offers [freemium pricing](https://github.com/plans), so register for a free account now.
 
-Once you have a Github account, [create a Github repository](https://help.github.com/articles/create-a-repo) named **Jottly**. After creating a new repo you will see instructions for "pushing" code from your computer to Github.
+Once you have a GitHub account, [create a GitHub repository](https://help.github.com/articles/create-a-repo) named **Jottly**. After creating a new repo you will see instructions for "pushing" code from your computer to GitHub.
 
-Before pushing your code to Github, change the path of your working directory using the Command Line. For example, if you moved your **Jottly** folder to a directory named **projects**, you would enter the following on your command line:
+Before pushing your code to GitHub, change the path of your working directory using the Command Line. For example, if you moved your **Jottly** folder to a directory named **projects**, you would enter the following on your command line:
 
 > The command line can be accessed using the "Terminal" app on Mac OS X, or the "CMD" app on Windows. On a Mac, you can type "Terminal" into Spotlight. On a Windows computer, type "CMD" into the Run prompt from the Start menu.
 
@@ -34,7 +34,7 @@ Before pushing your code to Github, change the path of your working directory us
 $ cd projects/Jottly
 ```
 
-Follow the instructions in Github to initialize your repo:
+Follow the instructions in GitHub to initialize your repo:
 
 ```bash(Terminal)
 $ git init
@@ -44,4 +44,4 @@ $ git remote add origin https://github.com/<user name>/Jottly.git
 $ git push -u origin master
 ```
 
-In the next checkpoint, we'll deploy Jottly using Github Pages so you can view the results online with a public URL.
+In the next checkpoint, we'll deploy Jottly using GitHub Pages so you can view the results online with a public URL.

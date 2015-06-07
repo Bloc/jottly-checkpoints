@@ -91,7 +91,7 @@ The last two items we'll add to the footer are a smaller logo and the copyright 
     </ul>
   </nav>
 + <img src="images/small_logo.png" />
-+ <p>&copy; 2014. Jott.ly. All Rights Reserved.</p>
++ <p>&copy; 2015. Jott.ly. All Rights Reserved.</p>
 </footer>
 ```
 

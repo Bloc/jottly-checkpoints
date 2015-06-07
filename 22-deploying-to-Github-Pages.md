@@ -1,6 +1,6 @@
 ## Deploying on Github Pages
 
-![Github Pages](https://bloc-books.s3.amazonaws.com/jottly/02-github-pages.png)
+<center>![Github Pages](https://bloc-books.s3.amazonaws.com/jottly/02-github-pages.png)</center>
 
 In this checkpoint we'll deploy Jottly using [Github Pages](https://pages.github.com). Github Pages provides free hosting for static web pages.
 
