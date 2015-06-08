@@ -1,6 +1,6 @@
 ## Styling the Footer
 
-<center>![Footer](https://bloc-books.s3.amazonaws.com/jottly/16-footer.png)</center>
+<center>![Footer](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlyfooterstyles.png)</center>
 
 In this checkpoint we'll style the last section of our landing page - the footer.
 

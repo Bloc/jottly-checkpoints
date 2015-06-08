@@ -1,6 +1,6 @@
 ## Styling the Pricing Section
 
-<center>![Pricing Styles](https://bloc-books.s3.amazonaws.com/jottly/14-pricing.png)</center>
+<center>![Pricing Styles](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlypricingstyles.png)</center>
 
 In this checkpoint we'll style the pricing section. We'll add some cool text formatting and make the Small Business plan stand out as the recommended tier.
 

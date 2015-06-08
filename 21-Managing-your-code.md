@@ -14,7 +14,7 @@ Here's an excerpt from the [Pro Git book](http://git-scm.com/book) that explains
 
 <center>![Git Basics](http://bloc-global-assets.s3.amazonaws.com/screencaps/git_basics.png)</center>
 
-Git is popular because of its distributed and collaborative nature. This means that you don't need to be online to use Git, but it's still easy to collaborate with large teams on the same project. When you need to collaborate with other people or services, you can push your code to a Git server, like [GitHub](https://github.com/).
+Git is popular because of its distributed and collaborative nature. This means that you don't need to be online to use Git, but it's still easy to collaborate with large teams on the same project. When you need to collaborate with other people or services, you can push your code to a Git server, like [GitHub](https://GitHub.com/).
 
 > You'll need to [download and install Git](http://git-scm.com/downloads) to work with GitHub and deploy Jottly, so install Git before moving on. If you are using a Mac, you may get blocked by Mac's security settings. Not to worry, Git is a safe and trusted resource, and used by most developers and designers today. Just update your security settings as prescribed to complete the installation.
 
@@ -40,7 +40,7 @@ Follow the instructions in GitHub to initialize your repo:
 $ git init
 $ git add .
 $ git commit -m "First commit"
-$ git remote add origin https://github.com/<user name>/Jottly.git
+$ git remote add origin https://GitHub.com/<user name>/Jottly.git
 $ git push -u origin master
 ```
 

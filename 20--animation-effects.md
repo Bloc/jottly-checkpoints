@@ -1,6 +1,6 @@
 ## Animation Effects
 
-<center>![Delaying animation](https://bloc-books.s3.amazonaws.com/jottly/jottly-animate2.gif)</center>
+<center>![Delaying animation](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/animate.gif)</center>
 
 In this checkpoint we'll add one more animation effect to our header.
 
@@ -16,4 +16,4 @@ header .headertext {
 
 Using CSS3 animation properties, we added an animation-delay and set it to happen just over a half of a second after the header animation. We also added in an additional selector for Safari and Chrome consistency.
 
-In the next checkpoint, we'll get setup with a Github account and learn how to manage and deploy your code.
+In the next checkpoint, we'll get setup with a GitHub account and learn how to manage and deploy your code.

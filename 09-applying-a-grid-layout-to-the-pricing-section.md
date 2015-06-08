@@ -114,7 +114,7 @@ Let's place the price boxes across the page in three equal columns. Because we'r
   </section>
 ```
 
-> As you are writing this code, it's important to keep index.html open inside a web browser, preferably Google Chrome. You can check the results of your changes locally before pushing to Github.
+> As you are writing this code, it's important to keep index.html open inside a web browser, preferably Google Chrome. You can check the results of your changes locally before pushing to GitHub.
 
 ### Pricebox headers
 

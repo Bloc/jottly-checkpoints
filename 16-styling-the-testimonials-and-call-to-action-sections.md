@@ -1,6 +1,6 @@
 ## Styling the Testimonials and Call-to-Action Sections
 
-<center>![Testimonials](https://bloc-books.s3.amazonaws.com/jottly/15-testimonials.png)</center>
+<center>![Testimonials](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlytestimonialsstyles.png)</center>
 
 In this checkpoint we'll style the testimonial and call-to-action sections of our landing page. They're already positioned nicely, thanks to our grid layout, but now we want to make them look great.
 

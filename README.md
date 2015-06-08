@@ -1,7 +1,7 @@
 # Build Your First Website using HTML, CSS and the Skeleton Framework
 ### A Beginners' Guide to building Jottly
 
-Welcome to Jottly. Here you will find the content which [Bloc's original Jottly book](https://www.bloc.io/build-your-first-website-with-html-and-css) is composed of. Each checkpoint corresponds to a markdown file found within this repository. The [completed version of Jottly](https://github.com/Bloc/jottly-checkpoints/) is available on GitHub as well.
+Welcome to Jottly. Here you will find the content which [Bloc's original Jottly book](https://www.bloc.io/build-your-first-website-with-html-and-css) is composed of. Each checkpoint corresponds to a markdown file found within this repository. The [completed version of Jottly](https://GitHub.com/Bloc/jottly-checkpoints/) is available on GitHub as well.
 
 This is an educational resource meant for all, feel free to share it with those who have little to no programming experience.
 
@@ -15,17 +15,17 @@ Bloc is the perfect combination of top quality resources and one-to-one mentorsh
 
 | Name | File | Description
 | :-------: | :---: | :--------------: |
-| **Introduction to Jottly** | [`00-introduction-to-jottly.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/00-introduction-to-jottly.md) | Introduces readers to the Bloc Jams projects and prompts them to create a project in Webflow |
-| **Downloading Skeleton** | [`01-Downloading-Skeleton.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/01-Downloading-Skeleton.md) | Introduces readers to Webflow's interface in preparation for building Bloc Jams |
-| **Deleting Default Content** | [`02-Deleting-Default-Content.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/02-Deleting-Default-Content.md) | Set up the simple home page and top navigation |
-| **Adding a Header and Images** | [`03-adding-a-header-and-images.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/03-adding-a-header-and-images.md) | Import a hero image and add call-to-action text on the home page |
-| **Adding Benefits and Pricing** | [`04-adding-benefits-and-pricing.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/04-adding-benefits-and-pricing.md) | Add the promotion area for Bloc Jams to the home page |
-| **Using Blockquotes for Testimonials** | [`05-using-blockquote-for-testimonials.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/05-using-blockquote-for-testimonials.md) | Build the browse page layout |
-| **Adding an Email Input and Footer** | [`06-adding-an-email-input-and-footer.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/06-adding-an-email-input-and-footer.md) | Create the left navigation bar with icons |
-| **Integrating a Grid Layout** | [`07-integrating-a-grid-layout.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/07-integrating-a-grid-layout.md) | Add the album covers and hover effects to show overlay text |
-| **Applying a Grid Layout to the Benefits Section** | [`08-applying-a-grid-layout-to-the-benefits-section.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/08-applying-a-grid-layout-to-the-benefits-section.md) | Create the play bar on the browse page |
-| **Applying a Grid Layout to the Pricing Section** | [`09-applying-a-grid-layout-to-the-pricing-section.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/09-applying-a-grid-layout-to-the-pricing-section.md) | Add a flyout search panel with content |
-| **Applying a Grid Layout to the Pricing Section** | [`09-applying-a-grid-layout-to-the-pricing-section.md`](https://github.com/Bloc/jottly-checkpoints/blob/master/09-applying-a-grid-layout-to-the-pricing-section.md) | Add a flyout search panel with content |
+| **Introduction to Jottly** | [`00-introduction-to-jottly.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/00-introduction-to-jottly.md) | Introduces readers to the Bloc Jams projects and prompts them to create a project in Webflow |
+| **Downloading Skeleton** | [`01-Downloading-Skeleton.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/01-Downloading-Skeleton.md) | Introduces readers to Webflow's interface in preparation for building Bloc Jams |
+| **Deleting Default Content** | [`02-Deleting-Default-Content.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/02-Deleting-Default-Content.md) | Set up the simple home page and top navigation |
+| **Adding a Header and Images** | [`03-adding-a-header-and-images.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/03-adding-a-header-and-images.md) | Import a hero image and add call-to-action text on the home page |
+| **Adding Benefits and Pricing** | [`04-adding-benefits-and-pricing.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/04-adding-benefits-and-pricing.md) | Add the promotion area for Bloc Jams to the home page |
+| **Using Blockquotes for Testimonials** | [`05-using-blockquote-for-testimonials.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/05-using-blockquote-for-testimonials.md) | Build the browse page layout |
+| **Adding an Email Input and Footer** | [`06-adding-an-email-input-and-footer.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/06-adding-an-email-input-and-footer.md) | Create the left navigation bar with icons |
+| **Integrating a Grid Layout** | [`07-integrating-a-grid-layout.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/07-integrating-a-grid-layout.md) | Add the album covers and hover effects to show overlay text |
+| **Applying a Grid Layout to the Benefits Section** | [`08-applying-a-grid-layout-to-the-benefits-section.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/08-applying-a-grid-layout-to-the-benefits-section.md) | Create the play bar on the browse page |
+| **Applying a Grid Layout to the Pricing Section** | [`09-applying-a-grid-layout-to-the-pricing-section.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/09-applying-a-grid-layout-to-the-pricing-section.md) | Add a flyout search panel with content |
+| **Applying a Grid Layout to the Pricing Section** | [`09-applying-a-grid-layout-to-the-pricing-section.md`](https://GitHub.com/Bloc/jottly-checkpoints/blob/master/09-applying-a-grid-layout-to-the-pricing-section.md) | Add a flyout search panel with content |
 
 ## Other Bloc Books
 

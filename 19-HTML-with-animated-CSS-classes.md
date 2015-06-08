@@ -1,6 +1,6 @@
 ## HTML with Animated CSS Classes
 
-![Animation](https://bloc-books.s3.amazonaws.com/jottly/jottly-animate1.gif)
+<center>![Animation](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/animate1.gif)</center>
 
 In this checkpoint we'll add a subtle animation to our header to give it a nice effect when the page loads.
 
