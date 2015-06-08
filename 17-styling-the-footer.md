@@ -1,14 +1,14 @@
 ## Styling the Footer
 
-![Footer](https://bloc-books.s3.amazonaws.com/jottly/16-footer.png)
+<center>![Footer](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlyfooterstyles.png)</center>
 
 In this checkpoint we'll style the last section of our landing page - the footer.
 
 Let's change the background of the footer div and apply some padding to the top and bottom:
 
-```css(stylesheets/base.css)
+```css(css/skeleton.css)
 +/* Footer */
-+#footer {
++footer {
 + background:#009be8;
 + padding: 1em 0;
 +}
@@ -16,18 +16,14 @@ Let's change the background of the footer div and apply some padding to the top 
 
 Next we'll update the navigation on the left side. Let's give it a little spacing on the top:
 
-```css(stylesheets/base.css)
+```css(css/skeleton.css)
 /* Footer */
-#footer {
-  background:#009be8;
-  padding:1em 0;
-}
-+
-+#footer nav ul {
+...
++footer nav ul {
 + margin-top:0.5em;
 +}
 +
-+#footer nav ul li {
++footer nav ul li {
 + display:inline;
 + margin:0;
 +}
@@ -37,28 +33,15 @@ We changed the list items inside the unordered list to display inline. This will
 
 Next we'll change some text properties:
 
-```css(stylesheets/base.css)
+```css(css/skeleton.css)
 /* Footer */
-#footer {
-  background:#009be8;
-  padding:1em 0;
-}
-
-#footer nav ul {
-  margin-top:0.5em;
-}
-
-#footer nav ul li {
-  display:inline;
-  margin:0;
-}
-
-+#footer nav ul li a {
+...
++footer nav ul li a {
 + color:#fff;
 + text-decoration:none;
 + text-transform: uppercase;
 + margin:0 1em 0 0;
-+ font-size:1.1em;
++ font-size:1em;
 +}
 ```
 
@@ -66,35 +49,14 @@ We've updated the text color to white, removed the underline and made the links 
 
 The last two items we need to style are the small logo and the copyright text:
 
-```css(stylesheets/base.css)
+```css(css/skeleton.css)
 /* Footer */
-#footer {
-  background:#009be8;
-  padding:1em 0;
-}
-
-#footer nav ul {
-  margin-top:0.5em;
-}
-
-#footer nav ul li {
-  display:inline;
-  margin:0;
-}
-
-#footer nav ul li a {
-  color:#fff;
-  text-decoration:none;
-  text-transform: uppercase;
-  margin:0 1em 0 0;
-  font-size:1.1em;
-}
-+
-+#footer img {
+...
++footer img {
 + float:right;
 +}
 +
-+#footer p {
++footer p {
 + color:#fff;
 + line-height: 1;
 + text-transform: uppercase;

@@ -1,6 +1,6 @@
 ## Improving the Testimonial, Call-to-Action and Footer Layouts
 
-![](https://bloc-books.s3.amazonaws.com/jottly/10-testimonials.png)
+<center>![Testimonials Grid](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlytestimonialsgrid.png)</center>
 
 In this checkpoint we'll update the rest of our landing page with a grid layout.
 
@@ -13,7 +13,7 @@ Much like the last section, we'll split the three testimonials into three column
 ================================================== -->
 <div id="testimonials">
 + <div class="container">
-+   <div class="twelve columns offset-by-two">
++   <div class="eight columns offset-by-two">
      <h2>Who's using it?</h2>
      <p>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throughout 35 countries. Here’s what a few had to say:</p>
 +   </div>
@@ -39,7 +39,7 @@ Much like the last section, we'll split the three testimonials into three column
       <p>Chloe P.</p>
     </div>
 + </div>
-</div>
+</section>
 ```
 
 Let's add the one-third column classes into a new div to space our testimonials evenly:
@@ -47,41 +47,43 @@ Let's add the one-third column classes into a new div to space our testimonials 
 ```html(index.html)
 <!-- Testimonials
 ================================================== -->
-<div id="testimonials">
+<section class="testimonials">
   <div class="container">
     <div class="twelve columns offset-by-two">
       <h2>Who's using it?</h2>
       <p>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throughout 35 countries. Here’s what a few had to say:</p>
     </div>
-+   <div class="one-third column">
-      <blockquote>
-       “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-      </blockquote>
-      <div class="avatar">
-        <img src="images/avatar1.jpg" />
-        <p>Danny S.</p>
-      </div>
-+   </div>
-+   <div class="one-third column">
-      <blockquote>
-        “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-      </blockquote>
-      <div class="avatar">
-        <img src="images/avatar2.jpg" />
-        <p>Jonathan M.</p>
-      </div>
-+   </div>
-+   <div class="one-third column">
-      <blockquote>
-        “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-      </blockquote>
-      <div class="avatar">
-        <img src="images/avatar3.jpg" />
-        <p>Chloe P.</p>
-      </div>
++   <div class="row">
++     <div class="one-third column">
+        <blockquote>
+         “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+        </blockquote>
+        <div class="avatar">
+          <img src="images/avatar1.jpg" />
+          <p>Danny S.</p>
+        </div>
++     </div>
++     <div class="one-third column">
+        <blockquote>
+          “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+        </blockquote>
+        <div class="avatar">
+          <img src="images/avatar2.jpg" />
+          <p>Jonathan M.</p>
+        </div>
++     </div>
++     <div class="one-third column">
+        <blockquote>
+          “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+        </blockquote>
+        <div class="avatar">
+          <img src="images/avatar3.jpg" />
+          <p>Chloe P.</p>
+        </div>
++     </div>
 +   </div>
   </div>
-</div>
+</section>
 ```
 
 Refresh your browser to view your changes. You should have three columns, each with a quote, avatar image and the name of the person.
@@ -93,16 +95,16 @@ Let's apply the grid:
 ```html(index.html)
 <!-- Call to Action
 ================================================== -->
-    <div id="action">
+    <section class="action">
 +    <div class="container">
-+      <div class="twelve columns offset-by-two">
++      <div class="eight columns offset-by-two">
          <h2>Give it a try before you commit.</h2>
          <p>You can test drive Jott.ly before deciding on one of our plans. Just give us your email address, and we'll send you the details:</p>
-         <input type="text" placeholder="Enter your email address"/>
+         <input type="email" placeholder="Enter your e-mail address"/>
          <button type="submit">Sign Up Now</button>  
 +      </div>
 +    </div>
-    </div>
+    </section>
 ```
 
 Let's create a separate section for our input and submit buttons:
@@ -115,14 +117,12 @@ Let's create a separate section for our input and submit buttons:
         <div class="twelve columns offset-by-two">
           <h2>Give it a try before you commit.</h2>
           <p>You can test drive Jott.ly before deciding on one of our plans. Just give us your email address, and we'll send you the details:</p>
-+         <div class="container">
-+           <div class="row">
-+             <div class="eight columns alpha">
-                <input type="text" placeholder="Enter your email address"/>
-+             </div>
-+             <div class="four columns omega">
-                <button type="submit">Sign Up Now</button>
-+             </div>
++         <div class="row">
++           <div class="eight columns alpha">
+              <input type="email" placeholder="Enter your e-mail address"/>
++           </div>
++           <div class="four columns omega">
+              <button type="submit">Sign Up Now</button>
 +           </div>
 +         </div>
         </div>
@@ -130,9 +130,9 @@ Let's create a separate section for our input and submit buttons:
     </div>
  ```
 
-We wrapped the input field in an eight column div with an alpha class so that it removes the padding and margins from the left side.
+We wrapped the input field in an eight-column div with an alpha class so that it removes the padding and margins from the left side.
 
-We also wrapped the button in a four column div with an omega class. This aligns the input field with the submit button.
+We also wrapped the button in a four-column div with an omega class. This aligns the input field with the submit button.
 
 ### Footer
 
@@ -141,9 +141,9 @@ We'll divide the footer in three divs. The majority of the footer will hold our 
 ```html(index.html)
 <!-- Footer
 ================================================== -->
-<div id="footer">
+<footer>
 + <div class="container">
-+   <div class="twelve columns">
++   <div class="eight columns">
       <nav>
         <ul>
           <li><a href="#">About</a></li>
@@ -163,7 +163,7 @@ We'll divide the footer in three divs. The majority of the footer will hold our 
       <p>&copy; 2014. Jott.ly. All Rights Reserved.</p>
 +   </div>
 + </div>
-</div>
+</footer>
 ```
 
 Notice the small change to the logo image. We added an alt attribute with a value of Jottly. This provides text to be displayed by default when the image cannot be displayed.

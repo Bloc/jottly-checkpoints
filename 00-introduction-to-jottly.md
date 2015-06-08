@@ -1,6 +1,6 @@
 ## Introduction to Jott.ly
 
-![Final Jottly](https://bloc-books.s3.amazonaws.com/jottly/jottly.gif)
+<center>![Final Jottly](https://bloc-books.s3.amazonaws.com/jottly/jottly.gif)</center>
 
 [Jottly](http://jott.ly) is a fictitious SaaS (Software as a Service) web application focused on simplifying content collaboration. Jottly's purpose is to make writing documents more collaborative and social. In this book you'll learn how to build the landing page shown above, using HTML and CSS. You can view the live example at [jott.ly](http://jott.ly).
 

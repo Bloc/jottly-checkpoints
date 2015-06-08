@@ -1,22 +1,23 @@
 ## Introduction to Styling
 
-![](https://bloc-books.s3.amazonaws.com/jottly/12-header.png)
+<center>![Jottly Header CSS](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlyheadercss.png)</center>
 
 In this checkpoint we'll add custom CSS styles. We'll give the header a background image and adjust the spacing for our logo.
 
 ### Background image
 
-Within the base.css file, scroll to the bottom and insert a new comment. -- A comment in CSS is defined with /* */ characters.
+Within the `skeleton.css` file, scroll to the bottom and insert a new comment. -- A comment in CSS is defined with /* */ characters.
 
 > Just like in HTML, comments in CSS can help keep your code organized.
 
-```css(stylesheets/base.css)
-+/* Sections
-+================================================== */
-+/* Header */
-+#header {
-+	background:url('../images/header.jpg') top center no-repeat;
-+}
+```css(css/skeleton.css)
++ /* Custom Styles
++ –––––––––––––––––––––––––––––––––––––––––––––––––– */
++ 
++ /* Header */
++ body > header {
++   background: url('../images/header.jpg') top center no-repeat;
++ }
 ```
 
 The first thing we've added is a property for background with a value of **url('../images/header.jpg')**.
@@ -47,15 +48,16 @@ We can keep our code concise by adding values to the background property.
 
 Let's size our image properly. We'll set the background-size to "cover" in order to fill the available space. The cover value will scale the image to cover the background area. Portions of the image may be cut off in order to achieve this, but it gives us a full width effect nonetheless:
 
-```css(stylesheets/base.css)
-/* Sections
-================================================== */
+```css(css/skeleton.css)
+/* Custom Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 /* Header */
-#header {
-  background:url('../images/header.jpg') top center no-repeat;
+body > header {
+  background: url('../images/header.jpg') top center no-repeat;
 + background-size: cover;
 + min-height: 680px;
-+ width:100%;
++ width: 100%;
 }
 ```
 
@@ -63,17 +65,14 @@ We added our width and set it to 100%. This will ensure the full page width is c
 
 Finally, we'll add a touch of margin to space our logo away from the top of the browser window:
 
-```css(stylesheets/base.css)
-/* Sections
-================================================== */
-/* Header */
-#header {
-  background:url('../images/header.jpg') top center no-repeat;
+```css(css/skeleton.css)
+body > header {
+  background: url('../images/header.jpg') top center no-repeat;
   background-size: cover;
   min-height: 680px;
-  width:100%;
+  width: 100%;
 }
-+#header .logo {
++.logo {
 +  margin-top: 1em;
 +}
 ```

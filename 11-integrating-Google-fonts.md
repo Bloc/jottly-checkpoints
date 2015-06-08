@@ -1,51 +1,38 @@
 ## Integrating Google Fonts
 
-![](https://bloc-books.s3.amazonaws.com/jottly/11-google-fonts.png)
+<center>![Google Fonts Lato](https://bloc-global-assets.s3.amazonaws.com/images-design/blocbooks/jottly/jottlygooglefonts.png)</center>
 
-In this checkpoint we'll implement [Google Fonts](http://www.google.com/fonts), which contains hundreds of open-sourced fonts. We'll use [Lato](https://www.google.com/fonts/specimen/Lato) as our primary typeface for Jottly. Upon selecting a typeface, we'll specify the font weight and type as well.
+In this checkpoint we'll implement a different [Google Font](http://www.google.com/fonts), which contains hundreds of open-sourced fonts. We'll use [Lato](https://www.google.com/fonts/specimen/Lato) as our primary typeface for Jottly instead of Skeleton's default - Raleway. Upon selecting a typeface, we'll specify the font weight and type as well.
 
-Let's add the link to Google Fonts and specify the font we'd like to use:
+Let's change the Google Fonts link to specify the new font we'd like to use:
 
 ```html(index.html)
 ...
- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-+
-+<!-- Google Fonts
-+================================================== -->
-+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-+
- <!-- CSS
- ================================================== -->
- <link rel="stylesheet" href="stylesheets/base.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
++ <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 ```
 
 Make sure this code is placed in the <head> section of the landing page, and before the CSS section. It will need to be loaded before the CSS so we can reference it in our stylesheets.
 
 Open up the base.css file inside your text editor. There are two lines we are going to change to include Lato as our main typeface within the site:
 
-```css(stylesheets/base.css)
- ================================================== */
+```css(css/skeleton.css)
 body {
-  background: #fff;
-- font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-+ font: 14px/21px "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #444;
-  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-  -webkit-text-size-adjust: 100%;
-...
-  ================================================== */
-h1, h2, h3, h4, h5, h6 {
-  color: #181818;
-- font-family: "Georgia", "Times New Roman", serif;
-+ font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal; }
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
++  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
 ```
 
-Under the body tag, we add "Lato", before Helvetica Neue. The order of typefaces provides the user with backups in case the proper font doesn't load.
+Under the body tag, we replace "Raleway" with "Lato", before Helvetica Neue. The order of typefaces provides the user with backups in case the proper font doesn't load.
 
 In this case, Lato is our primary choice, with Helvetica Neue, Helvetica and Arial as back-up options. And if none of those are able to render, we'll use the browser default of sans-serif.
-
-The second line we changed addresses the styling of the headers. Instead of the default serif typefaces, we'll use the same hierarchy of font options from the body font above.
 
 Our landing page should now have a nice-looking sans serif typeface.
 
